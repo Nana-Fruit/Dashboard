@@ -1,0 +1,26 @@
+{
+  "monthlySalesTargets": {
+    "2026-06": {
+      "domestic": 4500000,
+      "international": 7000000
+    },
+    "2026-07": {
+      "domestic": 4800000,
+      "international": 7500000
+    },
+    "2026-08": {
+      "domestic": 5000000,
+      "international": 8000000
+    },
+    "2026-09": {
+      "domestic": 5200000,
+      "international": 8200000
+    }
+  },
+  "laborRatePerHour": {
+    "fresh": 62,
+    "sorting": 60,
+    "packing": 58,
+    "drying": 65
+  }
+}
