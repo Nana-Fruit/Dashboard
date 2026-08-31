@@ -1,17 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList,
 } from "recharts";
-import { getOfficeSummary, getOfficeOrders, setOfficeTarget } from "../api.js";
-import { KpiCard, Progress, TopList, Panel, fmtTHB } from "../components/ui.jsx";
+import { getOfficeSummary, setOfficeTarget } from "../api.js";
+import { Kpi, Progress, RankList, Panel, fmtTHB, fmtCompactTHB } from "../components/ui.jsx";
 
 const MONTHS = ["2026-06", "2026-07", "2026-08"];
-const MARKET_LABEL = { domestic: "ในประเทศ", international: "ต่างประเทศ" };
+const monthLabel = (m) =>
+  new Date(m + "-01").toLocaleDateString("en-US", { month: "long", year: "numeric" });
+
+const C = { domestic: "var(--series-1)", international: "var(--series-2)" };
 
 export default function OfficePage() {
   const [month, setMonth] = useState("2026-08");
   const [data, setData] = useState(null);
-  const [orders, setOrders] = useState(null);
   const [error, setError] = useState(null);
   const [editing, setEditing] = useState(false);
   const [reload, setReload] = useState(0);
@@ -19,121 +21,117 @@ export default function OfficePage() {
   useEffect(() => {
     setError(null);
     getOfficeSummary(month).then(setData).catch((e) => setError(e.message));
-    getOfficeOrders({ month }).then(setOrders).catch(() => {});
   }, [month, reload]);
 
   const trendData = useMemo(
-    () => (data?.monthlyTrend || []).map((t) => ({ ...t, current: t.month === month })),
-    [data, month]
+    () => (data?.monthlyTrend || []).map((t) => ({
+      ...t,
+      label: new Date(t.month + "-01").toLocaleDateString("en-US", { month: "short" }),
+    })),
+    [data]
   );
 
   if (error) return <div className="error">{error}</div>;
-  if (!data) return <div className="muted">กำลังโหลด…</div>;
+  if (!data) return <div className="muted">Loading…</div>;
 
   const { overall, byMarket } = data;
 
   return (
-    <div className="page-office">
+    <div>
       <div className="page-head">
         <div>
-          <h1>Office · ยอดขาย</h1>
-          {data.source === "mock" && <span className="tag mock">MOCK DATA</span>}
+          <h1>Sales Performance</h1>
+          <div className="subtitle">
+            {monthLabel(month)}
+            {data.source === "mock" && <> · <span className="pill mock">Mock data</span></>}
+          </div>
         </div>
-        <label className="month-pick">
-          เดือน
-          <select value={month} onChange={(e) => setMonth(e.target.value)}>
-            {MONTHS.map((m) => <option key={m} value={m}>{m}</option>)}
-          </select>
-        </label>
+        <div className="head-tools">
+          <label className="field-inline">
+            <span>Period</span>
+            <select value={month} onChange={(e) => setMonth(e.target.value)}>
+              {MONTHS.map((m) => <option key={m} value={m}>{monthLabel(m)}</option>)}
+            </select>
+          </label>
+          {data.editable && (
+            <button className="btn-ghost" onClick={() => setEditing((v) => !v)}>
+              {editing ? "Cancel" : "Set target"}
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* headline KPI */}
-      <Panel
-        title={`เป้าเดือน ${month}`}
-        right={data.editable && (
-          <button className="btn-sm" onClick={() => setEditing((v) => !v)}>
-            {editing ? "ปิด" : "ตั้งเป้า"}
-          </button>
-        )}
-      >
-        {editing && <TargetEditor month={month} current={byMarket} onSaved={() => { setEditing(false); setReload((n) => n + 1); }} />}
+      {editing && (
+        <TargetEditor
+          month={month}
+          current={byMarket}
+          onSaved={() => { setEditing(false); setReload((n) => n + 1); }}
+        />
+      )}
 
-        <div className="kpi-row">
-          <KpiCard label="เป้าทั้งหมด" value={`฿${fmtTHB(overall.target)}`} />
-          <KpiCard label="ทำได้แล้ว" value={`฿${fmtTHB(overall.actual)}`} tone="good" />
-          <KpiCard
-            label="ขาดอีก"
-            value={`฿${fmtTHB(overall.remaining)}`}
-            tone={overall.remaining > 0 ? "warn" : "good"}
-            sub={overall.remaining > 0 ? "จะถึงเป้า" : "ถึงเป้าแล้ว 🎉"}
-          />
-          <KpiCard label="Achieve" value={`${overall.achievedPercent}%`} />
-        </div>
+      {/* headline */}
+      <div className="kpi-grid">
+        <Kpi hero label="Revenue achieved" value={fmtTHB(overall.actual)}
+          sub={`of ${fmtTHB(overall.target)} target`} tone="good" />
+        <Kpi label="Attainment" value={`${overall.achievedPercent}%`} />
+        <Kpi label="Remaining to target"
+          value={overall.remaining > 0 ? fmtTHB(overall.remaining) : "Target met"}
+          tone={overall.remaining > 0 ? "warn" : "good"} />
+      </div>
+      <Panel title="Progress to monthly target">
         <Progress percent={overall.achievedPercent} />
       </Panel>
 
       {/* by market */}
-      <div className="two-col">
+      <div className="grid-2">
         {["domestic", "international"].map((mk) => (
-          <Panel key={mk} title={MARKET_LABEL[mk]}>
-            <div className="kpi-row">
-              <KpiCard label="เป้า" value={`฿${fmtTHB(byMarket[mk].target)}`} />
-              <KpiCard label="ทำได้" value={`฿${fmtTHB(byMarket[mk].actual)}`} tone="good" />
-              <KpiCard label="ขาดอีก" value={`฿${fmtTHB(byMarket[mk].remaining)}`}
-                tone={byMarket[mk].remaining > 0 ? "warn" : "good"} />
+          <Panel key={mk} title={mk === "domestic" ? "Domestic" : "International"}>
+            <div className="kpi-grid" style={{ marginBottom: 8 }}>
+              <Kpi label="Achieved" value={fmtTHB(byMarket[mk].actual)} accent={C[mk]} />
+              <Kpi label="Target" value={fmtTHB(byMarket[mk].target)} />
+              <Kpi label="Remaining"
+                value={byMarket[mk].remaining > 0 ? fmtTHB(byMarket[mk].remaining) : "—"} />
             </div>
             <Progress percent={byMarket[mk].achievedPercent} />
-            <div className="muted sm">{data.orderCount[mk]} ออร์เดอร์</div>
+            <div className="muted sm" style={{ marginTop: 8 }}>
+              {data.orderCount[mk]} orders · {byMarket[mk].achievedPercent}% of target
+            </div>
           </Panel>
         ))}
       </div>
 
-      <Panel title="ยอดขายรายเดือน (ในประเทศ / ต่างประเทศ)">
-        <ResponsiveContainer width="100%" height={280}>
-          <BarChart data={trendData} margin={{ top: 8, right: 16, left: 0, bottom: 4 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="month" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 11 }} tickFormatter={(v) => `${v / 1e6}M`} />
-            <Tooltip formatter={(v) => `฿${fmtTHB(v)}`} />
-            <Legend />
-            <Bar dataKey="domestic" name="ในประเทศ" stackId="a" fill="#2563eb" />
-            <Bar dataKey="international" name="ต่างประเทศ" stackId="a" fill="#f59e0b" />
+      {/* trend — single axis (revenue), two stacked series */}
+      <Panel title="Monthly revenue — domestic vs international">
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart data={trendData} margin={{ top: 20, right: 12, left: 4, bottom: 4 }}>
+            <CartesianGrid stroke="var(--grid)" vertical={false} />
+            <XAxis dataKey="label" tickLine={false} axisLine={{ stroke: "var(--axis)" }} />
+            <YAxis tickLine={false} axisLine={false} width={54}
+              tickFormatter={(v) => fmtCompactTHB(v)} />
+            <Tooltip
+              cursor={{ fill: "var(--surface-2)" }}
+              contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+              formatter={(v, n) => [fmtTHB(v), n]}
+            />
+            <Legend iconType="circle" />
+            <Bar dataKey="domestic" name="Domestic" stackId="a" fill={C.domestic} radius={[0, 0, 0, 0]} />
+            <Bar dataKey="international" name="International" stackId="a" fill={C.international} radius={[4, 4, 0, 0]}>
+              <LabelList dataKey="total" position="top" formatter={fmtCompactTHB}
+                style={{ fill: "var(--muted)", fontSize: 11 }} />
+            </Bar>
           </BarChart>
         </ResponsiveContainer>
       </Panel>
 
-      <div className="two-col">
-        <TopList title="Top Sales — ในประเทศ" rows={data.topSalesReps.domestic} />
-        <TopList title="Top Sales — ต่างประเทศ" rows={data.topSalesReps.international} />
-        <TopList title="Top Spender — ในประเทศ" rows={data.topSpenders.domestic} />
-        <TopList title="Top Spender — ต่างประเทศ" rows={data.topSpenders.international} />
+      {/* top spenders only */}
+      <div className="grid-2">
+        <Panel title="Top spenders — domestic">
+          <RankList title="" rows={data.topSpenders.domestic} accent={C.domestic} />
+        </Panel>
+        <Panel title="Top spenders — international">
+          <RankList title="" rows={data.topSpenders.international} accent={C.international} />
+        </Panel>
       </div>
-
-      <Panel title={`ออร์เดอร์เดือน ${month}`}>
-        {orders && (
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr><th>วันที่</th><th>เลขที่</th><th>ลูกค้า</th><th>ตลาด</th><th>ประเทศ</th><th>Sales</th><th className="num">มูลค่า (฿)</th><th>สถานะ</th></tr>
-              </thead>
-              <tbody>
-                {orders.orders.slice(0, 25).map((o) => (
-                  <tr key={o.orderId}>
-                    <td>{o.orderDate}</td>
-                    <td>{o.orderId}</td>
-                    <td>{o.customerName}</td>
-                    <td><span className={`tag ${o.market}`}>{MARKET_LABEL[o.market]}</span></td>
-                    <td>{o.country}</td>
-                    <td>{o.salesRep}</td>
-                    <td className="num">{fmtTHB(o.amountTHB)}</td>
-                    <td>{o.status}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </Panel>
     </div>
   );
 }
@@ -153,10 +151,12 @@ function TargetEditor({ month, current, onSaved }) {
   };
 
   return (
-    <div className="target-editor">
-      <label>เป้าในประเทศ (฿)<input type="number" value={dom} onChange={(e) => setDom(e.target.value)} /></label>
-      <label>เป้าต่างประเทศ (฿)<input type="number" value={intl} onChange={(e) => setIntl(e.target.value)} /></label>
-      <button className="btn-sm" onClick={save} disabled={busy}>{busy ? "กำลังบันทึก…" : "บันทึก"}</button>
+    <div className="editor">
+      <label className="field-inline"><span>Domestic target (฿)</span>
+        <input type="number" value={dom} onChange={(e) => setDom(e.target.value)} /></label>
+      <label className="field-inline"><span>International target (฿)</span>
+        <input type="number" value={intl} onChange={(e) => setIntl(e.target.value)} /></label>
+      <button className="btn" onClick={save} disabled={busy}>{busy ? "Saving…" : "Save target"}</button>
       {err && <span className="error sm">{err}</span>}
     </div>
   );

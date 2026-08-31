@@ -5,9 +5,9 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { getDryRoomDashboard } from "../api.js";
-import { KpiCard, Panel, fmtNum } from "../components/ui.jsx";
+import { Kpi, Panel, fmtNum } from "../components/ui.jsx";
 
-const STATUS_LABEL = { dry_processing: "กำลังอบ", dry_done: "อบเสร็จ" };
+const STATUS_EN = { dry_processing: "Processing", dry_done: "Done" };
 
 export default function DryRoomPage() {
   const [data, setData] = useState(null);
@@ -22,84 +22,87 @@ export default function DryRoomPage() {
   const set = (k) => (e) => setFilters((f) => ({ ...f, [k]: e.target.value }));
 
   if (error) return <div className="error">{error}</div>;
-  if (!data) return <div className="muted">กำลังโหลด…</div>;
+  if (!data) return <div className="muted">Loading…</div>;
 
   const s = data.summary;
 
   return (
-    <div className="page-dryroom">
+    <div>
       <div className="page-head">
         <div>
-          <h1>ห้องอบ · รายละเอียดล็อต</h1>
-          {data.source === "mock" && <span className="tag mock">MOCK DATA</span>}
-          {" "}<Link className="btn-sm" to="/factory">← กลับหน้าโรงงาน</Link>
+          <h1>Drying Room — Lot Detail</h1>
+          <div className="subtitle">
+            <Link to="/factory">← Back to Factory</Link>
+            {data.source === "mock" && <> · <span className="pill mock">Mock data</span></>}
+          </div>
+        </div>
+        <div className="head-tools filters">
+          <label className="field-inline"><span>Product</span>
+            <select value={filters.product} onChange={set("product")}>
+              <option value="">All</option>
+              {data.products.map((p) => <option key={p} value={p}>{p}</option>)}
+            </select>
+          </label>
+          <label className="field-inline"><span>Status</span>
+            <select value={filters.status} onChange={set("status")}>
+              <option value="">All</option>
+              <option value="dry_processing">Processing</option>
+              <option value="dry_done">Done</option>
+            </select>
+          </label>
+          <label className="field-inline"><span>From</span><input type="date" value={filters.from} onChange={set("from")} /></label>
+          <label className="field-inline"><span>To</span><input type="date" value={filters.to} onChange={set("to")} /></label>
+          <button className="btn-ghost" onClick={() => setFilters({ product: "", status: "", from: "", to: "" })}>Clear</button>
         </div>
       </div>
 
-      <section className="filters">
-        <label>สินค้า
-          <select value={filters.product} onChange={set("product")}>
-            <option value="">ทั้งหมด</option>
-            {data.products.map((p) => <option key={p} value={p}>{p}</option>)}
-          </select>
-        </label>
-        <label>สถานะ
-          <select value={filters.status} onChange={set("status")}>
-            <option value="">ทั้งหมด</option>
-            <option value="dry_processing">กำลังอบ</option>
-            <option value="dry_done">อบเสร็จ</option>
-          </select>
-        </label>
-        <label>ตั้งแต่<input type="date" value={filters.from} onChange={set("from")} /></label>
-        <label>ถึง<input type="date" value={filters.to} onChange={set("to")} /></label>
-        <button className="btn-sm" onClick={() => setFilters({ product: "", status: "", from: "", to: "" })}>ล้าง</button>
-      </section>
-
-      <div className="kpi-row">
-        <KpiCard label="ล็อตทั้งหมด" value={fmtNum(s.totalBatches)} />
-        <KpiCard label="กำลังอบ" value={fmtNum(s.processingBatches)} />
-        <KpiCard label="น้ำหนักเข้า (กก.)" value={fmtNum(s.totalInputKg)} />
-        <KpiCard label="น้ำหนักออก (กก.)" value={fmtNum(s.totalOutputKg)} />
-        <KpiCard label="Yield รวม" value={`${s.overallYieldPercent}%`} tone="good" />
-        <KpiCard label="ชั่วโมงงานรวม" value={fmtNum(s.totalWorkingHours)} />
+      <div className="kpi-grid">
+        <Kpi label="Total lots" value={fmtNum(s.totalBatches)} />
+        <Kpi label="Processing" value={fmtNum(s.processingBatches)} />
+        <Kpi label="Input (kg)" value={fmtNum(s.totalInputKg)} />
+        <Kpi label="Output (kg)" value={fmtNum(s.totalOutputKg)} />
+        <Kpi label="Overall yield" value={`${s.overallYieldPercent}%`} tone="good" />
+        <Kpi label="Man-hours" value={fmtNum(s.totalWorkingHours)} />
       </div>
 
-      <Panel title="แนวโน้ม Yield ต่อวันล็อต (เฉพาะที่อบเสร็จ)">
-        <ResponsiveContainer width="100%" height={300}>
+      <Panel title="Yield trend by lot date (completed lots)">
+        <ResponsiveContainer width="100%" height={280}>
           <LineChart data={data.yieldTrend} margin={{ top: 8, right: 16, bottom: 8, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="date" tick={{ fontSize: 11 }} />
-            <YAxis unit="%" tick={{ fontSize: 11 }} />
-            <Tooltip formatter={(v, n) => (n === "yieldPercent" ? `${v}%` : fmtNum(v))} />
-            <Line type="monotone" dataKey="yieldPercent" name="Yield %" stroke="#2563eb" strokeWidth={2} dot={{ r: 3 }} />
+            <CartesianGrid stroke="var(--grid)" vertical={false} />
+            <XAxis dataKey="date" tickLine={false} axisLine={{ stroke: "var(--axis)" }} />
+            <YAxis unit="%" tickLine={false} axisLine={false} width={44} />
+            <Tooltip contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+              formatter={(v) => [`${v}%`, "Yield"]} />
+            <Line type="monotone" dataKey="yieldPercent" name="Yield %" stroke="var(--series-1)" strokeWidth={2} dot={{ r: 2.5 }} />
           </LineChart>
         </ResponsiveContainer>
       </Panel>
 
-      <Panel title="น้ำหนักเข้า/ออก และ Yield ตามชนิดสินค้า">
-        <ResponsiveContainer width="100%" height={340}>
+      <Panel title="Input vs output by product (kg)">
+        <ResponsiveContainer width="100%" height={320}>
           <BarChart data={data.byProduct} margin={{ top: 8, right: 16, bottom: 60, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="product" tick={{ fontSize: 11 }} angle={-30} textAnchor="end" interval={0} />
-            <YAxis yAxisId="kg" tick={{ fontSize: 11 }} />
-            <YAxis yAxisId="pct" orientation="right" unit="%" tick={{ fontSize: 11 }} />
-            <Tooltip formatter={(v, n) => (n === "Yield %" ? `${v}%` : `${fmtNum(v)} กก.`)} />
-            <Legend />
-            <Bar yAxisId="kg" dataKey="inputKg" name="เข้า (กก.)" fill="#93c5fd" />
-            <Bar yAxisId="kg" dataKey="outputKg" name="ออก (กก.)" fill="#2563eb" />
-            <Bar yAxisId="pct" dataKey="yieldPercent" name="Yield %" fill="#f59e0b" />
+            <CartesianGrid stroke="var(--grid)" vertical={false} />
+            <XAxis dataKey="product" tickLine={false} axisLine={{ stroke: "var(--axis)" }}
+              angle={-30} textAnchor="end" interval={0} />
+            <YAxis tickLine={false} axisLine={false} width={54} />
+            <Tooltip cursor={{ fill: "var(--surface-2)" }}
+              contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+              formatter={(v, n) => [`${fmtNum(v)} kg`, n]} />
+            <Legend iconType="circle" />
+            <Bar dataKey="inputKg" name="Input" fill="var(--series-1)" radius={[3, 3, 0, 0]} />
+            <Bar dataKey="outputKg" name="Output" fill="var(--series-2)" radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </Panel>
 
-      <Panel title="ล็อตล่าสุด">
+      <Panel title="Recent lots">
         <div className="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>วันที่ล็อต</th><th>สินค้า</th><th>สถานะ</th>
-                <th className="num">เข้า (กก.)</th><th className="num">ออก (กก.)</th>
-                <th className="num">Yield %</th><th className="num">ชม.</th>
+                <th>Lot date</th><th>Product</th><th>Status</th>
+                <th className="num">Input (kg)</th><th className="num">Output (kg)</th>
+                <th className="num">Yield</th><th className="num">Hours</th>
               </tr>
             </thead>
             <tbody>
@@ -107,7 +110,7 @@ export default function DryRoomPage() {
                 <tr key={b.batchId}>
                   <td>{b.lotDate}</td>
                   <td>{b.productName}</td>
-                  <td><span className={`tag ${b.status}`}>{STATUS_LABEL[b.status] || b.status}</span></td>
+                  <td><span className={`pill ${b.status}`}>{STATUS_EN[b.status] || b.status}</span></td>
                   <td className="num">{fmtNum(b.inputWeightKg)}</td>
                   <td className="num">{b.totalOutputWeightKg ? fmtNum(b.totalOutputWeightKg) : "—"}</td>
                   <td className="num">{b.yieldPercent ? `${b.yieldPercent}%` : "—"}</td>

@@ -17,7 +17,7 @@ function Home() {
 
 export default function App() {
   const { loading } = useAuth();
-  if (loading) return <div className="app-loading">กำลังโหลด…</div>;
+  if (loading) return <div className="app-loading">Loading…</div>;
 
   return (
     <Routes>

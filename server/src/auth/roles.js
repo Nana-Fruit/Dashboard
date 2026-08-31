@@ -7,10 +7,10 @@ export const ROLES = {
 };
 
 export const ROLE_LABEL = {
-  audit: "Audit (ดูได้ทั้งหมด)",
-  admin: "Admin (ดู + แก้ไข)",
+  audit: "Auditor",
+  admin: "Admin",
   office: "Office",
-  factory: "Factory (โรงงาน)",
+  factory: "Factory",
 };
 
 export const canViewOffice = (role) => ["audit", "admin", "office"].includes(role);

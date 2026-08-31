@@ -13,8 +13,8 @@ export default function ProtectedRoute({ area, children }) {
 function NoAccess() {
   return (
     <div className="no-access">
-      <h2>ไม่มีสิทธิ์เข้าถึงหน้านี้</h2>
-      <p className="muted">บัญชีของคุณไม่ได้รับสิทธิ์ดูข้อมูลส่วนนี้ ติดต่อผู้ดูแลระบบหากต้องการสิทธิ์เพิ่ม</p>
+      <h2>No access to this section</h2>
+      <p className="muted">Your account isn’t permitted to view this area. Contact an admin if you need access.</p>
     </div>
   );
 }

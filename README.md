@@ -68,8 +68,8 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 |---|---|---|
 | `POST /api/auth/login` | — | `{ token, user }` |
 | `GET /api/auth/me` | any | current user + permissions |
-| `GET /api/office/summary?month=YYYY-MM` | office | target vs actual, % achieved, remaining, domestic/international split, top sales reps, top spenders, monthly trend |
-| `GET /api/office/orders?month=&market=` | office | sales order list |
+| `GET /api/office/summary?month=YYYY-MM` | office | target vs actual, % achieved, remaining, domestic/international split, top spenders, monthly trend |
+| `GET /api/office/orders?month=&market=` | office | sales order list (endpoint kept; not shown in UI) |
 | `PUT /api/office/target` | admin | `{ month, domestic, international }` |
 | `GET /api/factory/summary?from=&to=` | factory | per-room input/output/yield/hours/labor cost + totals |
 | `GET /api/factory/rooms/:room?from=&to=` | factory | daily records for one room (`fresh`/`sorting`/`drying`/`packing`) |
@@ -95,6 +95,15 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 2. Sales orders: implement a fetch in `server/src/routes/office.js` (replace `loadOrders()`),
    keep the same order shape.
 3. Factory rooms: same idea in `server/src/routes/factory.js` (replace `loadRecords()`).
+
+## UI
+
+- English-first UI; number/date formatting is `en-US`, currency shown as `฿`.
+- Colours follow the `dataviz` skill reference palette — Domestic = blue
+  (`--series-1`), International = orange (`--series-2`). Tokens (light + dark) are
+  defined at the top of `client/src/styles.css`; dark mode follows the OS setting.
+- Charts are single-axis only (no dual-axis): Factory shows "Labor cost by room"
+  and "Yield by room" as two separate charts.
 
 ## Notes
 

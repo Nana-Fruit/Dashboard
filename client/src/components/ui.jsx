@@ -1,14 +1,18 @@
-// Small shared presentational pieces.
+// Shared presentational pieces. Number formatting is en-US for an
+// international audience; ฿ is used as the currency mark.
 
-export const fmtTHB = (n) =>
-  (Number(n) || 0).toLocaleString("th-TH", { maximumFractionDigits: 0 });
+const enUS = (n, opts) => (Number(n) || 0).toLocaleString("en-US", opts);
 
-export const fmtNum = (n, d = 0) =>
-  (Number(n) || 0).toLocaleString("th-TH", { maximumFractionDigits: d });
+export const fmtTHB = (n) => "฿ " + enUS(n, { maximumFractionDigits: 0 });
+export const fmtNum = (n, d = 0) => enUS(n, { maximumFractionDigits: d });
+export const fmtCompactTHB = (n) =>
+  "฿ " + enUS(n, { notation: "compact", maximumFractionDigits: 1 });
 
-export function KpiCard({ label, value, sub, tone }) {
+export function Kpi({ label, value, sub, tone, accent, hero }) {
+  const cls = ["kpi", hero && "hero", tone && `kpi-${tone}`, accent && "kpi-accent"]
+    .filter(Boolean).join(" ");
   return (
-    <div className={`kpi ${tone ? `kpi-${tone}` : ""}`}>
+    <div className={cls} style={accent ? { "--accent": accent } : undefined}>
       <div className="kpi-label">{label}</div>
       <div className="kpi-value">{value}</div>
       {sub != null && <div className="kpi-sub">{sub}</div>}
@@ -16,29 +20,33 @@ export function KpiCard({ label, value, sub, tone }) {
   );
 }
 
-export function Progress({ percent }) {
+export function Progress({ percent, label }) {
   const p = Math.max(0, Math.min(percent, 100));
   const over = percent >= 100;
   return (
-    <div className="progress">
+    <div className="progress" role="progressbar" aria-valuenow={Math.round(percent)} aria-valuemin={0} aria-valuemax={100}>
       <div className={`progress-fill ${over ? "done" : ""}`} style={{ width: `${p}%` }} />
-      <span className="progress-text">{fmtNum(percent, 1)}%</span>
+      <span className="progress-text">{label ?? `${fmtNum(percent, 1)}%`}</span>
     </div>
   );
 }
 
-export function TopList({ title, rows, unit = "บาท" }) {
+// Ranked horizontal bars — identity by label + rank number, magnitude by bar.
+export function RankList({ title, rows, accent }) {
   const max = Math.max(1, ...rows.map((r) => r.amountTHB));
   return (
-    <div className="toplist">
+    <div className="ranklist">
       <h3>{title}</h3>
-      {rows.length === 0 && <div className="muted">ไม่มีข้อมูล</div>}
+      {rows.length === 0 && <div className="muted sm">No data</div>}
       <ol>
-        {rows.map((r) => (
-          <li key={r.name}>
-            <span className="tl-name">{r.name}</span>
-            <span className="tl-bar"><span style={{ width: `${(r.amountTHB / max) * 100}%` }} /></span>
-            <span className="tl-val">{fmtTHB(r.amountTHB)} {unit}</span>
+        {rows.map((r, i) => (
+          <li key={r.name} style={accent ? { "--accent": accent } : undefined}>
+            <span className="rl-rank">{i + 1}</span>
+            <div className="rl-body">
+              <div className="rl-name">{r.name}</div>
+              <div className="rl-track"><span style={{ width: `${(r.amountTHB / max) * 100}%` }} /></div>
+            </div>
+            <span className="rl-val">{fmtTHB(r.amountTHB)}</span>
           </li>
         ))}
       </ol>

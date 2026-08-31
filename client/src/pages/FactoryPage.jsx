@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LabelList,
 } from "recharts";
 import { getFactorySummary, getFactoryRoom, setFactoryLaborRates } from "../api.js";
-import { KpiCard, Panel, fmtTHB, fmtNum } from "../components/ui.jsx";
+import { Kpi, Panel, fmtTHB, fmtNum, fmtCompactTHB } from "../components/ui.jsx";
+
+const ROOM_EN = { fresh: "Fresh", sorting: "Sorting", drying: "Drying", packing: "Packing" };
 
 export default function FactoryPage() {
   const [range, setRange] = useState({ from: "", to: "" });
@@ -21,62 +23,92 @@ export default function FactoryPage() {
   }, [range, reload]);
 
   if (error) return <div className="error">{error}</div>;
-  if (!data) return <div className="muted">กำลังโหลด…</div>;
+  if (!data) return <div className="muted">Loading…</div>;
+
+  const rooms = data.rooms.map((r) => ({ ...r, name: ROOM_EN[r.room] }));
 
   return (
-    <div className="page-factory">
+    <div>
       <div className="page-head">
         <div>
-          <h1>โรงงาน · ต้นทุน & Yield</h1>
-          {data.source === "mock" && <span className="tag mock">MOCK DATA</span>}
+          <h1>Factory — Cost &amp; Yield</h1>
+          <div className="subtitle">
+            Fresh → Sorting → Drying → Packing
+            {data.source === "mock" && <> · <span className="pill mock">Mock data</span></>}
+          </div>
         </div>
-        <div className="filters-inline">
-          <label>ตั้งแต่<input type="date" value={range.from} onChange={(e) => setRange((r) => ({ ...r, from: e.target.value }))} /></label>
-          <label>ถึง<input type="date" value={range.to} onChange={(e) => setRange((r) => ({ ...r, to: e.target.value }))} /></label>
-          {(range.from || range.to) && <button className="btn-sm" onClick={() => setRange({ from: "", to: "" })}>ล้าง</button>}
+        <div className="head-tools filters">
+          <label className="field-inline"><span>From</span>
+            <input type="date" value={range.from} onChange={(e) => setRange((r) => ({ ...r, from: e.target.value }))} /></label>
+          <label className="field-inline"><span>To</span>
+            <input type="date" value={range.to} onChange={(e) => setRange((r) => ({ ...r, to: e.target.value }))} /></label>
+          {(range.from || range.to) && <button className="btn-ghost" onClick={() => setRange({ from: "", to: "" })}>Clear</button>}
         </div>
       </div>
 
-      <div className="kpi-row">
-        <KpiCard label="ค่าแรงรวมทุกห้อง" value={`฿${fmtTHB(data.totals.laborCostTHB)}`} tone="warn" />
-        <KpiCard label="ชั่วโมงงานรวม" value={fmtNum(data.totals.workingHours)} />
-        {data.rooms.map((r) => (
-          <KpiCard key={r.room} label={`ค่าแรง ${r.label}`} value={`฿${fmtTHB(r.laborCostTHB)}`}
-            sub={`Yield ${r.yieldPercent}%`} />
+      <div className="kpi-grid">
+        <Kpi hero label="Total labor cost — all rooms" value={fmtTHB(data.totals.laborCostTHB)}
+          sub={`${fmtNum(data.totals.workingHours)} man-hours`} tone="warn" />
+        {rooms.map((r) => (
+          <Kpi key={r.room} label={`${r.name} room`} value={fmtTHB(r.laborCostTHB)}
+            sub={`Yield ${r.yieldPercent}%`} accent="var(--series-2)" />
         ))}
       </div>
 
-      <Panel
-        title="ค่าแรงและ Yield แยกตามห้อง"
-        right={data.editable && <button className="btn-sm" onClick={() => setEditing((v) => !v)}>{editing ? "ปิด" : "แก้ค่าแรง/ชม."}</button>}
-      >
-        {editing && <RateEditor rooms={data.rooms} onSaved={() => { setEditing(false); setReload((n) => n + 1); }} />}
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={data.rooms} margin={{ top: 8, right: 16, left: 0, bottom: 4 }}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="label" tick={{ fontSize: 12 }} />
-            <YAxis yAxisId="cost" tick={{ fontSize: 11 }} tickFormatter={(v) => `${Math.round(v / 1000)}k`} />
-            <YAxis yAxisId="pct" orientation="right" unit="%" tick={{ fontSize: 11 }} />
-            <Tooltip formatter={(v, n) => (n === "Yield %" ? `${v}%` : `฿${fmtTHB(v)}`)} />
-            <Legend />
-            <Bar yAxisId="cost" dataKey="laborCostTHB" name="ค่าแรง (฿)" fill="#2563eb" />
-            <Bar yAxisId="pct" dataKey="yieldPercent" name="Yield %" fill="#f59e0b" />
-          </BarChart>
-        </ResponsiveContainer>
+      <div className="grid-2">
+        <Panel
+          title="Labor cost by room"
+          right={data.editable && <button className="btn-ghost" onClick={() => setEditing((v) => !v)}>{editing ? "Cancel" : "Edit rates"}</button>}
+        >
+          {editing && <RateEditor rooms={rooms} onSaved={() => { setEditing(false); setReload((n) => n + 1); }} />}
+          <ResponsiveContainer width="100%" height={260}>
+            <BarChart data={rooms} margin={{ top: 20, right: 12, left: 4, bottom: 4 }}>
+              <CartesianGrid stroke="var(--grid)" vertical={false} />
+              <XAxis dataKey="name" tickLine={false} axisLine={{ stroke: "var(--axis)" }} />
+              <YAxis tickLine={false} axisLine={false} width={54} tickFormatter={fmtCompactTHB} />
+              <Tooltip cursor={{ fill: "var(--surface-2)" }}
+                contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+                formatter={(v) => [fmtTHB(v), "Labor cost"]} />
+              <Bar dataKey="laborCostTHB" fill="var(--series-1)" radius={[4, 4, 0, 0]}>
+                <LabelList dataKey="laborCostTHB" position="top" formatter={fmtCompactTHB}
+                  style={{ fill: "var(--muted)", fontSize: 11 }} />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </Panel>
 
+        <Panel title="Yield by room">
+          <ResponsiveContainer width="100%" height={260}>
+            <BarChart data={rooms} margin={{ top: 20, right: 12, left: 4, bottom: 4 }}>
+              <CartesianGrid stroke="var(--grid)" vertical={false} />
+              <XAxis dataKey="name" tickLine={false} axisLine={{ stroke: "var(--axis)" }} />
+              <YAxis unit="%" tickLine={false} axisLine={false} width={44} domain={[0, 100]} />
+              <Tooltip cursor={{ fill: "var(--surface-2)" }}
+                contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+                formatter={(v) => [`${v}%`, "Yield"]} />
+              <Bar dataKey="yieldPercent" fill="var(--series-2)" radius={[4, 4, 0, 0]}>
+                <LabelList dataKey="yieldPercent" position="top" formatter={(v) => `${v}%`}
+                  style={{ fill: "var(--muted)", fontSize: 11 }} />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </Panel>
+      </div>
+
+      <Panel title="Room breakdown">
         <div className="table-wrap">
           <table>
             <thead>
               <tr>
-                <th>ห้อง</th><th className="num">รับเข้า (กก.)</th><th className="num">ออก (กก.)</th>
-                <th className="num">Yield %</th><th className="num">พนักงานเฉลี่ย</th>
-                <th className="num">ชม.งาน</th><th className="num">฿/ชม.</th><th className="num">ค่าแรง (฿)</th>
+                <th>Room</th><th className="num">Input (kg)</th><th className="num">Output (kg)</th>
+                <th className="num">Yield</th><th className="num">Avg staff</th>
+                <th className="num">Man-hours</th><th className="num">฿/hr</th><th className="num">Labor cost</th>
               </tr>
             </thead>
             <tbody>
-              {data.rooms.map((r) => (
+              {rooms.map((r) => (
                 <tr key={r.room}>
-                  <td>{r.label}</td>
+                  <td>{r.name}</td>
                   <td className="num">{fmtNum(r.inputKg)}</td>
                   <td className="num">{fmtNum(r.outputKg)}</td>
                   <td className="num">{r.yieldPercent}%</td>
@@ -87,7 +119,7 @@ export default function FactoryPage() {
                 </tr>
               ))}
               <tr className="total-row">
-                <td>รวม</td><td /><td /><td /><td />
+                <td>Total</td><td /><td /><td /><td />
                 <td className="num">{fmtNum(data.totals.workingHours)}</td><td />
                 <td className="num">{fmtTHB(data.totals.laborCostTHB)}</td>
               </tr>
@@ -97,21 +129,21 @@ export default function FactoryPage() {
       </Panel>
 
       <Panel
-        title="ห้องสด — RM รับเข้า / หลังตัดแต่ง / Yield"
-        right={<Link className="btn-sm" to="/factory/dry-room">ดูรายละเอียดห้องอบ →</Link>}
+        title="Fresh room — RM in / trimmed / yield"
+        right={<Link className="btn-ghost" to="/factory/dry-room">Drying room detail →</Link>}
       >
         {fresh && (
           <div className="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th>วันที่</th><th>สินค้า (RM)</th><th className="num">รับเข้า (กก.)</th>
-                  <th className="num">หลังตัดแต่ง (กก.)</th><th className="num">Yield %</th>
-                  <th className="num">พนักงาน</th><th className="num">ชม.งาน</th><th className="num">ค่าแรง (฿)</th>
+                  <th>Date</th><th>Product (RM)</th><th className="num">RM in (kg)</th>
+                  <th className="num">Trimmed (kg)</th><th className="num">Yield</th>
+                  <th className="num">Staff</th><th className="num">Man-hours</th><th className="num">Labor cost</th>
                 </tr>
               </thead>
               <tbody>
-                {fresh.records.slice(0, 25).map((r, i) => (
+                {fresh.records.slice(0, 20).map((r, i) => (
                   <tr key={i}>
                     <td>{r.date}</td>
                     <td>{r.productName}</td>
@@ -144,14 +176,14 @@ function RateEditor({ rooms, onSaved }) {
   };
 
   return (
-    <div className="target-editor">
+    <div className="editor">
       {rooms.map((r) => (
-        <label key={r.room}>{r.label} (฿/ชม.)
+        <label key={r.room} className="field-inline"><span>{r.name} (฿/hr)</span>
           <input type="number" value={rates[r.room]}
             onChange={(e) => setRates((s) => ({ ...s, [r.room]: e.target.value }))} />
         </label>
       ))}
-      <button className="btn-sm" onClick={save} disabled={busy}>{busy ? "กำลังบันทึก…" : "บันทึก"}</button>
+      <button className="btn" onClick={save} disabled={busy}>{busy ? "Saving…" : "Save rates"}</button>
       {err && <span className="error sm">{err}</span>}
     </div>
   );

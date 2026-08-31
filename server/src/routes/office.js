@@ -70,10 +70,6 @@ office.get("/summary", (req, res) => {
       international: kpi(actualIntl, target.international || 0),
     },
     orderCount: { domestic: domestic.length, international: international.length },
-    topSalesReps: {
-      domestic: topBy(domestic, (o) => o.salesRep),
-      international: topBy(international, (o) => o.salesRep),
-    },
     topSpenders: {
       domestic: topBy(domestic, (o) => o.customerName),
       international: topBy(international, (o) => o.customerName),
