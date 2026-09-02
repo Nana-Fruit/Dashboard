@@ -128,11 +128,57 @@ export default function FactoryPage() {
         </div>
       </Panel>
 
-      <Panel
-        title="Fresh room — RM in / trimmed / yield"
-        right={<Link className="btn-ghost" to="/factory/dry-room">Drying room detail →</Link>}
-      >
-        {fresh && (
+      {fresh && (
+        <Panel
+          title="Fresh room — summary by product"
+          right={<Link className="btn-ghost" to="/factory/dry-room">Drying room detail →</Link>}
+        >
+          {fresh.extremes.highest && (
+            <div className="kpi-grid" style={{ marginBottom: 8 }}>
+              <Kpi label="Total RM in" value={`${fmtNum(fresh.totals.inputKg)} kg`} />
+              <Kpi label="Total output (trimmed)" value={`${fmtNum(fresh.totals.outputKg)} kg`} />
+              <Kpi label="Highest yield" tone="good" accent="var(--good)"
+                value={`${fresh.extremes.highest.product} · ${fresh.extremes.highest.yieldPercent}%`}
+                sub={`${fmtNum(fresh.extremes.highest.inputKg)} → ${fmtNum(fresh.extremes.highest.outputKg)} kg`} />
+              <Kpi label="Lowest yield" tone="warn" accent="var(--critical)"
+                value={`${fresh.extremes.lowest.product} · ${fresh.extremes.lowest.yieldPercent}%`}
+                sub={`${fmtNum(fresh.extremes.lowest.inputKg)} → ${fmtNum(fresh.extremes.lowest.outputKg)} kg`} />
+            </div>
+          )}
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th><th className="num">Lots</th>
+                  <th className="num">RM in (kg)</th><th className="num">Output (kg)</th><th className="num">Yield</th>
+                </tr>
+              </thead>
+              <tbody>
+                {fresh.byProduct.map((p) => (
+                  <tr key={p.product}>
+                    <td>{p.product}</td>
+                    <td className="num">{p.records}</td>
+                    <td className="num">{fmtNum(p.inputKg)}</td>
+                    <td className="num">{fmtNum(p.outputKg)}</td>
+                    <td className="num">{p.yieldPercent}%</td>
+                  </tr>
+                ))}
+                <tr className="total-row">
+                  <td>Total</td><td />
+                  <td className="num">{fmtNum(fresh.totals.inputKg)}</td>
+                  <td className="num">{fmtNum(fresh.totals.outputKg)}</td>
+                  <td className="num">
+                    {fresh.totals.inputKg ? `${Math.round((fresh.totals.outputKg / fresh.totals.inputKg) * 1000) / 10}%` : "—"}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </Panel>
+      )}
+
+      {fresh && (
+        <Panel title="Fresh room — daily log">
           <div className="table-wrap">
             <table>
               <thead>
@@ -158,8 +204,8 @@ export default function FactoryPage() {
               </tbody>
             </table>
           </div>
-        )}
-      </Panel>
+        </Panel>
+      )}
     </div>
   );
 }

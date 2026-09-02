@@ -32,6 +32,13 @@ const ROOMS = {
   packing: { yield: 96, staff: [6, 16], hrs: [7, 9] },
 };
 
+// Each product trims differently in the fresh room — a stable bias so the
+// per-product summary shows a real spread (best vs worst yield).
+const FRESH_YIELD_BIAS = {
+  "มะนาว": -4, "ส้มเลือด": 8, "แก้วมังกรแดง": -10, "Tidbit": 5,
+  "มะม่วงโชคอนันต์": 2, "สับปะรดปัตตาเวีย": -8, "แตงโม": -14, "กล้วย": 10,
+};
+
 const today = new Date("2026-08-28");
 const DAYS = 70;
 
@@ -51,7 +58,8 @@ for (let d = 0; d < DAYS; d++) {
     for (const room of ["fresh", "sorting", "drying", "packing"]) {
       const spec = ROOMS[room];
       const input = carry;
-      const y = round(spec.yield + rand(-5, 5), 2);
+      const bias = room === "fresh" ? (FRESH_YIELD_BIAS[product] || 0) : 0;
+      const y = round(spec.yield + bias + rand(-3, 3), 2);
       const output = round((input * y) / 100, 2);
       const employees = Math.floor(rand(spec.staff[0], spec.staff[1] + 1));
       const workingHours = round(employees * rand(spec.hrs[0], spec.hrs[1]), 1);

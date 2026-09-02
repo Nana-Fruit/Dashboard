@@ -58,6 +58,11 @@ Dev accounts (from `server/scripts/seed-users.js` — change before real use):
 | office@nanafruit.com | office1234 | `office` | เฉพาะ Office |
 | factory@nanafruit.com | factory1234 | `factory` | เฉพาะโรงงาน |
 
+**Dev auto-login:** `npm run dev` signs in automatically using
+`client/.env.development` (`VITE_DEV_AUTOLOGIN_EMAIL` / `_PASSWORD`, default
+`audit@nanafruit.com`). Clear those vars or delete the file for the normal login
+screen. It's stripped from production builds (`import.meta.env.DEV` guard).
+
 Only `admin` can edit — currently: **monthly sales target** (Office page) and
 **labor rate per hour per room** (Factory page). Edits are saved to
 `server/src/mock/config.json`.
@@ -72,7 +77,7 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 | `GET /api/office/orders?month=&market=` | office | sales order list (endpoint kept; not shown in UI) |
 | `PUT /api/office/target` | admin | `{ month, domestic, international }` |
 | `GET /api/factory/summary?from=&to=` | factory | per-room input/output/yield/hours/labor cost + totals |
-| `GET /api/factory/rooms/:room?from=&to=` | factory | daily records for one room (`fresh`/`sorting`/`drying`/`packing`) |
+| `GET /api/factory/rooms/:room?from=&to=` | factory | one room: `byProduct` summary (RM in, output, weight-weighted yield), `extremes` (highest/lowest-yield product), `totals`, plus daily `records` |
 | `PUT /api/factory/labor-rates` | admin | `{ fresh, sorting, drying, packing }` |
 | `GET /api/dry-room/dashboard` | factory | dry-room lot summary + charts |
 

@@ -70,7 +70,43 @@ factory.get("/rooms/:room", (req, res) => {
     .filter((r) => r.room === room)
     .map((r) => ({ ...r, laborCostTHB: round(r.workingHours * (rates[room] || 0)) }))
     .sort((a, b) => b.date.localeCompare(a.date));
-  res.json({ room, label: ROOM_LABEL[room], count: rows.length, records: rows });
+
+  // per-product summary: total RM in, total output, weight-weighted yield
+  const map = new Map();
+  for (const r of rows) {
+    const k = r.productName || "-";
+    if (!map.has(k)) map.set(k, { product: k, records: 0, inputKg: 0, outputKg: 0 });
+    const g = map.get(k);
+    g.records += 1;
+    g.inputKg += r.inputWeightKg || 0;
+    g.outputKg += r.outputWeightKg || 0;
+  }
+  const byProduct = [...map.values()]
+    .map((g) => ({
+      ...g,
+      inputKg: round(g.inputKg),
+      outputKg: round(g.outputKg),
+      yieldPercent: g.inputKg ? round((g.outputKg / g.inputKg) * 100) : 0,
+    }))
+    .sort((a, b) => b.yieldPercent - a.yieldPercent);
+
+  const withYield = byProduct.filter((p) => p.inputKg > 0);
+  const extremes = withYield.length
+    ? { highest: withYield[0], lowest: withYield[withYield.length - 1] }
+    : { highest: null, lowest: null };
+
+  res.json({
+    room,
+    label: ROOM_LABEL[room],
+    count: rows.length,
+    totals: {
+      inputKg: round(byProduct.reduce((a, p) => a + p.inputKg, 0)),
+      outputKg: round(byProduct.reduce((a, p) => a + p.outputKg, 0)),
+    },
+    byProduct,
+    extremes,
+    records: rows,
+  });
 });
 
 // --- set labor rates (Admin only) -------------------------------
