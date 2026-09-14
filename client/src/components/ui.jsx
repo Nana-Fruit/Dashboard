@@ -54,6 +54,25 @@ export function RankList({ title, rows, accent }) {
   );
 }
 
+export function Tabs({ items, value, onChange }) {
+  return (
+    <div className="tabs" role="tablist">
+      {items.map((item) => (
+        <button
+          key={item.value}
+          type="button"
+          role="tab"
+          aria-selected={item.value === value}
+          className={`tab${item.value === value ? " active" : ""}`}
+          onClick={() => onChange(item.value)}
+        >
+          {item.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export function Panel({ title, right, children }) {
   return (
     <section className="panel">

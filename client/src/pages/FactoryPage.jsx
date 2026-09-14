@@ -1,25 +1,33 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LabelList,
 } from "recharts";
-import { getFactorySummary, getFactoryRoom, setFactoryLaborRates } from "../api.js";
-import { Kpi, Panel, fmtTHB, fmtNum, fmtCompactTHB } from "../components/ui.jsx";
+import { getFactorySummary, setFactoryLaborRates } from "../api.js";
+import { Kpi, Panel, Tabs, fmtTHB, fmtNum, fmtCompactTHB } from "../components/ui.jsx";
+import FreshRoom from "../components/factory/rooms/FreshRoom.jsx";
+import SortingRoom from "../components/factory/rooms/SortingRoom.jsx";
+import DryingRoom from "../components/factory/rooms/DryingRoom.jsx";
+import PackingRoom from "../components/factory/rooms/PackingRoom.jsx";
 
 const ROOM_EN = { fresh: "Fresh", sorting: "Sorting", drying: "Drying", packing: "Packing" };
+const ROOM_TABS = [
+  { value: "fresh", label: "Fresh", Component: FreshRoom },
+  { value: "sorting", label: "Sorting", Component: SortingRoom },
+  { value: "drying", label: "Drying", Component: DryingRoom },
+  { value: "packing", label: "Packing", Component: PackingRoom },
+];
 
 export default function FactoryPage() {
   const [range, setRange] = useState({ from: "", to: "" });
   const [data, setData] = useState(null);
-  const [fresh, setFresh] = useState(null);
   const [error, setError] = useState(null);
   const [editing, setEditing] = useState(false);
   const [reload, setReload] = useState(0);
+  const [activeRoom, setActiveRoom] = useState("fresh");
 
   useEffect(() => {
     setError(null);
     getFactorySummary(range).then(setData).catch((e) => setError(e.message));
-    getFactoryRoom("fresh", range).then(setFresh).catch(() => {});
   }, [range, reload]);
 
   if (error) return <div className="error">{error}</div>;
@@ -128,84 +136,14 @@ export default function FactoryPage() {
         </div>
       </Panel>
 
-      {fresh && (
-        <Panel
-          title="Fresh room — summary by product"
-          right={<Link className="btn-ghost" to="/factory/dry-room">Drying room detail →</Link>}
-        >
-          {fresh.extremes.highest && (
-            <div className="kpi-grid" style={{ marginBottom: 8 }}>
-              <Kpi label="Total RM in" value={`${fmtNum(fresh.totals.inputKg)} kg`} />
-              <Kpi label="Total output (trimmed)" value={`${fmtNum(fresh.totals.outputKg)} kg`} />
-              <Kpi label="Highest yield" tone="good" accent="var(--good)"
-                value={`${fresh.extremes.highest.product} · ${fresh.extremes.highest.yieldPercent}%`}
-                sub={`${fmtNum(fresh.extremes.highest.inputKg)} → ${fmtNum(fresh.extremes.highest.outputKg)} kg`} />
-              <Kpi label="Lowest yield" tone="warn" accent="var(--critical)"
-                value={`${fresh.extremes.lowest.product} · ${fresh.extremes.lowest.yieldPercent}%`}
-                sub={`${fmtNum(fresh.extremes.lowest.inputKg)} → ${fmtNum(fresh.extremes.lowest.outputKg)} kg`} />
-            </div>
-          )}
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Product</th><th className="num">Lots</th>
-                  <th className="num">RM in (kg)</th><th className="num">Output (kg)</th><th className="num">Yield</th>
-                </tr>
-              </thead>
-              <tbody>
-                {fresh.byProduct.map((p) => (
-                  <tr key={p.product}>
-                    <td>{p.product}</td>
-                    <td className="num">{p.records}</td>
-                    <td className="num">{fmtNum(p.inputKg)}</td>
-                    <td className="num">{fmtNum(p.outputKg)}</td>
-                    <td className="num">{p.yieldPercent}%</td>
-                  </tr>
-                ))}
-                <tr className="total-row">
-                  <td>Total</td><td />
-                  <td className="num">{fmtNum(fresh.totals.inputKg)}</td>
-                  <td className="num">{fmtNum(fresh.totals.outputKg)}</td>
-                  <td className="num">
-                    {fresh.totals.inputKg ? `${Math.round((fresh.totals.outputKg / fresh.totals.inputKg) * 1000) / 10}%` : "—"}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </Panel>
-      )}
-
-      {fresh && (
-        <Panel title="Fresh room — daily log">
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Date</th><th>Product (RM)</th><th className="num">RM in (kg)</th>
-                  <th className="num">Trimmed (kg)</th><th className="num">Yield</th>
-                  <th className="num">Staff</th><th className="num">Man-hours</th><th className="num">Labor cost</th>
-                </tr>
-              </thead>
-              <tbody>
-                {fresh.records.slice(0, 20).map((r, i) => (
-                  <tr key={i}>
-                    <td>{r.date}</td>
-                    <td>{r.productName}</td>
-                    <td className="num">{fmtNum(r.inputWeightKg)}</td>
-                    <td className="num">{fmtNum(r.outputWeightKg)}</td>
-                    <td className="num">{r.yieldPercent}%</td>
-                    <td className="num">{r.employees}</td>
-                    <td className="num">{fmtNum(r.workingHours)}</td>
-                    <td className="num">{fmtTHB(r.laborCostTHB)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </Panel>
-      )}
+      <Tabs
+        items={ROOM_TABS.map(({ value, label }) => ({ value, label }))}
+        value={activeRoom}
+        onChange={setActiveRoom}
+      />
+      {ROOM_TABS.filter((t) => t.value === activeRoom).map(({ value, Component }) => (
+        <Component key={value} range={range} />
+      ))}
     </div>
   );
 }
