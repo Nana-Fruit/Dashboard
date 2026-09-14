@@ -92,6 +92,29 @@ h1, h2, h3 { margin: 0; }
 }
 .mainnav a:hover { background: var(--surface-2); color: var(--text); }
 .mainnav a.active { background: var(--series-1); color: #fff; }
+
+.navdropdown { position: relative; }
+.navdropdown-trigger {
+  display: flex; align-items: center; gap: 5px;
+  background: transparent; border: none; cursor: pointer;
+  color: var(--text-2); padding: 8px 13px; border-radius: var(--radius-sm);
+  font-size: 13.5px; font-weight: 500; font-family: inherit;
+}
+.navdropdown-trigger:hover { background: var(--surface-2); color: var(--text); }
+.navdropdown-trigger.active { background: var(--series-1); color: #fff; }
+.navdropdown-caret { font-size: 10px; line-height: 1; }
+.navdropdown-menu {
+  position: absolute; top: calc(100% + 4px); left: 0; z-index: 20;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow);
+  min-width: 160px; padding: 4px; display: flex; flex-direction: column; gap: 2px;
+}
+.navdropdown-menu a {
+  color: var(--text-2); padding: 8px 10px; border-radius: var(--radius-sm);
+  font-size: 13.5px; font-weight: 500;
+}
+.navdropdown-menu a:hover { background: var(--surface-2); color: var(--text); }
+.navdropdown-menu a.active { background: var(--series-1); color: #fff; }
 .userbox { display: flex; align-items: center; gap: 12px; font-size: 13px; }
 .role-badge {
   border: 1px solid var(--border); color: var(--text-2);
