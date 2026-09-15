@@ -32,7 +32,10 @@ function FactoryNavDropdown() {
       {open && (
         <div className="navdropdown-menu">
           <NavLink to="/factory" end onClick={() => setOpen(false)}>Overview</NavLink>
+          <NavLink to="/factory/fresh-room" onClick={() => setOpen(false)}>Fresh Room</NavLink>
+          <NavLink to="/factory/sorting-room" onClick={() => setOpen(false)}>Sorting Room</NavLink>
           <NavLink to="/factory/dry-room" onClick={() => setOpen(false)}>Drying Room</NavLink>
+          <NavLink to="/factory/packing-room" onClick={() => setOpen(false)}>Packing Room</NavLink>
         </div>
       )}
     </div>

@@ -6,6 +6,9 @@ import Login from "./pages/Login.jsx";
 import OfficePage from "./pages/OfficePage.jsx";
 import FactoryPage from "./pages/FactoryPage.jsx";
 import DryRoomPage from "./pages/DryRoomPage.jsx";
+import FreshRoomPage from "./pages/FreshRoomPage.jsx";
+import SortingRoomPage from "./pages/SortingRoomPage.jsx";
+import PackingRoomPage from "./pages/PackingRoomPage.jsx";
 
 function Home() {
   const { user } = useAuth();
@@ -27,6 +30,9 @@ export default function App() {
         <Route path="/office" element={<ProtectedRoute area="office"><OfficePage /></ProtectedRoute>} />
         <Route path="/factory" element={<ProtectedRoute area="factory"><FactoryPage /></ProtectedRoute>} />
         <Route path="/factory/dry-room" element={<ProtectedRoute area="factory"><DryRoomPage /></ProtectedRoute>} />
+        <Route path="/factory/fresh-room" element={<ProtectedRoute area="factory"><FreshRoomPage /></ProtectedRoute>} />
+        <Route path="/factory/sorting-room" element={<ProtectedRoute area="factory"><SortingRoomPage /></ProtectedRoute>} />
+        <Route path="/factory/packing-room" element={<ProtectedRoute area="factory"><PackingRoomPage /></ProtectedRoute>} />
       </Route>
       <Route path="*" element={<Home />} />
     </Routes>

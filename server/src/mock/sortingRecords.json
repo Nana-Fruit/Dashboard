@@ -1,0 +1,2537 @@
+[
+  {
+    "recordId": "pM0TbrD30T0SIU5SHKVE",
+    "lotDate": "2026-09-11",
+    "recordDate": "2026-09-11",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1006",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 160.67
+      },
+      {
+        "grade": "B",
+        "weightKg": 79.97
+      },
+      {
+        "grade": "C",
+        "weightKg": 157.63
+      }
+    ],
+    "totalGradeWeightKg": 398.27,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 11.18
+      }
+    ],
+    "totalForeignWeightKg": 11.18,
+    "totalWeightKg": 409.45,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "recordId": "Tp32o8sLsR94Fmdz19Gt",
+    "lotDate": "2026-09-11",
+    "recordDate": "2026-09-11",
+    "productName": "มะนาว",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1009",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 635.87
+      },
+      {
+        "grade": "B",
+        "weightKg": 357.71
+      },
+      {
+        "grade": "C",
+        "weightKg": 757.18
+      }
+    ],
+    "totalGradeWeightKg": 1750.76,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 16.43
+      }
+    ],
+    "totalForeignWeightKg": 16.43,
+    "totalWeightKg": 1767.19,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "recordId": "tRnIXHYQ8Cij5gASXegk",
+    "lotDate": "2026-09-11",
+    "recordDate": "2026-09-11",
+    "productName": "Tidbit",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1034",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 411.53
+      },
+      {
+        "grade": "B",
+        "weightKg": 267.23
+      },
+      {
+        "grade": "C",
+        "weightKg": 405.59
+      }
+    ],
+    "totalGradeWeightKg": 1084.35,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 1.01
+      }
+    ],
+    "totalForeignWeightKg": 1.01,
+    "totalWeightKg": 1085.36,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "recordId": "guXqidqxCgHRfJ8ueC0B",
+    "lotDate": "2026-09-11",
+    "recordDate": "2026-09-11",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1056",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 538.93
+      },
+      {
+        "grade": "B",
+        "weightKg": 341.88
+      },
+      {
+        "grade": "C",
+        "weightKg": 524.86
+      }
+    ],
+    "totalGradeWeightKg": 1405.67,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 30.8
+      }
+    ],
+    "totalForeignWeightKg": 30.8,
+    "totalWeightKg": 1436.47,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "recordId": "0MvCmznUy5TPIjZx9HrU",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1007",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 727.93
+      },
+      {
+        "grade": "B",
+        "weightKg": 622.79
+      },
+      {
+        "grade": "C",
+        "weightKg": 574.44
+      }
+    ],
+    "totalGradeWeightKg": 1925.16,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 37.56
+      }
+    ],
+    "totalForeignWeightKg": 37.56,
+    "totalWeightKg": 1962.72,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "RHLwvdXpwbPPFtlIvpub",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1008",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 537.1
+      },
+      {
+        "grade": "B",
+        "weightKg": 270.14
+      },
+      {
+        "grade": "C",
+        "weightKg": 281.77
+      }
+    ],
+    "totalGradeWeightKg": 1089.01,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 18.56
+      }
+    ],
+    "totalForeignWeightKg": 18.56,
+    "totalWeightKg": 1107.57,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "3TWQAlJgleDIM7AL1iJB",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "ส้มเลือด",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1012",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 975.91
+      },
+      {
+        "grade": "B",
+        "weightKg": 552.33
+      },
+      {
+        "grade": "C",
+        "weightKg": 256.91
+      }
+    ],
+    "totalGradeWeightKg": 1785.15,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 3.93
+      }
+    ],
+    "totalForeignWeightKg": 3.93,
+    "totalWeightKg": 1789.08,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 6.9,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "4vh5T1D7HTFVqYeEdIzC",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1013",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 329.28
+      },
+      {
+        "grade": "B",
+        "weightKg": 205.18
+      },
+      {
+        "grade": "C",
+        "weightKg": 115.39
+      }
+    ],
+    "totalGradeWeightKg": 649.85,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 17.64
+      }
+    ],
+    "totalForeignWeightKg": 17.64,
+    "totalWeightKg": 667.49,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "dxzVg667CKLBmaCILL7K",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1030",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 927.49
+      },
+      {
+        "grade": "B",
+        "weightKg": 427.89
+      },
+      {
+        "grade": "C",
+        "weightKg": 773.81
+      }
+    ],
+    "totalGradeWeightKg": 2129.19,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 56.69
+      }
+    ],
+    "totalForeignWeightKg": 56.69,
+    "totalWeightKg": 2185.88,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "OSKltV6EUGd6DPKHNobE",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 968.08
+      },
+      {
+        "grade": "B",
+        "weightKg": 760.15
+      },
+      {
+        "grade": "C",
+        "weightKg": 511.66
+      }
+    ],
+    "totalGradeWeightKg": 2239.89,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 40.79
+      }
+    ],
+    "totalForeignWeightKg": 40.79,
+    "totalWeightKg": 2280.68,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 6.1,
+    "updatedAt": "2026-09-10T08:00:00.000Z"
+  },
+  {
+    "recordId": "gyZKnhziU1KCtA95QrV2",
+    "lotDate": "2026-09-08",
+    "recordDate": "2026-09-08",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1028",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 249.25
+      },
+      {
+        "grade": "B",
+        "weightKg": 149.51
+      },
+      {
+        "grade": "C",
+        "weightKg": 144.12
+      }
+    ],
+    "totalGradeWeightKg": 542.88,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 16.2
+      }
+    ],
+    "totalForeignWeightKg": 16.2,
+    "totalWeightKg": 559.08,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-09-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "iqQ3qxOSXkzcGdAAqWDQ",
+    "lotDate": "2026-09-08",
+    "recordDate": "2026-09-08",
+    "productName": "แตงโม",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 312.56
+      },
+      {
+        "grade": "B",
+        "weightKg": 235.53
+      },
+      {
+        "grade": "C",
+        "weightKg": 159.31
+      }
+    ],
+    "totalGradeWeightKg": 707.4,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 11.56
+      }
+    ],
+    "totalForeignWeightKg": 11.56,
+    "totalWeightKg": 718.96,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-09-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "x9zWNC8Yhnoy174QOGZX",
+    "lotDate": "2026-09-08",
+    "recordDate": "2026-09-08",
+    "productName": "ส้มเลือด",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 393.7
+      },
+      {
+        "grade": "B",
+        "weightKg": 350.28
+      },
+      {
+        "grade": "C",
+        "weightKg": 304.4
+      }
+    ],
+    "totalGradeWeightKg": 1048.38,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 0.81
+      }
+    ],
+    "totalForeignWeightKg": 0.81,
+    "totalWeightKg": 1049.19,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-09-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "eqhVDi4M9HsCeOKD152u",
+    "lotDate": "2026-09-06",
+    "recordDate": "2026-09-06",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1018",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 473.39
+      },
+      {
+        "grade": "B",
+        "weightKg": 279.98
+      },
+      {
+        "grade": "C",
+        "weightKg": 136.96
+      }
+    ],
+    "totalGradeWeightKg": 890.33,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 6.98
+      }
+    ],
+    "totalForeignWeightKg": 6.98,
+    "totalWeightKg": 897.31,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-09-06T08:00:00.000Z"
+  },
+  {
+    "recordId": "YSOP2XCjlhrhocODAVzb",
+    "lotDate": "2026-09-06",
+    "recordDate": "2026-09-06",
+    "productName": "ส้มเลือด",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1031",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1128.65
+      },
+      {
+        "grade": "B",
+        "weightKg": 697.7
+      },
+      {
+        "grade": "C",
+        "weightKg": 443.05
+      }
+    ],
+    "totalGradeWeightKg": 2269.4,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 23.4
+      }
+    ],
+    "totalForeignWeightKg": 23.4,
+    "totalWeightKg": 2292.8,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-06T08:00:00.000Z"
+  },
+  {
+    "recordId": "dnStzpamKvsu1juMEXMw",
+    "lotDate": "2026-09-05",
+    "recordDate": "2026-09-05",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1029",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1143.48
+      },
+      {
+        "grade": "B",
+        "weightKg": 646.37
+      },
+      {
+        "grade": "C",
+        "weightKg": 163.5
+      }
+    ],
+    "totalGradeWeightKg": 1953.35,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 21.19
+      }
+    ],
+    "totalForeignWeightKg": 21.19,
+    "totalWeightKg": 1974.54,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-09-05T08:00:00.000Z"
+  },
+  {
+    "recordId": "khv2gQXYfQQiVn5tUyZr",
+    "lotDate": "2026-09-05",
+    "recordDate": "2026-09-05",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1051",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 473.18
+      },
+      {
+        "grade": "B",
+        "weightKg": 335.81
+      },
+      {
+        "grade": "C",
+        "weightKg": 235.25
+      }
+    ],
+    "totalGradeWeightKg": 1044.24,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 27.36
+      }
+    ],
+    "totalForeignWeightKg": 27.36,
+    "totalWeightKg": 1071.6,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-09-05T08:00:00.000Z"
+  },
+  {
+    "recordId": "WGlF1Msqxx4GouBEtiMI",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1035",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1091.98
+      },
+      {
+        "grade": "B",
+        "weightKg": 698.59
+      },
+      {
+        "grade": "C",
+        "weightKg": 571.76
+      }
+    ],
+    "totalGradeWeightKg": 2362.33,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 14.14
+      }
+    ],
+    "totalForeignWeightKg": 14.14,
+    "totalWeightKg": 2376.47,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.4,
+    "updatedAt": "2026-09-04T08:00:00.000Z"
+  },
+  {
+    "recordId": "hrgGmGcYf83WoOuqgjOb",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1040",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 600.39
+      },
+      {
+        "grade": "B",
+        "weightKg": 369.91
+      },
+      {
+        "grade": "C",
+        "weightKg": 115.76
+      }
+    ],
+    "totalGradeWeightKg": 1086.06,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 3.84
+      }
+    ],
+    "totalForeignWeightKg": 3.84,
+    "totalWeightKg": 1089.9,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-09-04T08:00:00.000Z"
+  },
+  {
+    "recordId": "0oWGAbWiMy5lyR17LCM5",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1046",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1009.61
+      },
+      {
+        "grade": "B",
+        "weightKg": 530.15
+      },
+      {
+        "grade": "C",
+        "weightKg": 274.65
+      }
+    ],
+    "totalGradeWeightKg": 1814.41,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 11.84
+      }
+    ],
+    "totalForeignWeightKg": 11.84,
+    "totalWeightKg": 1826.25,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-09-04T08:00:00.000Z"
+  },
+  {
+    "recordId": "CXflvW4qLwCK5klEfNmB",
+    "lotDate": "2026-09-03",
+    "recordDate": "2026-09-03",
+    "productName": "ส้มเลือด",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1017",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 775.74
+      },
+      {
+        "grade": "B",
+        "weightKg": 380.51
+      },
+      {
+        "grade": "C",
+        "weightKg": 520.41
+      }
+    ],
+    "totalGradeWeightKg": 1676.66,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 39.95
+      }
+    ],
+    "totalForeignWeightKg": 39.95,
+    "totalWeightKg": 1716.61,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-09-03T08:00:00.000Z"
+  },
+  {
+    "recordId": "1Q7qFOPIQxBJyJYtSliC",
+    "lotDate": "2026-09-03",
+    "recordDate": "2026-09-03",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 892.22
+      },
+      {
+        "grade": "B",
+        "weightKg": 612.03
+      },
+      {
+        "grade": "C",
+        "weightKg": 560.42
+      }
+    ],
+    "totalGradeWeightKg": 2064.67,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 34.41
+      }
+    ],
+    "totalForeignWeightKg": 34.41,
+    "totalWeightKg": 2099.08,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-09-03T08:00:00.000Z"
+  },
+  {
+    "recordId": "YJtcBjhTaLOfxKwLYias",
+    "lotDate": "2026-09-02",
+    "recordDate": "2026-09-02",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1015",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1209.61
+      },
+      {
+        "grade": "B",
+        "weightKg": 728.89
+      },
+      {
+        "grade": "C",
+        "weightKg": 526.44
+      }
+    ],
+    "totalGradeWeightKg": 2464.94,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 16.46
+      }
+    ],
+    "totalForeignWeightKg": 16.46,
+    "totalWeightKg": 2481.4,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-09-02T08:00:00.000Z"
+  },
+  {
+    "recordId": "EXYftH9z8QcAFkavMNKN",
+    "lotDate": "2026-09-02",
+    "recordDate": "2026-09-02",
+    "productName": "มะนาว",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1016",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1300.84
+      },
+      {
+        "grade": "B",
+        "weightKg": 766.65
+      },
+      {
+        "grade": "C",
+        "weightKg": 261.52
+      }
+    ],
+    "totalGradeWeightKg": 2329.01,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 36.5
+      }
+    ],
+    "totalForeignWeightKg": 36.5,
+    "totalWeightKg": 2365.51,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-09-02T08:00:00.000Z"
+  },
+  {
+    "recordId": "K1icRWgEXuNLCgM7UsmM",
+    "lotDate": "2026-09-01",
+    "recordDate": "2026-09-01",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 225.65
+      },
+      {
+        "grade": "B",
+        "weightKg": 101.65
+      },
+      {
+        "grade": "C",
+        "weightKg": 129.35
+      }
+    ],
+    "totalGradeWeightKg": 456.65,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 6.14
+      }
+    ],
+    "totalForeignWeightKg": 6.14,
+    "totalWeightKg": 462.79,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-09-01T08:00:00.000Z"
+  },
+  {
+    "recordId": "ziBki7Iw0NGu2qjeOEeI",
+    "lotDate": "2026-09-01",
+    "recordDate": "2026-09-01",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1050",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 119.44
+      },
+      {
+        "grade": "B",
+        "weightKg": 78.21
+      },
+      {
+        "grade": "C",
+        "weightKg": 113.89
+      }
+    ],
+    "totalGradeWeightKg": 311.54,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 5.62
+      }
+    ],
+    "totalForeignWeightKg": 5.62,
+    "totalWeightKg": 317.16,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 9,
+    "updatedAt": "2026-09-01T08:00:00.000Z"
+  },
+  {
+    "recordId": "Epvv4MM0taHeewTOccRK",
+    "lotDate": "2026-08-29",
+    "recordDate": "2026-08-29",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 750.73
+      },
+      {
+        "grade": "B",
+        "weightKg": 553.93
+      },
+      {
+        "grade": "C",
+        "weightKg": 556.23
+      }
+    ],
+    "totalGradeWeightKg": 1860.89,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 37.39
+      }
+    ],
+    "totalForeignWeightKg": 37.39,
+    "totalWeightKg": 1898.28,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-29T08:00:00.000Z"
+  },
+  {
+    "recordId": "zVCkiOaGyf6fYQ1f2g3W",
+    "lotDate": "2026-08-27",
+    "recordDate": "2026-08-27",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 142.38
+      },
+      {
+        "grade": "B",
+        "weightKg": 79.79
+      },
+      {
+        "grade": "C",
+        "weightKg": 143.47
+      }
+    ],
+    "totalGradeWeightKg": 365.64,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 6.31
+      }
+    ],
+    "totalForeignWeightKg": 6.31,
+    "totalWeightKg": 371.95,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 7.1,
+    "updatedAt": "2026-08-27T08:00:00.000Z"
+  },
+  {
+    "recordId": "BORkbkOqraFl2qgDtVRv",
+    "lotDate": "2026-08-26",
+    "recordDate": "2026-08-26",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1025",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 840.44
+      },
+      {
+        "grade": "B",
+        "weightKg": 303.18
+      },
+      {
+        "grade": "C",
+        "weightKg": 286.69
+      }
+    ],
+    "totalGradeWeightKg": 1430.31,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 22.11
+      }
+    ],
+    "totalForeignWeightKg": 22.11,
+    "totalWeightKg": 1452.42,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-08-26T08:00:00.000Z"
+  },
+  {
+    "recordId": "AlGQcDG94ml1k5cySQuG",
+    "lotDate": "2026-08-25",
+    "recordDate": "2026-08-25",
+    "productName": "แตงโม",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1019",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 471.83
+      },
+      {
+        "grade": "B",
+        "weightKg": 231.1
+      },
+      {
+        "grade": "C",
+        "weightKg": 93.3
+      }
+    ],
+    "totalGradeWeightKg": 796.23,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 4.12
+      }
+    ],
+    "totalForeignWeightKg": 4.12,
+    "totalWeightKg": 800.35,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.2,
+    "updatedAt": "2026-08-25T08:00:00.000Z"
+  },
+  {
+    "recordId": "F27C1MkPfjbTZmkGMA6G",
+    "lotDate": "2026-08-25",
+    "recordDate": "2026-08-25",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 639.08
+      },
+      {
+        "grade": "B",
+        "weightKg": 412.49
+      },
+      {
+        "grade": "C",
+        "weightKg": 400.03
+      }
+    ],
+    "totalGradeWeightKg": 1451.6,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 28.73
+      }
+    ],
+    "totalForeignWeightKg": 28.73,
+    "totalWeightKg": 1480.33,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-25T08:00:00.000Z"
+  },
+  {
+    "recordId": "YwHHVKDFJyMwkyGhKzS2",
+    "lotDate": "2026-08-25",
+    "recordDate": "2026-08-25",
+    "productName": "แตงโม",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1039",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 317.71
+      },
+      {
+        "grade": "B",
+        "weightKg": 156.06
+      },
+      {
+        "grade": "C",
+        "weightKg": 239.52
+      }
+    ],
+    "totalGradeWeightKg": 713.29,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 11.36
+      }
+    ],
+    "totalForeignWeightKg": 11.36,
+    "totalWeightKg": 724.65,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-08-25T08:00:00.000Z"
+  },
+  {
+    "recordId": "7loT4IjkPZLB1vDu4Gtc",
+    "lotDate": "2026-08-24",
+    "recordDate": "2026-08-24",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 393.28
+      },
+      {
+        "grade": "B",
+        "weightKg": 200.14
+      },
+      {
+        "grade": "C",
+        "weightKg": 238.46
+      }
+    ],
+    "totalGradeWeightKg": 831.88,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 2.63
+      }
+    ],
+    "totalForeignWeightKg": 2.63,
+    "totalWeightKg": 834.51,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-08-24T08:00:00.000Z"
+  },
+  {
+    "recordId": "Zn8dmYjXYB5yNmzLb8xR",
+    "lotDate": "2026-08-24",
+    "recordDate": "2026-08-24",
+    "productName": "แตงโม",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 750.21
+      },
+      {
+        "grade": "B",
+        "weightKg": 472.78
+      },
+      {
+        "grade": "C",
+        "weightKg": 304.02
+      }
+    ],
+    "totalGradeWeightKg": 1527.01,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 44.93
+      }
+    ],
+    "totalForeignWeightKg": 44.93,
+    "totalWeightKg": 1571.94,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-24T08:00:00.000Z"
+  },
+  {
+    "recordId": "vxdisRJpf2gcspwqjirK",
+    "lotDate": "2026-08-22",
+    "recordDate": "2026-08-22",
+    "productName": "แตงโม",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1011",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1203.86
+      },
+      {
+        "grade": "B",
+        "weightKg": 763.68
+      },
+      {
+        "grade": "C",
+        "weightKg": 333.07
+      }
+    ],
+    "totalGradeWeightKg": 2300.61,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 45.16
+      }
+    ],
+    "totalForeignWeightKg": 45.16,
+    "totalWeightKg": 2345.77,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 9,
+    "updatedAt": "2026-08-22T08:00:00.000Z"
+  },
+  {
+    "recordId": "7uYFyBR372jRqZE6iURZ",
+    "lotDate": "2026-08-22",
+    "recordDate": "2026-08-22",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 886.35
+      },
+      {
+        "grade": "B",
+        "weightKg": 475.42
+      },
+      {
+        "grade": "C",
+        "weightKg": 689.25
+      }
+    ],
+    "totalGradeWeightKg": 2051.02,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 36.12
+      }
+    ],
+    "totalForeignWeightKg": 36.12,
+    "totalWeightKg": 2087.14,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 6.7,
+    "updatedAt": "2026-08-22T08:00:00.000Z"
+  },
+  {
+    "recordId": "WfadrNiISkc4t0OGeTSy",
+    "lotDate": "2026-08-20",
+    "recordDate": "2026-08-20",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1061",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 264.13
+      },
+      {
+        "grade": "B",
+        "weightKg": 180.36
+      },
+      {
+        "grade": "C",
+        "weightKg": 82.22
+      }
+    ],
+    "totalGradeWeightKg": 526.71,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 4.27
+      }
+    ],
+    "totalForeignWeightKg": 4.27,
+    "totalWeightKg": 530.98,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-08-20T08:00:00.000Z"
+  },
+  {
+    "recordId": "KBbXtCkpP7YlYVeQS538",
+    "lotDate": "2026-08-18",
+    "recordDate": "2026-08-18",
+    "productName": "ส้มเลือด",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1041",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1284.01
+      },
+      {
+        "grade": "B",
+        "weightKg": 503.99
+      },
+      {
+        "grade": "C",
+        "weightKg": 387.59
+      }
+    ],
+    "totalGradeWeightKg": 2175.59,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 25.97
+      }
+    ],
+    "totalForeignWeightKg": 25.97,
+    "totalWeightKg": 2201.56,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-08-18T08:00:00.000Z"
+  },
+  {
+    "recordId": "mX7ZgtrslhBuwEp8OdRn",
+    "lotDate": "2026-08-16",
+    "recordDate": "2026-08-16",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1072.26
+      },
+      {
+        "grade": "B",
+        "weightKg": 397.41
+      },
+      {
+        "grade": "C",
+        "weightKg": 463.66
+      }
+    ],
+    "totalGradeWeightKg": 1933.33,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 40.38
+      }
+    ],
+    "totalForeignWeightKg": 40.38,
+    "totalWeightKg": 1973.71,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.4,
+    "updatedAt": "2026-08-16T08:00:00.000Z"
+  },
+  {
+    "recordId": "UO4EaFLI7QqN6GUXElB1",
+    "lotDate": "2026-08-15",
+    "recordDate": "2026-08-15",
+    "productName": "แตงโม",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1003",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 492.19
+      },
+      {
+        "grade": "B",
+        "weightKg": 384.77
+      },
+      {
+        "grade": "C",
+        "weightKg": 258.39
+      }
+    ],
+    "totalGradeWeightKg": 1135.35,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 24.81
+      }
+    ],
+    "totalForeignWeightKg": 24.81,
+    "totalWeightKg": 1160.16,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-08-15T08:00:00.000Z"
+  },
+  {
+    "recordId": "uoGe9HdiTTwI6cdohFjw",
+    "lotDate": "2026-08-14",
+    "recordDate": "2026-08-14",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 230.75
+      },
+      {
+        "grade": "B",
+        "weightKg": 117.88
+      },
+      {
+        "grade": "C",
+        "weightKg": 45.67
+      }
+    ],
+    "totalGradeWeightKg": 394.3,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 0.21
+      }
+    ],
+    "totalForeignWeightKg": 0.21,
+    "totalWeightKg": 394.51,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 7.8,
+    "updatedAt": "2026-08-14T08:00:00.000Z"
+  },
+  {
+    "recordId": "q6LFQlJk0w4Kzk5onY5c",
+    "lotDate": "2026-08-13",
+    "recordDate": "2026-08-13",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 145.58
+      },
+      {
+        "grade": "B",
+        "weightKg": 125.72
+      },
+      {
+        "grade": "C",
+        "weightKg": 143.71
+      }
+    ],
+    "totalGradeWeightKg": 415.01,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 0.16
+      }
+    ],
+    "totalForeignWeightKg": 0.16,
+    "totalWeightKg": 415.17,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.2,
+    "updatedAt": "2026-08-13T08:00:00.000Z"
+  },
+  {
+    "recordId": "av6KQ2dxmhLYSBw2948A",
+    "lotDate": "2026-08-13",
+    "recordDate": "2026-08-13",
+    "productName": "สับปะรดปัตตาเวีย",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1022",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 812.21
+      },
+      {
+        "grade": "B",
+        "weightKg": 498.33
+      },
+      {
+        "grade": "C",
+        "weightKg": 851.56
+      }
+    ],
+    "totalGradeWeightKg": 2162.1,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 38.1
+      }
+    ],
+    "totalForeignWeightKg": 38.1,
+    "totalWeightKg": 2200.2,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-08-13T08:00:00.000Z"
+  },
+  {
+    "recordId": "PLhkcxp6bChPTje85aoB",
+    "lotDate": "2026-08-12",
+    "recordDate": "2026-08-12",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1033",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1045.52
+      },
+      {
+        "grade": "B",
+        "weightKg": 542.42
+      },
+      {
+        "grade": "C",
+        "weightKg": 212.85
+      }
+    ],
+    "totalGradeWeightKg": 1800.79,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 0.36
+      }
+    ],
+    "totalForeignWeightKg": 0.36,
+    "totalWeightKg": 1801.15,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-08-12T08:00:00.000Z"
+  },
+  {
+    "recordId": "tepslvXY8vRo5mnhUE5N",
+    "lotDate": "2026-08-08",
+    "recordDate": "2026-08-08",
+    "productName": "มะม่วงโชคอนันต์",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1044",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1267.87
+      },
+      {
+        "grade": "B",
+        "weightKg": 677.16
+      },
+      {
+        "grade": "C",
+        "weightKg": 531.68
+      }
+    ],
+    "totalGradeWeightKg": 2476.71,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 73.61
+      }
+    ],
+    "totalForeignWeightKg": 73.61,
+    "totalWeightKg": 2550.32,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-08-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "HSefeFTtDHMPmqdKsdqr",
+    "lotDate": "2026-08-08",
+    "recordDate": "2026-08-08",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 305.45
+      },
+      {
+        "grade": "B",
+        "weightKg": 177.56
+      },
+      {
+        "grade": "C",
+        "weightKg": 61.84
+      }
+    ],
+    "totalGradeWeightKg": 544.85,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 5.49
+      }
+    ],
+    "totalForeignWeightKg": 5.49,
+    "totalWeightKg": 550.34,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "1HPFuOyk8bseF7jbILza",
+    "lotDate": "2026-08-07",
+    "recordDate": "2026-08-07",
+    "productName": "มะนาว",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1060",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 629.25
+      },
+      {
+        "grade": "B",
+        "weightKg": 464.04
+      },
+      {
+        "grade": "C",
+        "weightKg": 430.89
+      }
+    ],
+    "totalGradeWeightKg": 1524.18,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 43.02
+      }
+    ],
+    "totalForeignWeightKg": 43.02,
+    "totalWeightKg": 1567.2,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-08-07T08:00:00.000Z"
+  },
+  {
+    "recordId": "rtidEeyIoVi9KBTVKe2f",
+    "lotDate": "2026-08-07",
+    "recordDate": "2026-08-07",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 707.86
+      },
+      {
+        "grade": "B",
+        "weightKg": 461.23
+      },
+      {
+        "grade": "C",
+        "weightKg": 173.04
+      }
+    ],
+    "totalGradeWeightKg": 1342.13,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 11.5
+      }
+    ],
+    "totalForeignWeightKg": 11.5,
+    "totalWeightKg": 1353.63,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-08-07T08:00:00.000Z"
+  },
+  {
+    "recordId": "a7Yo0QlqOk4n62t1evhu",
+    "lotDate": "2026-08-05",
+    "recordDate": "2026-08-05",
+    "productName": "มะนาว",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 483.49
+      },
+      {
+        "grade": "B",
+        "weightKg": 277.54
+      },
+      {
+        "grade": "C",
+        "weightKg": 92.62
+      }
+    ],
+    "totalGradeWeightKg": 853.65,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 25.53
+      }
+    ],
+    "totalForeignWeightKg": 25.53,
+    "totalWeightKg": 879.18,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-05T08:00:00.000Z"
+  },
+  {
+    "recordId": "DwSg60eKVtdXPuJQXb01",
+    "lotDate": "2026-07-24",
+    "recordDate": "2026-07-24",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 413.89
+      },
+      {
+        "grade": "B",
+        "weightKg": 192.09
+      },
+      {
+        "grade": "C",
+        "weightKg": 246.71
+      }
+    ],
+    "totalGradeWeightKg": 852.69,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 3.58
+      }
+    ],
+    "totalForeignWeightKg": 3.58,
+    "totalWeightKg": 856.27,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.5,
+    "updatedAt": "2026-07-24T08:00:00.000Z"
+  },
+  {
+    "recordId": "gDfStRFGH0SxgLPYRf9Z",
+    "lotDate": "2026-07-22",
+    "recordDate": "2026-07-22",
+    "productName": "กล้วย",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1037",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 776.4
+      },
+      {
+        "grade": "B",
+        "weightKg": 406.75
+      },
+      {
+        "grade": "C",
+        "weightKg": 762.26
+      }
+    ],
+    "totalGradeWeightKg": 1945.41,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 30.84
+      }
+    ],
+    "totalForeignWeightKg": 30.84,
+    "totalWeightKg": 1976.25,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "recordId": "9iRScnbAkMfEPzrdMNSU",
+    "lotDate": "2026-07-22",
+    "recordDate": "2026-07-22",
+    "productName": "แตงโม",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1043",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 233.39
+      },
+      {
+        "grade": "B",
+        "weightKg": 106.5
+      },
+      {
+        "grade": "C",
+        "weightKg": 159.04
+      }
+    ],
+    "totalGradeWeightKg": 498.93,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 13.21
+      }
+    ],
+    "totalForeignWeightKg": 13.21,
+    "totalWeightKg": 512.14,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-07-22T08:00:00.000Z"
+  },
+  {
+    "recordId": "AxiQ5k4zYKYkQZvwgdmv",
+    "lotDate": "2026-07-21",
+    "recordDate": "2026-07-21",
+    "productName": "แตงโม",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 162.49
+      },
+      {
+        "grade": "B",
+        "weightKg": 106.64
+      },
+      {
+        "grade": "C",
+        "weightKg": 96.95
+      }
+    ],
+    "totalGradeWeightKg": 366.08,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 8.26
+      }
+    ],
+    "totalForeignWeightKg": 8.26,
+    "totalWeightKg": 374.34,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-07-21T08:00:00.000Z"
+  },
+  {
+    "recordId": "zb2lVbnatzEicjCEhkWk",
+    "lotDate": "2026-07-19",
+    "recordDate": "2026-07-19",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1014",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 409.06
+      },
+      {
+        "grade": "B",
+        "weightKg": 156.42
+      },
+      {
+        "grade": "C",
+        "weightKg": 161.98
+      }
+    ],
+    "totalGradeWeightKg": 727.46,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 14.97
+      }
+    ],
+    "totalForeignWeightKg": 14.97,
+    "totalWeightKg": 742.43,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-07-19T08:00:00.000Z"
+  },
+  {
+    "recordId": "BYg4LTjMeIOSWJZIh4Wo",
+    "lotDate": "2026-07-15",
+    "recordDate": "2026-07-15",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1055",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 828.06
+      },
+      {
+        "grade": "B",
+        "weightKg": 419.35
+      },
+      {
+        "grade": "C",
+        "weightKg": 746.73
+      }
+    ],
+    "totalGradeWeightKg": 1994.14,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 25.64
+      }
+    ],
+    "totalForeignWeightKg": 25.64,
+    "totalWeightKg": 2019.78,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-07-15T08:00:00.000Z"
+  },
+  {
+    "recordId": "bUJ1M1R99wHf3RY0zUTV",
+    "lotDate": "2026-07-13",
+    "recordDate": "2026-07-13",
+    "productName": "มะนาว",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1024",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 889.74
+      },
+      {
+        "grade": "B",
+        "weightKg": 679.95
+      },
+      {
+        "grade": "C",
+        "weightKg": 551.28
+      }
+    ],
+    "totalGradeWeightKg": 2120.97,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 22.41
+      }
+    ],
+    "totalForeignWeightKg": 22.41,
+    "totalWeightKg": 2143.38,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-07-13T08:00:00.000Z"
+  },
+  {
+    "recordId": "S2BWqvBHLJALmEikkpiU",
+    "lotDate": "2026-07-12",
+    "recordDate": "2026-07-12",
+    "productName": "มะนาว",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-1020",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 419.91
+      },
+      {
+        "grade": "B",
+        "weightKg": 215.23
+      },
+      {
+        "grade": "C",
+        "weightKg": 78.48
+      }
+    ],
+    "totalGradeWeightKg": 713.62,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 8.96
+      }
+    ],
+    "totalForeignWeightKg": 8.96,
+    "totalWeightKg": 722.58,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6.1,
+    "updatedAt": "2026-07-12T08:00:00.000Z"
+  },
+  {
+    "recordId": "W80xk5b3XlzCxhNbGo93",
+    "lotDate": "2026-07-08",
+    "recordDate": "2026-07-08",
+    "productName": "กล้วย",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 707.14
+      },
+      {
+        "grade": "B",
+        "weightKg": 370.54
+      },
+      {
+        "grade": "C",
+        "weightKg": 225.6
+      }
+    ],
+    "totalGradeWeightKg": 1303.28,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 6.05
+      }
+    ],
+    "totalForeignWeightKg": 6.05,
+    "totalWeightKg": 1309.33,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-07-08T08:00:00.000Z"
+  },
+  {
+    "recordId": "csXjBOP4p0C5eJUQTXxG",
+    "lotDate": "2026-07-06",
+    "recordDate": "2026-07-06",
+    "productName": "Tidbit",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 212.76
+      },
+      {
+        "grade": "B",
+        "weightKg": 135.66
+      },
+      {
+        "grade": "C",
+        "weightKg": 245.62
+      }
+    ],
+    "totalGradeWeightKg": 594.04,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 9.04
+      }
+    ],
+    "totalForeignWeightKg": 9.04,
+    "totalWeightKg": 603.08,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-07-06T08:00:00.000Z"
+  },
+  {
+    "recordId": "LC1vsRepcNruT5NlEzT7",
+    "lotDate": "2026-07-02",
+    "recordDate": "2026-07-02",
+    "productName": "Tidbit",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1005",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 286.74
+      },
+      {
+        "grade": "B",
+        "weightKg": 163.43
+      },
+      {
+        "grade": "C",
+        "weightKg": 126.66
+      }
+    ],
+    "totalGradeWeightKg": 576.83,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 14.44
+      }
+    ],
+    "totalForeignWeightKg": 14.44,
+    "totalWeightKg": 591.27,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 7.8,
+    "updatedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
+    "recordId": "ONoYhIpI8DqZr8Yc1PWx",
+    "lotDate": "2026-07-02",
+    "recordDate": "2026-07-02",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-1023",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 1032.61
+      },
+      {
+        "grade": "B",
+        "weightKg": 446.38
+      },
+      {
+        "grade": "C",
+        "weightKg": 362.9
+      }
+    ],
+    "totalGradeWeightKg": 1841.89,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 36.82
+      }
+    ],
+    "totalForeignWeightKg": 36.82,
+    "totalWeightKg": 1878.71,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
+    "recordId": "fnFpGGXevMzdStyMLFLX",
+    "lotDate": "2026-07-02",
+    "recordDate": "2026-07-02",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-1062",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 649.84
+      },
+      {
+        "grade": "B",
+        "weightKg": 505.29
+      },
+      {
+        "grade": "C",
+        "weightKg": 374.76
+      }
+    ],
+    "totalGradeWeightKg": 1529.89,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 3.5
+      }
+    ],
+    "totalForeignWeightKg": 3.5,
+    "totalWeightKg": 1533.39,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
+    "recordId": "HlUn7mWYCWTwk2Wmvech",
+    "lotDate": "2026-07-01",
+    "recordDate": "2026-07-01",
+    "productName": "ส้มเลือด",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 806.69
+      },
+      {
+        "grade": "B",
+        "weightKg": 352.51
+      },
+      {
+        "grade": "C",
+        "weightKg": 507.64
+      }
+    ],
+    "totalGradeWeightKg": 1666.84,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 43.98
+      }
+    ],
+    "totalForeignWeightKg": 43.98,
+    "totalWeightKg": 1710.82,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 7.8,
+    "updatedAt": "2026-07-01T08:00:00.000Z"
+  },
+  {
+    "recordId": "9P7I9ulQdqBzQYg6NRgh",
+    "lotDate": "2026-07-01",
+    "recordDate": "2026-07-01",
+    "productName": "Tidbit",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-1053",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 153.22
+      },
+      {
+        "grade": "B",
+        "weightKg": 140.8
+      },
+      {
+        "grade": "C",
+        "weightKg": 113.32
+      }
+    ],
+    "totalGradeWeightKg": 407.34,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 8.53
+      }
+    ],
+    "totalForeignWeightKg": 8.53,
+    "totalWeightKg": 415.87,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-07-01T08:00:00.000Z"
+  },
+  {
+    "recordId": "lOqbcOdzcbF4mZ7Ic4OP",
+    "lotDate": "2026-06-30",
+    "recordDate": "2026-06-30",
+    "productName": "แก้วมังกรแดง",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-1058",
+    "grades": [
+      {
+        "grade": "A",
+        "weightKg": 952.73
+      },
+      {
+        "grade": "B",
+        "weightKg": 579.06
+      },
+      {
+        "grade": "C",
+        "weightKg": 930.18
+      }
+    ],
+    "totalGradeWeightKg": 2461.97,
+    "foreignObjects": [
+      {
+        "type": "สิ่งแปลกปลอม",
+        "weightKg": 18.75
+      }
+    ],
+    "totalForeignWeightKg": 18.75,
+    "totalWeightKg": 2480.72,
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-06-30T08:00:00.000Z"
+  }
+]

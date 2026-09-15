@@ -1,0 +1,1350 @@
+[
+  {
+    "batchId": "qhhDzdvAxTbCX8J7dT2g",
+    "lotDate": "2026-09-11",
+    "productName": "Tidbit",
+    "inputWeightKg": 1169.84,
+    "outputWeightKg": 1086.31,
+    "yieldPercent": 92.86,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.6,
+    "updatedAt": "2026-09-11T06:46:00.000Z"
+  },
+  {
+    "batchId": "LhXfZQ5jGBFqORSnS1T1",
+    "lotDate": "2026-09-11",
+    "productName": "Tidbit",
+    "inputWeightKg": 800.13,
+    "outputWeightKg": 705.87,
+    "yieldPercent": 88.22,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 6.2,
+    "updatedAt": "2026-09-11T12:21:00.000Z"
+  },
+  {
+    "batchId": "Gbu2ZITem7u29W0GiSsE",
+    "lotDate": "2026-09-11",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 808.07,
+    "outputWeightKg": 610.25,
+    "yieldPercent": 75.52,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-09-11T10:17:00.000Z"
+  },
+  {
+    "batchId": "vrshCG3JdtC1oSP7W6uT",
+    "lotDate": "2026-09-11",
+    "productName": "มะนาว",
+    "inputWeightKg": 1918.03,
+    "outputWeightKg": 1551.49,
+    "yieldPercent": 80.89,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-09-11T01:33:00.000Z"
+  },
+  {
+    "batchId": "rtySXzeQfVKr1gtKsW5x",
+    "lotDate": "2026-09-10",
+    "productName": "แตงโม",
+    "inputWeightKg": 962.57,
+    "outputWeightKg": 562.43,
+    "yieldPercent": 58.43,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.5,
+    "updatedAt": "2026-09-10T07:40:00.000Z"
+  },
+  {
+    "batchId": "jcusMdA7FoKLVFjNzt7H",
+    "lotDate": "2026-09-10",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1375.48,
+    "outputWeightKg": 987.32,
+    "yieldPercent": 71.78,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-09-10T03:38:00.000Z"
+  },
+  {
+    "batchId": "VFSzyrrcUokSTxTx2iv5",
+    "lotDate": "2026-09-08",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 806.96,
+    "outputWeightKg": 550.75,
+    "yieldPercent": 68.25,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-09-08T10:36:00.000Z"
+  },
+  {
+    "batchId": "BkHx0wyqSKqWDJP7Bf3d",
+    "lotDate": "2026-09-08",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 2834.31,
+    "outputWeightKg": 2662.55,
+    "yieldPercent": 93.94,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 6.6,
+    "updatedAt": "2026-09-08T12:06:00.000Z"
+  },
+  {
+    "batchId": "jLLEA5AWKzZQPTlGP0yC",
+    "lotDate": "2026-09-07",
+    "productName": "กล้วย",
+    "inputWeightKg": 1890.57,
+    "outputWeightKg": 1637.99,
+    "yieldPercent": 86.64,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-07T05:22:00.000Z"
+  },
+  {
+    "batchId": "ZCWrdraRUty5fFk8VrfT",
+    "lotDate": "2026-09-07",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 669.4,
+    "outputWeightKg": 611.83,
+    "yieldPercent": 91.4,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-09-07T08:08:00.000Z"
+  },
+  {
+    "batchId": "Om6zLKkvdJxcGbdGLsh3",
+    "lotDate": "2026-09-07",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 1069.72,
+    "outputWeightKg": 722.6,
+    "yieldPercent": 67.55,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.1,
+    "updatedAt": "2026-09-07T03:01:00.000Z"
+  },
+  {
+    "batchId": "ty96HUUvi3BNInLGcc9R",
+    "lotDate": "2026-09-07",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1743.28,
+    "outputWeightKg": 1317.75,
+    "yieldPercent": 75.59,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-09-07T04:03:00.000Z"
+  },
+  {
+    "batchId": "m7oHEho4pg1fsXqcwDNM",
+    "lotDate": "2026-09-07",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1007.07,
+    "outputWeightKg": 752.48,
+    "yieldPercent": 74.72,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-09-07T12:12:00.000Z"
+  },
+  {
+    "batchId": "6f8bsxDVATBymttYYh6J",
+    "lotDate": "2026-09-06",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 3058.27,
+    "outputWeightKg": 2194,
+    "yieldPercent": 71.74,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-09-06T11:27:00.000Z"
+  },
+  {
+    "batchId": "FJKWl1f1Dd1lEMMzN3ow",
+    "lotDate": "2026-09-05",
+    "productName": "มะนาว",
+    "inputWeightKg": 1021.31,
+    "outputWeightKg": 821.85,
+    "yieldPercent": 80.47,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8.9,
+    "updatedAt": "2026-09-05T05:24:00.000Z"
+  },
+  {
+    "batchId": "11BEsue4t3Ca0UMEyl2o",
+    "lotDate": "2026-09-05",
+    "productName": "มะนาว",
+    "inputWeightKg": 2644.64,
+    "outputWeightKg": 2169.13,
+    "yieldPercent": 82.02,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-09-05T09:10:00.000Z"
+  },
+  {
+    "batchId": "ji2LJ6pth5KHTHJI5hVj",
+    "lotDate": "2026-09-04",
+    "productName": "มะนาว",
+    "inputWeightKg": 2213.26,
+    "outputWeightKg": 1796.72,
+    "yieldPercent": 81.18,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-09-04T07:42:00.000Z"
+  },
+  {
+    "batchId": "I0aGgjoQDEhWASC5XDOs",
+    "lotDate": "2026-09-02",
+    "productName": "มะนาว",
+    "inputWeightKg": 2444.97,
+    "outputWeightKg": 1874.07,
+    "yieldPercent": 76.65,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-09-02T04:06:00.000Z"
+  },
+  {
+    "batchId": "lSYJmT4gu854delHU5vS",
+    "lotDate": "2026-09-02",
+    "productName": "แตงโม",
+    "inputWeightKg": 980.26,
+    "outputWeightKg": 556.1,
+    "yieldPercent": 56.73,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.3,
+    "updatedAt": "2026-09-02T12:35:00.000Z"
+  },
+  {
+    "batchId": "Dqyu1kksOwR6GC3Uprui",
+    "lotDate": "2026-08-31",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 791.54,
+    "outputWeightKg": 635.76,
+    "yieldPercent": 80.32,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-08-31T03:15:00.000Z"
+  },
+  {
+    "batchId": "fFTVtlxsycKKS3cS7JFM",
+    "lotDate": "2026-08-31",
+    "productName": "กล้วย",
+    "inputWeightKg": 2105.32,
+    "outputWeightKg": 1787.63,
+    "yieldPercent": 84.91,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-08-31T09:27:00.000Z"
+  },
+  {
+    "batchId": "5wWXL7jPgBwuipOKwf5w",
+    "lotDate": "2026-08-31",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 644.42,
+    "outputWeightKg": 432.79,
+    "yieldPercent": 67.16,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-31T11:24:00.000Z"
+  },
+  {
+    "batchId": "WJH7uxWZ3PZsut8xUmuc",
+    "lotDate": "2026-08-29",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 730.35,
+    "outputWeightKg": 479.99,
+    "yieldPercent": 65.72,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-08-29T12:15:00.000Z"
+  },
+  {
+    "batchId": "yo82JMVFAGQ6QzHqwoKr",
+    "lotDate": "2026-08-28",
+    "productName": "Tidbit",
+    "inputWeightKg": 907.72,
+    "outputWeightKg": 794.35,
+    "yieldPercent": 87.51,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-08-28T02:50:00.000Z"
+  },
+  {
+    "batchId": "jdt3FFV0Ad5EU1AokVWT",
+    "lotDate": "2026-08-27",
+    "productName": "แก้วมังกรขาว",
+    "inputWeightKg": 649.49,
+    "outputWeightKg": 450.36,
+    "yieldPercent": 69.34,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-08-27T01:27:00.000Z"
+  },
+  {
+    "batchId": "E38I2dNs2I9LkuTiXS9J",
+    "lotDate": "2026-08-26",
+    "productName": "แก้วมังกรขาว",
+    "inputWeightKg": 868.97,
+    "outputWeightKg": 667.37,
+    "yieldPercent": 76.8,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-08-26T02:04:00.000Z"
+  },
+  {
+    "batchId": "8xyMcOvk2FqIMidyDVW5",
+    "lotDate": "2026-08-26",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 3197.22,
+    "outputWeightKg": 2869.82,
+    "yieldPercent": 89.76,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-08-26T11:55:00.000Z"
+  },
+  {
+    "batchId": "kSzLDb3LulUFREApqKmX",
+    "lotDate": "2026-08-26",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 3304.71,
+    "outputWeightKg": 2458.04,
+    "yieldPercent": 74.38,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-08-26T10:10:00.000Z"
+  },
+  {
+    "batchId": "WuHF53C1FeQGM13tJNJp",
+    "lotDate": "2026-08-25",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 1679.32,
+    "outputWeightKg": 1229.6,
+    "yieldPercent": 73.22,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-08-25T06:25:00.000Z"
+  },
+  {
+    "batchId": "yGy3Ke6prvUcwVYj4Eh4",
+    "lotDate": "2026-08-25",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 905.77,
+    "outputWeightKg": 557.23,
+    "yieldPercent": 61.52,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6,
+    "updatedAt": "2026-08-25T08:21:00.000Z"
+  },
+  {
+    "batchId": "8Cij6BKOBaxqvM5rbAdr",
+    "lotDate": "2026-08-24",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 3709.04,
+    "outputWeightKg": 3395.63,
+    "yieldPercent": 91.55,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 19
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-24T01:20:00.000Z"
+  },
+  {
+    "batchId": "wfSumpBfmOEb0hr48kIO",
+    "lotDate": "2026-08-23",
+    "productName": "Tidbit",
+    "inputWeightKg": 564.37,
+    "outputWeightKg": 480,
+    "yieldPercent": 85.05,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-23T06:48:00.000Z"
+  },
+  {
+    "batchId": "MiJqFXv5W3Km2S0c39P4",
+    "lotDate": "2026-08-20",
+    "productName": "แตงโม",
+    "inputWeightKg": 335.94,
+    "outputWeightKg": 208.79,
+    "yieldPercent": 62.15,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-08-20T02:04:00.000Z"
+  },
+  {
+    "batchId": "BaBYkVStrVWD1InIoYsQ",
+    "lotDate": "2026-08-19",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 1251.42,
+    "outputWeightKg": 1157.69,
+    "yieldPercent": 92.51,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      }
+    ],
+    "totalWorkingHours": 6.9,
+    "updatedAt": "2026-08-19T10:09:00.000Z"
+  },
+  {
+    "batchId": "26zbqLWmTZl9dBjpzQaR",
+    "lotDate": "2026-08-18",
+    "productName": "มะนาว",
+    "inputWeightKg": 1158.29,
+    "outputWeightKg": 886.32,
+    "yieldPercent": 76.52,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-08-18T08:24:00.000Z"
+  },
+  {
+    "batchId": "ebAjREaK9WbZYxA50K9T",
+    "lotDate": "2026-08-14",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 2437.88,
+    "outputWeightKg": 2105.11,
+    "yieldPercent": 86.35,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 7.1,
+    "updatedAt": "2026-08-14T07:40:00.000Z"
+  },
+  {
+    "batchId": "8qARp1RWMOiwCkEgCfFa",
+    "lotDate": "2026-08-13",
+    "productName": "แตงโม",
+    "inputWeightKg": 840.65,
+    "outputWeightKg": 470.76,
+    "yieldPercent": 56,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-08-13T02:01:00.000Z"
+  },
+  {
+    "batchId": "k43hyLJD7dGuRgdNXdLS",
+    "lotDate": "2026-08-10",
+    "productName": "กล้วย",
+    "inputWeightKg": 2348.8,
+    "outputWeightKg": 1999.53,
+    "yieldPercent": 85.13,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-08-10T10:52:00.000Z"
+  },
+  {
+    "batchId": "QNIlzYlqzYyuIKJac8XB",
+    "lotDate": "2026-08-10",
+    "productName": "แก้วมังกรขาว",
+    "inputWeightKg": 853.52,
+    "outputWeightKg": 639.88,
+    "yieldPercent": 74.97,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-08-10T02:41:00.000Z"
+  },
+  {
+    "batchId": "77BcR2kjIoAD1GuJBtg6",
+    "lotDate": "2026-08-10",
+    "productName": "กล้วย",
+    "inputWeightKg": 2179.94,
+    "outputWeightKg": 1837.91,
+    "yieldPercent": 84.31,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.2,
+    "updatedAt": "2026-08-10T12:13:00.000Z"
+  },
+  {
+    "batchId": "vrN9G80OK6ZReOA7wHrj",
+    "lotDate": "2026-08-08",
+    "productName": "มะนาว",
+    "inputWeightKg": 2005.16,
+    "outputWeightKg": 1701.98,
+    "yieldPercent": 84.88,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 6.6,
+    "updatedAt": "2026-08-08T03:15:00.000Z"
+  },
+  {
+    "batchId": "Ycu067t9HR2VF1rmdCWS",
+    "lotDate": "2026-08-07",
+    "productName": "Tidbit",
+    "inputWeightKg": 1722.03,
+    "outputWeightKg": 1497.65,
+    "yieldPercent": 86.97,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-07T03:49:00.000Z"
+  },
+  {
+    "batchId": "9SvTyFEuPHFRtGZUAUq2",
+    "lotDate": "2026-08-07",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 408.58,
+    "outputWeightKg": 298.55,
+    "yieldPercent": 73.07,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 7.1,
+    "updatedAt": "2026-08-07T04:02:00.000Z"
+  },
+  {
+    "batchId": "ZnD0PKmEKLqnNDs1qBvR",
+    "lotDate": "2026-08-06",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 3346.34,
+    "outputWeightKg": 2272.83,
+    "yieldPercent": 67.92,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 16
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-08-06T06:37:00.000Z"
+  },
+  {
+    "batchId": "z5XIFimZOyzoIrT027MS",
+    "lotDate": "2026-08-06",
+    "productName": "แตงโม",
+    "inputWeightKg": 672.2,
+    "outputWeightKg": 411.86,
+    "yieldPercent": 61.27,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.1,
+    "updatedAt": "2026-08-06T06:45:00.000Z"
+  },
+  {
+    "batchId": "alLgu1BUfIIlb40NCeLB",
+    "lotDate": "2026-08-06",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 2166.34,
+    "outputWeightKg": 1470.51,
+    "yieldPercent": 67.88,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 8.8,
+    "updatedAt": "2026-08-06T07:42:00.000Z"
+  },
+  {
+    "batchId": "C0OW0Hxfn3u42WM6qziR",
+    "lotDate": "2026-08-05",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 660.67,
+    "outputWeightKg": 603.06,
+    "yieldPercent": 91.28,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-08-05T09:57:00.000Z"
+  },
+  {
+    "batchId": "fL2k1tq2j9h9k0HsjZO8",
+    "lotDate": "2026-08-05",
+    "productName": "แตงโม",
+    "inputWeightKg": 812.98,
+    "outputWeightKg": 533.07,
+    "yieldPercent": 65.57,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 7.1,
+    "updatedAt": "2026-08-05T02:19:00.000Z"
+  },
+  {
+    "batchId": "NYiBbqf6yqtcNiKOYf1P",
+    "lotDate": "2026-08-03",
+    "productName": "Tidbit",
+    "inputWeightKg": 532.62,
+    "outputWeightKg": 462.21,
+    "yieldPercent": 86.78,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-08-03T08:19:00.000Z"
+  },
+  {
+    "batchId": "KTczs5uNu9paVWkRcAHq",
+    "lotDate": "2026-08-02",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 733.92,
+    "outputWeightKg": 535.76,
+    "yieldPercent": 73,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      }
+    ],
+    "totalWorkingHours": 8.3,
+    "updatedAt": "2026-08-02T06:48:00.000Z"
+  },
+  {
+    "batchId": "6VMLFnCH7lDJh0gMfg1Y",
+    "lotDate": "2026-07-31",
+    "productName": "แตงโม",
+    "inputWeightKg": 402.79,
+    "outputWeightKg": 248.24,
+    "yieldPercent": 61.63,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-07-31T11:48:00.000Z"
+  },
+  {
+    "batchId": "aBwy1fxsD0yNprb4YC7H",
+    "lotDate": "2026-07-29",
+    "productName": "Tidbit",
+    "inputWeightKg": 450.63,
+    "outputWeightKg": 427.65,
+    "yieldPercent": 94.9,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 8.3,
+    "updatedAt": "2026-07-29T06:07:00.000Z"
+  },
+  {
+    "batchId": "WVo9K5hp9cU9XKLClP0E",
+    "lotDate": "2026-07-29",
+    "productName": "แก้วมังกรแดง",
+    "inputWeightKg": 3472.69,
+    "outputWeightKg": 2455.89,
+    "yieldPercent": 70.72,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-07-29T08:54:00.000Z"
+  },
+  {
+    "batchId": "uAMT5uv6QvLoGyv20bTq",
+    "lotDate": "2026-07-26",
+    "productName": "มะนาว",
+    "inputWeightKg": 2787.7,
+    "outputWeightKg": 2370.66,
+    "yieldPercent": 85.04,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-07-26T05:42:00.000Z"
+  },
+  {
+    "batchId": "mTtBsJVpWftVodkFqEwL",
+    "lotDate": "2026-07-24",
+    "productName": "Tidbit",
+    "inputWeightKg": 1329.45,
+    "outputWeightKg": 1198.37,
+    "yieldPercent": 90.14,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 6.6,
+    "updatedAt": "2026-07-24T09:06:00.000Z"
+  },
+  {
+    "batchId": "fOoRE7Uawc4ZKbfzNfqK",
+    "lotDate": "2026-07-22",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 691.9,
+    "outputWeightKg": 589.57,
+    "yieldPercent": 85.21,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 7.2,
+    "updatedAt": "2026-07-22T04:35:00.000Z"
+  },
+  {
+    "batchId": "mLiULbnfba5lFivsnKXh",
+    "lotDate": "2026-07-21",
+    "productName": "แตงโม",
+    "inputWeightKg": 664.11,
+    "outputWeightKg": 388.17,
+    "yieldPercent": 58.45,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-07-21T09:15:00.000Z"
+  },
+  {
+    "batchId": "iPfy95UpWgLRTODwcOnE",
+    "lotDate": "2026-07-20",
+    "productName": "กล้วย",
+    "inputWeightKg": 2509,
+    "outputWeightKg": 2010.46,
+    "yieldPercent": 80.13,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-07-20T10:47:00.000Z"
+  },
+  {
+    "batchId": "6UQzIGwPizNuGdWb2Q8d",
+    "lotDate": "2026-07-19",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1722.81,
+    "outputWeightKg": 1220.96,
+    "yieldPercent": 70.87,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 6,
+    "updatedAt": "2026-07-19T07:48:00.000Z"
+  },
+  {
+    "batchId": "TQsM35iNEDN3eI9MdPfw",
+    "lotDate": "2026-07-18",
+    "productName": "กล้วย",
+    "inputWeightKg": 1352.5,
+    "outputWeightKg": 1122.3,
+    "yieldPercent": 82.98,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 17
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 6.2,
+    "updatedAt": "2026-07-18T10:20:00.000Z"
+  },
+  {
+    "batchId": "sTmVtdODVKLfc2P7XQQz",
+    "lotDate": "2026-07-17",
+    "productName": "สับปะรดปัตตาเวีย",
+    "inputWeightKg": 719.44,
+    "outputWeightKg": 458.71,
+    "yieldPercent": 63.76,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-07-17T02:11:00.000Z"
+  },
+  {
+    "batchId": "UZ1gCkvp2OE7wmV37a6V",
+    "lotDate": "2026-07-17",
+    "productName": "Tidbit",
+    "inputWeightKg": 1599.9,
+    "outputWeightKg": 1476.23,
+    "yieldPercent": 92.27,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-07-17T07:27:00.000Z"
+  },
+  {
+    "batchId": "hZuwHE7MIAEMkOy9e3x2",
+    "lotDate": "2026-07-16",
+    "productName": "ส้มเลือด",
+    "inputWeightKg": 2231.21,
+    "outputWeightKg": 2030.18,
+    "yieldPercent": 90.99,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-07-16T03:19:00.000Z"
+  },
+  {
+    "batchId": "uOqCqYJvikbfQE66HYaA",
+    "lotDate": "2026-07-15",
+    "productName": "กล้วย",
+    "inputWeightKg": 519.8,
+    "outputWeightKg": 450.93,
+    "yieldPercent": 86.75,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-07-15T03:09:00.000Z"
+  },
+  {
+    "batchId": "JEV6eHVYXfvUUEeGOM4V",
+    "lotDate": "2026-07-15",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1327.87,
+    "outputWeightKg": 1060.57,
+    "yieldPercent": 79.87,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-07-15T05:52:00.000Z"
+  },
+  {
+    "batchId": "qdHzI52Ntu7XDDRFMJ1A",
+    "lotDate": "2026-07-12",
+    "productName": "กล้วย",
+    "inputWeightKg": 1439.4,
+    "outputWeightKg": 1174.41,
+    "yieldPercent": 81.59,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 18
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-07-12T09:41:00.000Z"
+  },
+  {
+    "batchId": "pYED3gLpLfkfzJFWveyZ",
+    "lotDate": "2026-07-09",
+    "productName": "มะม่วงโชคอนันต์",
+    "inputWeightKg": 1542.05,
+    "outputWeightKg": 1106.27,
+    "yieldPercent": 71.74,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      },
+      {
+        "type": "monthly",
+        "count": 3
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-07-09T01:19:00.000Z"
+  },
+  {
+    "batchId": "b9KijxmuShbww1oUqWge",
+    "lotDate": "2026-07-07",
+    "productName": "Tidbit",
+    "inputWeightKg": 1227.62,
+    "outputWeightKg": 1111.49,
+    "yieldPercent": 90.54,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.9,
+    "updatedAt": "2026-07-07T10:31:00.000Z"
+  },
+  {
+    "batchId": "xMwS9uFC2NHISCcTvpUU",
+    "lotDate": "2026-07-04",
+    "productName": "แตงโม",
+    "inputWeightKg": 648.61,
+    "outputWeightKg": 361.99,
+    "yieldPercent": 55.81,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      },
+      {
+        "type": "monthly",
+        "count": 1
+      }
+    ],
+    "totalWorkingHours": 8.4,
+    "updatedAt": "2026-07-04T03:55:00.000Z"
+  },
+  {
+    "batchId": "IkLxWzGtGVhxEXT37a8Z",
+    "lotDate": "2026-06-29",
+    "productName": "Tidbit",
+    "inputWeightKg": 823.84,
+    "outputWeightKg": 757.69,
+    "yieldPercent": 91.97,
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      },
+      {
+        "type": "monthly",
+        "count": 2
+      }
+    ],
+    "totalWorkingHours": 6.2,
+    "updatedAt": "2026-06-29T01:27:00.000Z"
+  }
+]

@@ -6,6 +6,9 @@ import { auth } from "./auth/routes.js";
 import { office } from "./routes/office.js";
 import { factory } from "./routes/factory.js";
 import { dryRoom } from "./routes/dryRoom.js";
+import { freshRoom } from "./routes/freshRoom.js";
+import { sortingRoom } from "./routes/sortingRoom.js";
+import { packingRoom } from "./routes/packingRoom.js";
 
 const app = express();
 
@@ -26,6 +29,9 @@ app.use("/api/auth", auth);
 app.use("/api/office", office);       // audit | admin | office
 app.use("/api/factory", factory);     // audit | admin | factory
 app.use("/api/dry-room", dryRoom);    // audit | admin | factory
+app.use("/api/fresh-room", freshRoom);      // audit | admin | factory
+app.use("/api/sorting-room", sortingRoom);  // audit | admin | factory
+app.use("/api/packing-room", packingRoom);  // audit | admin | factory
 
 // Central error handler
 app.use((err, _req, res, _next) => {

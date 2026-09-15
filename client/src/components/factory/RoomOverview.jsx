@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { getFactoryRoom } from "../../api.js";
 import { Kpi, Panel, fmtNum, fmtTHB } from "../ui.jsx";
 
-export default function RoomOverview({ room, label, range, showDryingLink }) {
+export default function RoomOverview({ room, label, range, detailPath }) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function RoomOverview({ room, label, range, showDryingLink }) {
     <>
       <Panel
         title={`${label} room — summary by product`}
-        right={showDryingLink && <Link className="btn-ghost" to="/factory/dry-room">Drying room detail →</Link>}
+        right={detailPath && <Link className="btn-ghost" to={detailPath}>{label} room detail →</Link>}
       >
         {data.extremes.highest && (
           <div className="kpi-grid" style={{ marginBottom: 8 }}>

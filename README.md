@@ -14,19 +14,22 @@ Dashboard/
 │     ├─ pages/
 │     │  ├─ Login.jsx
 │     │  ├─ OfficePage.jsx      sales KPI vs target, top sales/spenders, orders
-│     │  ├─ FactoryPage.jsx     per-room cost + yield, fresh-room detail
-│     │  └─ DryRoomPage.jsx     dry-room lot detail (the original dashboard)
+│     │  ├─ FactoryPage.jsx     per-room cost + yield, room tabs (each links to its detail page)
+│     │  ├─ DryRoomPage.jsx     dry-room lot detail
+│     │  ├─ FreshRoomPage.jsx   fresh-room lot detail
+│     │  ├─ SortingRoomPage.jsx sorting-room lot detail (grade composition, foreign objects)
+│     │  └─ PackingRoomPage.jsx packing-room lot detail (bags/boxes, destination)
 │     └─ api.js                 fetch wrapper, attaches JWT
 ├─ server/
 │  ├─ .env / .env.example
 │  ├─ scripts/                  seed-users.js, generate-mock*.js
 │  └─ src/
-│     ├─ index.js               mounts /api/auth, /api/office, /api/factory, /api/dry-room
+│     ├─ index.js               mounts /api/auth, /api/office, /api/factory, /api/dry-room, /api/fresh-room, /api/sorting-room, /api/packing-room
 │     ├─ auth/                   roles.js, users.js, middleware.js, routes.js
 │     ├─ data/store.js          reads/writes editable config (targets, labor rates)
-│     ├─ routes/                office.js, factory.js, dryRoom.js
-│     ├─ externalApi.js         dry-room API + mock toggle
-│     └─ mock/                   batches, salesOrders, factoryRooms, config (JSON fixtures)
+│     ├─ routes/                office.js, factory.js, dryRoom.js, freshRoom.js, sortingRoom.js, packingRoom.js
+│     ├─ api/                   factoryApi.js (dry-room), freshRoomApi.js, sortRoomApi.js (sorting + packing) — each mock/real toggle
+│     └─ mock/                   batches, freshRoomBatches, sortingRecords, packingRecords, salesOrders, factoryRooms, config (JSON fixtures)
 └─ package.json                 workspace root
 ```
 
@@ -80,6 +83,9 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 | `GET /api/factory/rooms/:room?from=&to=` | factory | one room: `byProduct` summary (RM in, output, weight-weighted yield), `extremes` (highest/lowest-yield product), `totals`, plus daily `records` |
 | `PUT /api/factory/labor-rates` | admin | `{ fresh, sorting, drying, packing }` |
 | `GET /api/dry-room/dashboard` | factory | dry-room lot summary + charts |
+| `GET /api/fresh-room/dashboard?product=&from=&to=` | factory | fresh-room lot summary (input/output/yield trend, by-product) + charts |
+| `GET /api/sorting-room/dashboard?product=&from=&to=` | factory | sorting-room lot summary (grade composition, foreign-object %, by-product) + charts |
+| `GET /api/packing-room/dashboard?product=&destination=&from=&to=` | factory | packing-room lot summary (bags/boxes/weight, by destination, by-product) + charts |
 
 "office" role = audit + admin + office. "factory" role = audit + admin + factory.
 
@@ -88,15 +94,18 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 | Fixture | Generator | Shape |
 |---|---|---|
 | `mock/batches.json` | `generate-mock.js` | dry-room lots (matches the real API) |
+| `mock/freshRoomBatches.json` | `generate-mock-fresh-room.js` | fresh-room lots (matches the real API) |
+| `mock/sortingRecords.json` | `generate-mock-sort-room.js` | sorting-room records (matches the real API) |
+| `mock/packingRecords.json` | `generate-mock-sort-room.js` | packing-room records (matches the real API) |
 | `mock/salesOrders.json` | `generate-mock-office.js` | `{ orderId, orderDate, market, country, customerName, salesRep, currency, amountTHB, status }` |
-| `mock/factoryRooms.json` | `generate-mock-factory.js` | `{ date, room, productName, inputWeightKg, outputWeightKg, yieldPercent, employees, workingHours }` |
+| `mock/factoryRooms.json` | `generate-mock-factory.js` | `{ date, room, productName, inputWeightKg, outputWeightKg, yieldPercent, employees, workingHours }` (used only by the Factory overview tabs) |
 | `mock/config.json` | (hand-edited / admin UI) | `monthlySalesTargets`, `laborRatePerHour` |
 
-`npm --workspace server run mock:gen` runs all three generators.
+`npm --workspace server run mock:gen` runs all generators.
 
 ## Wiring real APIs later
 
-1. Dry-room: set `USE_MOCK_FACTORY=false` + `FACTORY_API_BASE_URL` + `FACTORY_API_KEY` in `server/.env`.
+1. Dry-room / fresh-room / sorting-room / packing-room: set `USE_MOCK_FACTORY=false` + `FACTORY_API_BASE_URL` + `FACTORY_API_KEY` in `server/.env` — all four share the same upstream Factory API and toggle together.
 2. Sales orders: set `USE_MOCK_OFFICE=false` + `OFFICE_API_BASE_URL` + `OFFICE_API_KEY`, then call
    `callOfficeApi()` from `server/src/api/officeApi.js` inside `server/src/routes/office.js`
    (replace `loadOrders()`), keeping the same order shape.

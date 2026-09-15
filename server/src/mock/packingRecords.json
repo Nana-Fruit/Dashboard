@@ -1,0 +1,2862 @@
+[
+  {
+    "recordId": "xQ5WkBrPmEuCRz5AqvbT",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-100",
+    "customer": "Makro",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2000",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-10",
+    "expDate": "2026-11-30",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 163,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 163,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 163,
+    "totalBoxesCount": 8,
+    "totalWeightKg": 16.3,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-09-10T09:30:00.000Z"
+  },
+  {
+    "recordId": "9cCcE3ARzr7Mxd5UgTfp",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-103",
+    "customer": "Export - Korea",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-10",
+    "expDate": "2026-11-17",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 391,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 391,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 391,
+    "totalBoxesCount": 20,
+    "totalWeightKg": 195.5,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-09-10T09:30:00.000Z"
+  },
+  {
+    "recordId": "lu72qJrFc6zLX8LWuahE",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "มะนาว",
+    "productId": "PRD-105",
+    "customer": "Export - Korea",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-10",
+    "expDate": "2026-11-29",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 47,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 47,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 47,
+    "totalBoxesCount": 2,
+    "totalWeightKg": 4.7,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-10T09:30:00.000Z"
+  },
+  {
+    "recordId": "MN8f9gFO3NvYkZWDvhdm",
+    "lotDate": "2026-09-10",
+    "recordDate": "2026-09-10",
+    "productName": "Tidbit",
+    "productId": "PRD-100",
+    "customer": "Tesco Lotus",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2056",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-10",
+    "expDate": "2026-12-09",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 189,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 189,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 189,
+    "totalBoxesCount": 19,
+    "totalWeightKg": 18.9,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 7.5,
+    "updatedAt": "2026-09-10T09:30:00.000Z"
+  },
+  {
+    "recordId": "Nv3MdfCv3o7Ho4vBdtHu",
+    "lotDate": "2026-09-09",
+    "recordDate": "2026-09-09",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-102",
+    "customer": "Makro",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-09",
+    "expDate": "2026-12-13",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 227,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 227,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 227,
+    "totalBoxesCount": 23,
+    "totalWeightKg": 227,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-09-09T09:30:00.000Z"
+  },
+  {
+    "recordId": "Sk9I60b4jn9FTQF9clut",
+    "lotDate": "2026-09-08",
+    "recordDate": "2026-09-08",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-104",
+    "customer": "Makro",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-08",
+    "expDate": "2026-12-10",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 305,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 305,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 305,
+    "totalBoxesCount": 13,
+    "totalWeightKg": 61,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-09-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "UPkcYO5zjxDvHWhb087x",
+    "lotDate": "2026-09-08",
+    "recordDate": "2026-09-08",
+    "productName": "มะนาว",
+    "productId": "PRD-103",
+    "customer": "Big C",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-2027",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-08",
+    "expDate": "2026-12-20",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 247,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 247,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 247,
+    "totalBoxesCount": 25,
+    "totalWeightKg": 49.4,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-09-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "blNxwm6ptUBBTZNwIfhw",
+    "lotDate": "2026-09-07",
+    "recordDate": "2026-09-07",
+    "productName": "มะนาว",
+    "productId": "PRD-102",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2010",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-07",
+    "expDate": "2026-11-13",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 72,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 72,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 72,
+    "totalBoxesCount": 4,
+    "totalWeightKg": 36,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-09-07T09:30:00.000Z"
+  },
+  {
+    "recordId": "3sR9fpFe4aNiQQXgguA6",
+    "lotDate": "2026-09-05",
+    "recordDate": "2026-09-05",
+    "productName": "Tidbit",
+    "productId": "PRD-100",
+    "customer": "7-Eleven DC",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2032",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-05",
+    "expDate": "2026-11-15",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 37,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 37,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 37,
+    "totalBoxesCount": 2,
+    "totalWeightKg": 3.7,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 6.1,
+    "updatedAt": "2026-09-05T09:30:00.000Z"
+  },
+  {
+    "recordId": "T0hdo1bAstA8qo9sx67N",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "มะนาว",
+    "productId": "PRD-100",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-04",
+    "expDate": "2026-11-30",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 324,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 324,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 324,
+    "totalBoxesCount": 32,
+    "totalWeightKg": 162,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.6,
+    "updatedAt": "2026-09-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "kz2eYPyW91jzcu75oQ5k",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "มะนาว",
+    "productId": "PRD-101",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-04",
+    "expDate": "2026-12-17",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 338,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 338,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 338,
+    "totalBoxesCount": 14,
+    "totalWeightKg": 33.8,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 7.4,
+    "updatedAt": "2026-09-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "q4YsBU4QIp0ZMTxhzkW2",
+    "lotDate": "2026-09-04",
+    "recordDate": "2026-09-04",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-102",
+    "customer": "Export - Korea",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-04",
+    "expDate": "2026-12-31",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 142,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 142,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 142,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 142,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-09-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "6SPNjbHztQjidAIwzvyy",
+    "lotDate": "2026-09-03",
+    "recordDate": "2026-09-03",
+    "productName": "มะนาว",
+    "productId": "PRD-100",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2016",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-09-03",
+    "expDate": "2026-11-23",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 150,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 150,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 150,
+    "totalBoxesCount": 15,
+    "totalWeightKg": 30,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-09-03T09:30:00.000Z"
+  },
+  {
+    "recordId": "wMtYTAn2o5PQc3dJtefv",
+    "lotDate": "2026-09-03",
+    "recordDate": "2026-09-03",
+    "productName": "มะนาว",
+    "productId": "PRD-106",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2030",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-09-03",
+    "expDate": "2026-12-31",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 103,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 103,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 103,
+    "totalBoxesCount": 5,
+    "totalWeightKg": 51.5,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6,
+    "updatedAt": "2026-09-03T09:30:00.000Z"
+  },
+  {
+    "recordId": "2kd6BVMSK5tfKBzIJD8A",
+    "lotDate": "2026-09-01",
+    "recordDate": "2026-09-01",
+    "productName": "มะนาว",
+    "productId": "PRD-100",
+    "customer": "Big C",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-09-01",
+    "expDate": "2026-11-14",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 399,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 399,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 399,
+    "totalBoxesCount": 20,
+    "totalWeightKg": 199.5,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6.8,
+    "updatedAt": "2026-09-01T09:30:00.000Z"
+  },
+  {
+    "recordId": "2JL354QTNZtFYgJZh3bF",
+    "lotDate": "2026-09-01",
+    "recordDate": "2026-09-01",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-101",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2033",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-09-01",
+    "expDate": "2026-11-21",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 287,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 287,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 287,
+    "totalBoxesCount": 29,
+    "totalWeightKg": 28.7,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.6,
+    "updatedAt": "2026-09-01T09:30:00.000Z"
+  },
+  {
+    "recordId": "aJ6awm8Zd6Z19ZLwm2wv",
+    "lotDate": "2026-08-30",
+    "recordDate": "2026-08-30",
+    "productName": "มะนาว",
+    "productId": "PRD-103",
+    "customer": "Makro",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2051",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-30",
+    "expDate": "2026-10-31",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 132,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 132,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 132,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 132,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 7.4,
+    "updatedAt": "2026-08-30T09:30:00.000Z"
+  },
+  {
+    "recordId": "TmcyrCDfQroFVtJGfQEj",
+    "lotDate": "2026-08-27",
+    "recordDate": "2026-08-27",
+    "productName": "แตงโม",
+    "productId": "PRD-107",
+    "customer": "7-Eleven DC",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-27",
+    "expDate": "2026-12-21",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 103,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 103,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 103,
+    "totalBoxesCount": 5,
+    "totalWeightKg": 10.3,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 6,
+    "updatedAt": "2026-08-27T09:30:00.000Z"
+  },
+  {
+    "recordId": "5rydKHeUjkUv8KihAxWm",
+    "lotDate": "2026-08-26",
+    "recordDate": "2026-08-26",
+    "productName": "กล้วย",
+    "productId": "PRD-105",
+    "customer": "Tesco Lotus",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2037",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-08-26",
+    "expDate": "2026-12-19",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 345,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 345,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 345,
+    "totalBoxesCount": 35,
+    "totalWeightKg": 345,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-08-26T09:30:00.000Z"
+  },
+  {
+    "recordId": "YDIrz06IYQnJLePuHBFc",
+    "lotDate": "2026-08-25",
+    "recordDate": "2026-08-25",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-102",
+    "customer": "Export - Korea",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2002",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-25",
+    "expDate": "2026-11-04",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 337,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 337,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 337,
+    "totalBoxesCount": 17,
+    "totalWeightKg": 33.7,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 7.8,
+    "updatedAt": "2026-08-25T09:30:00.000Z"
+  },
+  {
+    "recordId": "zpC0vhb9NEovXfilEL4r",
+    "lotDate": "2026-08-23",
+    "recordDate": "2026-08-23",
+    "productName": "Tidbit",
+    "productId": "PRD-102",
+    "customer": "Export - Japan",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-23",
+    "expDate": "2026-11-07",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 110,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 110,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 110,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 55,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-08-23T09:30:00.000Z"
+  },
+  {
+    "recordId": "9l2NS3CCggoKfihrz0Do",
+    "lotDate": "2026-08-19",
+    "recordDate": "2026-08-19",
+    "productName": "ส้มเลือด",
+    "productId": "PRD-101",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-08-19",
+    "expDate": "2026-12-03",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 134,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 134,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 134,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 67,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-08-19T09:30:00.000Z"
+  },
+  {
+    "recordId": "9vz1K6LkmMYIvTV5qbB8",
+    "lotDate": "2026-08-18",
+    "recordDate": "2026-08-18",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-104",
+    "customer": "7-Eleven DC",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-18",
+    "expDate": "2026-12-04",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 40,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 40,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 40,
+    "totalBoxesCount": 2,
+    "totalWeightKg": 20,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 7.3,
+    "updatedAt": "2026-08-18T09:30:00.000Z"
+  },
+  {
+    "recordId": "qwvAk9mJOVpBDkA0ctwk",
+    "lotDate": "2026-08-18",
+    "recordDate": "2026-08-18",
+    "productName": "Tidbit",
+    "productId": "PRD-104",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-18",
+    "expDate": "2026-10-24",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 96,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 96,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 96,
+    "totalBoxesCount": 5,
+    "totalWeightKg": 19.2,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-08-18T09:30:00.000Z"
+  },
+  {
+    "recordId": "Ixb7HCSWirpA9kQMtyU8",
+    "lotDate": "2026-08-18",
+    "recordDate": "2026-08-18",
+    "productName": "แตงโม",
+    "productId": "PRD-106",
+    "customer": "Export - Korea",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-18",
+    "expDate": "2026-10-31",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 135,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 135,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 135,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 135,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 9
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-08-18T09:30:00.000Z"
+  },
+  {
+    "recordId": "Ua6QBz00sGqEeSsoxce9",
+    "lotDate": "2026-08-17",
+    "recordDate": "2026-08-17",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-107",
+    "customer": "Tesco Lotus",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2015",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-08-17",
+    "expDate": "2026-11-27",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 192,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 192,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 192,
+    "totalBoxesCount": 10,
+    "totalWeightKg": 96,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 6.2,
+    "updatedAt": "2026-08-17T09:30:00.000Z"
+  },
+  {
+    "recordId": "bWX5M0UiFLEfHekh0VHG",
+    "lotDate": "2026-08-15",
+    "recordDate": "2026-08-15",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-103",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-15",
+    "expDate": "2026-11-18",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 103,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 103,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 103,
+    "totalBoxesCount": 10,
+    "totalWeightKg": 10.3,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-08-15T09:30:00.000Z"
+  },
+  {
+    "recordId": "DBg2Uufrg6eGTmLEx3bO",
+    "lotDate": "2026-08-14",
+    "recordDate": "2026-08-14",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-102",
+    "customer": "Makro",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-14",
+    "expDate": "2026-11-27",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 387,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 387,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 387,
+    "totalBoxesCount": 16,
+    "totalWeightKg": 387,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-08-14T09:30:00.000Z"
+  },
+  {
+    "recordId": "lDfolI1jk9oQFP5IFCcJ",
+    "lotDate": "2026-08-12",
+    "recordDate": "2026-08-12",
+    "productName": "กล้วย",
+    "productId": "PRD-101",
+    "customer": "Tesco Lotus",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-12",
+    "expDate": "2026-11-21",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 105,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 105,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 105,
+    "totalBoxesCount": 4,
+    "totalWeightKg": 52.5,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-12T09:30:00.000Z"
+  },
+  {
+    "recordId": "f4BG6LtTsKt47roFPVOY",
+    "lotDate": "2026-08-10",
+    "recordDate": "2026-08-10",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-102",
+    "customer": "Makro",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2042",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-10",
+    "expDate": "2026-10-28",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 64,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 64,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 64,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 32,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7.4,
+    "updatedAt": "2026-08-10T09:30:00.000Z"
+  },
+  {
+    "recordId": "q6Hg4VUGcwFVwBvr0rvF",
+    "lotDate": "2026-08-09",
+    "recordDate": "2026-08-09",
+    "productName": "กล้วย",
+    "productId": "PRD-103",
+    "customer": "7-Eleven DC",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-09",
+    "expDate": "2026-11-06",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 164,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 164,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 164,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 164,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-08-09T09:30:00.000Z"
+  },
+  {
+    "recordId": "ZFmyyuDiDtOsl3vnZ8Jv",
+    "lotDate": "2026-08-08",
+    "recordDate": "2026-08-08",
+    "productName": "Tidbit",
+    "productId": "PRD-101",
+    "customer": "7-Eleven DC",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2025",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-08",
+    "expDate": "2026-11-26",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 380,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 380,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 380,
+    "totalBoxesCount": 38,
+    "totalWeightKg": 38,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-08-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "mAaKplmXKgVcxxV1kLeW",
+    "lotDate": "2026-08-06",
+    "recordDate": "2026-08-06",
+    "productName": "ส้มเลือด",
+    "productId": "PRD-102",
+    "customer": "Export - Korea",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2034",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-06",
+    "expDate": "2026-10-10",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 165,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 165,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 165,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 82.5,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-08-06T09:30:00.000Z"
+  },
+  {
+    "recordId": "9FZ5QFnmeQmPjKLtUnqe",
+    "lotDate": "2026-08-04",
+    "recordDate": "2026-08-04",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-103",
+    "customer": "7-Eleven DC",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2035",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-08-04",
+    "expDate": "2026-10-20",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 144,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 144,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 144,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 28.8,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-08-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "HGX0GUscieSkbDieszSE",
+    "lotDate": "2026-08-03",
+    "recordDate": "2026-08-03",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-100",
+    "customer": "Big C",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-08-03",
+    "expDate": "2026-11-18",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 36,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 36,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 36,
+    "totalBoxesCount": 4,
+    "totalWeightKg": 7.2,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.1,
+    "updatedAt": "2026-08-03T09:30:00.000Z"
+  },
+  {
+    "recordId": "JZ9zdApeqk1fGkPTdJQ7",
+    "lotDate": "2026-08-01",
+    "recordDate": "2026-08-01",
+    "productName": "มะนาว",
+    "productId": "PRD-107",
+    "customer": "Makro",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-08-01",
+    "expDate": "2026-11-20",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 287,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 287,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 287,
+    "totalBoxesCount": 12,
+    "totalWeightKg": 28.7,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-08-01T09:30:00.000Z"
+  },
+  {
+    "recordId": "lMABzNB4lnthL9q81367",
+    "lotDate": "2026-07-31",
+    "recordDate": "2026-07-31",
+    "productName": "ส้มเลือด",
+    "productId": "PRD-107",
+    "customer": "Export - Japan",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2031",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-31",
+    "expDate": "2026-10-28",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 310,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 310,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 310,
+    "totalBoxesCount": 16,
+    "totalWeightKg": 62,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-07-31T09:30:00.000Z"
+  },
+  {
+    "recordId": "xkdsPl9DWSDYK2CXDToN",
+    "lotDate": "2026-07-30",
+    "recordDate": "2026-07-30",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-103",
+    "customer": "Export - Korea",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2059",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-30",
+    "expDate": "2026-10-04",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 173,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 173,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 173,
+    "totalBoxesCount": 7,
+    "totalWeightKg": 34.6,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 7.8,
+    "updatedAt": "2026-07-30T09:30:00.000Z"
+  },
+  {
+    "recordId": "5R8xuH40uXsNveJUrYkA",
+    "lotDate": "2026-07-28",
+    "recordDate": "2026-07-28",
+    "productName": "กล้วย",
+    "productId": "PRD-106",
+    "customer": "Big C",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2046",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-28",
+    "expDate": "2026-10-31",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 349,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 349,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 349,
+    "totalBoxesCount": 17,
+    "totalWeightKg": 69.8,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-07-28T09:30:00.000Z"
+  },
+  {
+    "recordId": "ULOgDHuG7ShudEV2fQgm",
+    "lotDate": "2026-07-26",
+    "recordDate": "2026-07-26",
+    "productName": "แตงโม",
+    "productId": "PRD-105",
+    "customer": "Makro",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-26",
+    "expDate": "2026-11-15",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 157,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 157,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 157,
+    "totalBoxesCount": 8,
+    "totalWeightKg": 31.4,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8,
+    "updatedAt": "2026-07-26T09:30:00.000Z"
+  },
+  {
+    "recordId": "T4Bakjn2e33xwDEFLuqa",
+    "lotDate": "2026-07-24",
+    "recordDate": "2026-07-24",
+    "productName": "มะนาว",
+    "productId": "PRD-100",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-24",
+    "expDate": "2026-10-21",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 349,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 349,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 349,
+    "totalBoxesCount": 15,
+    "totalWeightKg": 34.9,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-07-24T09:30:00.000Z"
+  },
+  {
+    "recordId": "fHRAo94GbiMx85ihcKiG",
+    "lotDate": "2026-07-23",
+    "recordDate": "2026-07-23",
+    "productName": "มะนาว",
+    "productId": "PRD-104",
+    "customer": "Big C",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-2004",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-23",
+    "expDate": "2026-11-05",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 354,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 354,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 354,
+    "totalBoxesCount": 18,
+    "totalWeightKg": 70.8,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 7.2,
+    "updatedAt": "2026-07-23T09:30:00.000Z"
+  },
+  {
+    "recordId": "xBYzcsfW8PINMOC2DJzp",
+    "lotDate": "2026-07-23",
+    "recordDate": "2026-07-23",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-107",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-2007",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-23",
+    "expDate": "2026-11-14",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 277,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 277,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 277,
+    "totalBoxesCount": 14,
+    "totalWeightKg": 277,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 9,
+    "updatedAt": "2026-07-23T09:30:00.000Z"
+  },
+  {
+    "recordId": "lBS3o8PKOLnOQUpuqIWy",
+    "lotDate": "2026-07-22",
+    "recordDate": "2026-07-22",
+    "productName": "Tidbit",
+    "productId": "PRD-106",
+    "customer": "7-Eleven DC",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "ORD-2006",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-22",
+    "expDate": "2026-10-22",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 127,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 127,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 127,
+    "totalBoxesCount": 13,
+    "totalWeightKg": 25.4,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.5,
+    "updatedAt": "2026-07-22T09:30:00.000Z"
+  },
+  {
+    "recordId": "OYYYfgXsyhWC2f338vo6",
+    "lotDate": "2026-07-21",
+    "recordDate": "2026-07-21",
+    "productName": "มะนาว",
+    "productId": "PRD-104",
+    "customer": "7-Eleven DC",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2036",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-21",
+    "expDate": "2026-10-13",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 113,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 113,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 113,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 11.3,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-07-21T09:30:00.000Z"
+  },
+  {
+    "recordId": "DjbuZp4WYs6NXAUTHUk6",
+    "lotDate": "2026-07-20",
+    "recordDate": "2026-07-20",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-101",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-20",
+    "expDate": "2026-11-12",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 71,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 71,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 71,
+    "totalBoxesCount": 4,
+    "totalWeightKg": 7.1,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-07-20T09:30:00.000Z"
+  },
+  {
+    "recordId": "BSGUUj4tn8hYgd9pA9QI",
+    "lotDate": "2026-07-19",
+    "recordDate": "2026-07-19",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-100",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "ORD-2048",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-19",
+    "expDate": "2026-11-11",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 204,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 204,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 204,
+    "totalBoxesCount": 9,
+    "totalWeightKg": 40.8,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 6.7,
+    "updatedAt": "2026-07-19T09:30:00.000Z"
+  },
+  {
+    "recordId": "4gROTmIydYM2m5r7Qr8G",
+    "lotDate": "2026-07-19",
+    "recordDate": "2026-07-19",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-107",
+    "customer": "Export - Japan",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-19",
+    "expDate": "2026-11-10",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 159,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 159,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 159,
+    "totalBoxesCount": 16,
+    "totalWeightKg": 31.8,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 6
+      }
+    ],
+    "totalWorkingHours": 8.3,
+    "updatedAt": "2026-07-19T09:30:00.000Z"
+  },
+  {
+    "recordId": "nHLq5mXd3FfJ1mAMUStu",
+    "lotDate": "2026-07-16",
+    "recordDate": "2026-07-16",
+    "productName": "กล้วย",
+    "productId": "PRD-107",
+    "customer": "7-Eleven DC",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-16",
+    "expDate": "2026-10-30",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 328,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 328,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 328,
+    "totalBoxesCount": 33,
+    "totalWeightKg": 32.8,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 7,
+    "updatedAt": "2026-07-16T09:30:00.000Z"
+  },
+  {
+    "recordId": "Z7YPfbZfOwG0pAR3F2wX",
+    "lotDate": "2026-07-14",
+    "recordDate": "2026-07-14",
+    "productName": "Tidbit",
+    "productId": "PRD-101",
+    "customer": "Tesco Lotus",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-14",
+    "expDate": "2026-10-16",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 61,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 61,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 61,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 12.2,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 6.7,
+    "updatedAt": "2026-07-14T09:30:00.000Z"
+  },
+  {
+    "recordId": "6RuVPx3zBItiP2p3QVbO",
+    "lotDate": "2026-07-12",
+    "recordDate": "2026-07-12",
+    "productName": "ส้มเลือด",
+    "productId": "PRD-105",
+    "customer": "Makro",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2005",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-12",
+    "expDate": "2026-09-26",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 39,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 39,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 39,
+    "totalBoxesCount": 2,
+    "totalWeightKg": 19.5,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.6,
+    "updatedAt": "2026-07-12T09:30:00.000Z"
+  },
+  {
+    "recordId": "cB4X32b5kFKJgdtOd137",
+    "lotDate": "2026-07-12",
+    "recordDate": "2026-07-12",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-101",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-2017",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-12",
+    "expDate": "2026-09-27",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 31,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 31,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 31,
+    "totalBoxesCount": 2,
+    "totalWeightKg": 31,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-07-12T09:30:00.000Z"
+  },
+  {
+    "recordId": "QgaywsKZ9wzbqWXkHLrL",
+    "lotDate": "2026-07-12",
+    "recordDate": "2026-07-12",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-106",
+    "customer": "Big C",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-12",
+    "expDate": "2026-09-30",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 114,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 114,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 114,
+    "totalBoxesCount": 11,
+    "totalWeightKg": 57,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 10
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-07-12T09:30:00.000Z"
+  },
+  {
+    "recordId": "zzEtqMp3MK1TTkmIFtqM",
+    "lotDate": "2026-07-09",
+    "recordDate": "2026-07-09",
+    "productName": "Tidbit",
+    "productId": "PRD-106",
+    "customer": "Big C",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-09",
+    "expDate": "2026-10-07",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 200,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 200,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 200,
+    "totalBoxesCount": 8,
+    "totalWeightKg": 200,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 12
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-07-09T09:30:00.000Z"
+  },
+  {
+    "recordId": "I6EKyv4VeO08IlxglBdt",
+    "lotDate": "2026-07-09",
+    "recordDate": "2026-07-09",
+    "productName": "กล้วย",
+    "productId": "PRD-104",
+    "customer": "Big C",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2052",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-09",
+    "expDate": "2026-10-05",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 280,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 280,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 280,
+    "totalBoxesCount": 12,
+    "totalWeightKg": 140,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 14
+      }
+    ],
+    "totalWorkingHours": 6.5,
+    "updatedAt": "2026-07-09T09:30:00.000Z"
+  },
+  {
+    "recordId": "gRtHWtRIjcHJZb8uBl5i",
+    "lotDate": "2026-07-08",
+    "recordDate": "2026-07-08",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-105",
+    "customer": "Export - Japan",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "ORD-2029",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-08",
+    "expDate": "2026-10-10",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 368,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 368,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 368,
+    "totalBoxesCount": 18,
+    "totalWeightKg": 184,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-07-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "C3ioYStLolWiGMdEnleD",
+    "lotDate": "2026-07-08",
+    "recordDate": "2026-07-08",
+    "productName": "กล้วย",
+    "productId": "PRD-105",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2053",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-08",
+    "expDate": "2026-10-11",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 235,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 235,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 235,
+    "totalBoxesCount": 24,
+    "totalWeightKg": 235,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 7
+      }
+    ],
+    "totalWorkingHours": 7.7,
+    "updatedAt": "2026-07-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "nV67UXIsG4AWFebM1aPR",
+    "lotDate": "2026-07-08",
+    "recordDate": "2026-07-08",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-104",
+    "customer": "Export - Korea",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-08",
+    "expDate": "2026-10-10",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 117,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 117,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 117,
+    "totalBoxesCount": 6,
+    "totalWeightKg": 58.5,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.2,
+    "updatedAt": "2026-07-08T09:30:00.000Z"
+  },
+  {
+    "recordId": "VdEboCe6nVdxQS6NccsW",
+    "lotDate": "2026-07-06",
+    "recordDate": "2026-07-06",
+    "productName": "แตงโม",
+    "productId": "PRD-105",
+    "customer": "Makro",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-06",
+    "expDate": "2026-10-19",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 90,
+        "weightPerBagG": 200,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-200",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 90,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 90,
+    "totalBoxesCount": 4,
+    "totalWeightKg": 18,
+    "shiftType": "เช้า",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 8.7,
+    "updatedAt": "2026-07-06T09:30:00.000Z"
+  },
+  {
+    "recordId": "qj6nhDSmztN4Vx0K8ZLG",
+    "lotDate": "2026-07-06",
+    "recordDate": "2026-07-06",
+    "productName": "มะม่วงโชคอนันต์",
+    "productId": "PRD-107",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2047",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-06",
+    "expDate": "2026-10-23",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 108,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 108,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 108,
+    "totalBoxesCount": 5,
+    "totalWeightKg": 54,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 7.9,
+    "updatedAt": "2026-07-06T09:30:00.000Z"
+  },
+  {
+    "recordId": "CRoD4yICJ7WWTucNDHWq",
+    "lotDate": "2026-07-04",
+    "recordDate": "2026-07-04",
+    "productName": "แตงโม",
+    "productId": "PRD-106",
+    "customer": "Export - Korea",
+    "supplier": "สวนคุณวิชัย",
+    "orderName": "ORD-2014",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-04",
+    "expDate": "2026-09-26",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 247,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 247,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 247,
+    "totalBoxesCount": 25,
+    "totalWeightKg": 24.7,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6.7,
+    "updatedAt": "2026-07-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "kdOmSNT1A3m3tLmzKLVo",
+    "lotDate": "2026-07-04",
+    "recordDate": "2026-07-04",
+    "productName": "แตงโม",
+    "productId": "PRD-105",
+    "customer": "Makro",
+    "supplier": "ฟาร์มคุณดาว",
+    "orderName": "",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-04",
+    "expDate": "2026-10-08",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 194,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 194,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 194,
+    "totalBoxesCount": 10,
+    "totalWeightKg": 97,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 8
+      }
+    ],
+    "totalWorkingHours": 7.5,
+    "updatedAt": "2026-07-04T09:30:00.000Z"
+  },
+  {
+    "recordId": "dW72IDSbNE9fzIJid62T",
+    "lotDate": "2026-07-02",
+    "recordDate": "2026-07-02",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-104",
+    "customer": "7-Eleven DC",
+    "supplier": "สวนคุณสมชาย",
+    "orderName": "",
+    "packingDestination": "ส่งลูกค้าโดยตรง",
+    "mfgDate": "2026-07-02",
+    "expDate": "2026-09-26",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 237,
+        "weightPerBagG": 1000,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-1000",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 20,
+        "boxProductId": "BOX-20"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 237,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 237,
+    "totalBoxesCount": 12,
+    "totalWeightKg": 237,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 13
+      }
+    ],
+    "totalWorkingHours": 6.3,
+    "updatedAt": "2026-07-02T09:30:00.000Z"
+  },
+  {
+    "recordId": "4yhTJfFn1GBD0VJdQ5BX",
+    "lotDate": "2026-07-02",
+    "recordDate": "2026-07-02",
+    "productName": "แก้วมังกรแดง",
+    "productId": "PRD-106",
+    "customer": "Tesco Lotus",
+    "supplier": "สวนคุณประไพ",
+    "orderName": "ORD-2062",
+    "packingDestination": "ส่งออก",
+    "mfgDate": "2026-07-02",
+    "expDate": "2026-10-09",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 226,
+        "weightPerBagG": 100,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-100",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 10,
+        "boxProductId": "BOX-10"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 226,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 226,
+    "totalBoxesCount": 23,
+    "totalWeightKg": 22.6,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "monthly",
+        "count": 15
+      }
+    ],
+    "totalWorkingHours": 9,
+    "updatedAt": "2026-07-02T09:30:00.000Z"
+  },
+  {
+    "recordId": "8bMNi9BdgrEYbHXnFPX1",
+    "lotDate": "2026-07-01",
+    "recordDate": "2026-07-01",
+    "productName": "สับปะรดปัตตาเวีย",
+    "productId": "PRD-103",
+    "customer": "Export - Japan",
+    "supplier": "สหกรณ์บ้านนา",
+    "orderName": "",
+    "packingDestination": "แพ็คเข้าคลัง",
+    "mfgDate": "2026-07-01",
+    "expDate": "2026-09-22",
+    "packDetails": [
+      {
+        "bagType": "ถุงซีล",
+        "bagCount": 289,
+        "weightPerBagG": 500,
+        "emptyBagWeightG": 8,
+        "bagProductId": "BAG-500",
+        "boxType": "กล่องลัง",
+        "bagsPerBox": 24,
+        "boxProductId": "BOX-24"
+      }
+    ],
+    "stickers": [
+      {
+        "stickerType": "ฉลากสินค้า",
+        "stickerCount": 289,
+        "stickerProductId": "STK-001"
+      }
+    ],
+    "totalBagsCount": 289,
+    "totalBoxesCount": 12,
+    "totalWeightKg": 144.5,
+    "shiftType": "บ่าย",
+    "employees": [
+      {
+        "type": "daily_temp",
+        "count": 11
+      }
+    ],
+    "totalWorkingHours": 6.4,
+    "updatedAt": "2026-07-01T09:30:00.000Z"
+  }
+]

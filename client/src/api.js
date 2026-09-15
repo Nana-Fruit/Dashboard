@@ -54,3 +54,6 @@ export const getFactoryRoom = (room, params) => api.get(`/factory/rooms/${room}`
 export const setFactoryLaborRates = (rates) => api.put("/factory/labor-rates", rates);
 
 export const getDryRoomDashboard = (params) => api.get("/dry-room/dashboard", params);
+export const getFreshRoomDashboard = (params) => api.get("/fresh-room/dashboard", params);
+export const getSortingRoomDashboard = (params) => api.get("/sorting-room/dashboard", params);
+export const getPackingRoomDashboard = (params) => api.get("/packing-room/dashboard", params);
