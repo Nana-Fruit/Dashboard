@@ -76,7 +76,7 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 |---|---|---|
 | `POST /api/auth/login` | — | `{ token, user }` |
 | `GET /api/auth/me` | any | current user + permissions |
-| `GET /api/office/summary?month=YYYY-MM` | office | target vs actual, % achieved, remaining, domestic/international split, top spenders, monthly trend |
+| `GET /api/office/summary?month=YYYY-MM` | office | target vs actual, % achieved, remaining, domestic/international split, top spenders, top products (by quantity, from order line items), monthly trend |
 | `GET /api/office/orders?month=&market=` | office | sales order list (endpoint kept; not shown in UI) |
 | `PUT /api/office/target` | admin | `{ month, domestic, international }` |
 | `GET /api/factory/summary?from=&to=` | factory | per-room input/output/yield/hours/labor cost + totals |
@@ -97,7 +97,7 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 | `mock/freshRoomBatches.json` | `generate-mock-fresh-room.js` | fresh-room lots (matches the real API) |
 | `mock/sortingRecords.json` | `generate-mock-sort-room.js` | sorting-room records (matches the real API) |
 | `mock/packingRecords.json` | `generate-mock-sort-room.js` | packing-room records (matches the real API) |
-| `mock/salesOrders.json` | `generate-mock-office.js` | `{ orderId, orderDate, market, country, customerName, salesRep, currency, amountTHB, status }` |
+| `mock/salesOrders.json` | `generate-mock-office.js` | matches the real API: `{ id, po_number, customer_name, order_type: "domestic"\|"international", total_amount, opened_at, items: [{ sku, unit, quantity }] }` (normalized by `server/src/api/officeApi.js` before reaching routes) |
 | `mock/factoryRooms.json` | `generate-mock-factory.js` | `{ date, room, productName, inputWeightKg, outputWeightKg, yieldPercent, employees, workingHours }` (used only by the Factory overview tabs) |
 | `mock/config.json` | (hand-edited / admin UI) | `monthlySalesTargets`, `laborRatePerHour` |
 
@@ -106,9 +106,11 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 ## Wiring real APIs later
 
 1. Dry-room / fresh-room / sorting-room / packing-room: set `USE_MOCK_FACTORY=false` + `FACTORY_API_BASE_URL` + `FACTORY_API_KEY` in `server/.env` — all four share the same upstream Factory API and toggle together.
-2. Sales orders: set `USE_MOCK_OFFICE=false` + `OFFICE_API_BASE_URL` + `OFFICE_API_KEY`, then call
-   `callOfficeApi()` from `server/src/api/officeApi.js` inside `server/src/routes/office.js`
-   (replace `loadOrders()`), keeping the same order shape.
+2. Sales orders: set `USE_MOCK_OFFICE=false` + `OFFICE_API_BASE_URL` + `OFFICE_API_KEY` in
+   `server/.env`. `server/src/api/officeApi.js` already calls
+   `callOfficeApi("/external/v1/sales-orders", { page, limit })` (page-based pagination, confirmed
+   with upstream - also supports `from`/`to`/`order_type` filters if a bounded fetch is ever
+   needed) and normalizes the response for `routes/office.js` - no route changes needed.
 3. Factory rooms: same idea in `server/src/routes/factory.js` (replace `loadRecords()`) using
    the Factory API (`server/src/api/factoryApi.js`).
 

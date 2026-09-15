@@ -32,21 +32,23 @@ export function Progress({ percent, label }) {
 }
 
 // Ranked horizontal bars — identity by label + rank number, magnitude by bar.
-export function RankList({ title, rows, accent }) {
-  const max = Math.max(1, ...rows.map((r) => r.amountTHB));
+// valueKey picks the field to size bars by; formatValue renders the row's
+// trailing value (defaults to THB on amountTHB, e.g. for top-spenders lists).
+export function RankList({ title, rows, accent, valueKey = "amountTHB", formatValue = (r) => fmtTHB(r[valueKey]) }) {
+  const max = Math.max(1, ...rows.map((r) => r[valueKey]));
   return (
     <div className="ranklist">
       <h3>{title}</h3>
       {rows.length === 0 && <div className="muted sm">No data</div>}
       <ol>
         {rows.map((r, i) => (
-          <li key={r.name} style={accent ? { "--accent": accent } : undefined}>
+          <li key={`${r.name}-${i}`} style={accent ? { "--accent": accent } : undefined}>
             <span className="rl-rank">{i + 1}</span>
             <div className="rl-body">
               <div className="rl-name">{r.name}</div>
-              <div className="rl-track"><span style={{ width: `${(r.amountTHB / max) * 100}%` }} /></div>
+              <div className="rl-track"><span style={{ width: `${(r[valueKey] / max) * 100}%` }} /></div>
             </div>
-            <span className="rl-val">{fmtTHB(r.amountTHB)}</span>
+            <span className="rl-val">{formatValue(r)}</span>
           </li>
         ))}
       </ol>

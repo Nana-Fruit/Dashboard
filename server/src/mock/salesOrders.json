@@ -1,2059 +1,4568 @@
 [
   {
-    "orderId": "SO-2026-0166",
-    "orderDate": "2026-08-28",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 105134,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0162",
-    "orderDate": "2026-08-27",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 65953,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0169",
-    "orderDate": "2026-08-27",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 147224,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0165",
-    "orderDate": "2026-08-26",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 257549,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0163",
-    "orderDate": "2026-08-25",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 82759,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0141",
-    "orderDate": "2026-08-24",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 198357,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0186",
-    "orderDate": "2026-08-24",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 94898,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0175",
-    "orderDate": "2026-08-23",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 550168,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0148",
-    "orderDate": "2026-08-22",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 510065,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0181",
-    "orderDate": "2026-08-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 159413,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0145",
-    "orderDate": "2026-08-21",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 123757,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0171",
-    "orderDate": "2026-08-21",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 597195,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0140",
-    "orderDate": "2026-08-20",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 211711,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0142",
-    "orderDate": "2026-08-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 105066,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0147",
-    "orderDate": "2026-08-19",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 363063,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0150",
-    "orderDate": "2026-08-19",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Naruemon",
-    "currency": "EUR",
-    "amountTHB": 515449,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0170",
-    "orderDate": "2026-08-19",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 354846,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0172",
-    "orderDate": "2026-08-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 55140,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0176",
-    "orderDate": "2026-08-19",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 508061,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0182",
-    "orderDate": "2026-08-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 234485,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0187",
-    "orderDate": "2026-08-19",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 312134,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0136",
-    "orderDate": "2026-08-18",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 128817,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0154",
-    "orderDate": "2026-08-18",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "Somchai",
-    "currency": "EUR",
-    "amountTHB": 464545,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0174",
-    "orderDate": "2026-08-18",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 461405,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0144",
-    "orderDate": "2026-08-17",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 114435,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0143",
-    "orderDate": "2026-08-16",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 331895,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0149",
-    "orderDate": "2026-08-13",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 369186,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0155",
-    "orderDate": "2026-08-12",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Somchai",
-    "currency": "EUR",
-    "amountTHB": 176600,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0168",
-    "orderDate": "2026-08-12",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 168699,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0183",
-    "orderDate": "2026-08-12",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 579194,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0156",
-    "orderDate": "2026-08-11",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 188496,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0138",
-    "orderDate": "2026-08-10",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 206565,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0152",
-    "orderDate": "2026-08-10",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 41867,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0158",
-    "orderDate": "2026-08-10",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 186162,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0185",
-    "orderDate": "2026-08-10",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 166600,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0159",
-    "orderDate": "2026-08-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 224108,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0177",
-    "orderDate": "2026-08-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 57926,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0180",
-    "orderDate": "2026-08-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 82858,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0157",
-    "orderDate": "2026-08-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 137923,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0178",
-    "orderDate": "2026-08-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 209628,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0137",
-    "orderDate": "2026-08-06",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 537725,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0139",
-    "orderDate": "2026-08-06",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 302484,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0167",
-    "orderDate": "2026-08-05",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 143384,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0151",
-    "orderDate": "2026-08-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 223846,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0153",
-    "orderDate": "2026-08-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 225443,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0161",
-    "orderDate": "2026-08-03",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 158090,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0164",
-    "orderDate": "2026-08-03",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 460528,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0146",
-    "orderDate": "2026-08-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 251941,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0173",
-    "orderDate": "2026-08-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 244749,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0179",
-    "orderDate": "2026-08-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 233159,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0160",
-    "orderDate": "2026-08-01",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 258267,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0184",
-    "orderDate": "2026-08-01",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 457182,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0096",
-    "orderDate": "2026-07-28",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 317960,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0104",
-    "orderDate": "2026-07-27",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Naruemon",
-    "currency": "EUR",
-    "amountTHB": 320193,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0108",
-    "orderDate": "2026-07-27",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 56783,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0128",
-    "orderDate": "2026-07-27",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 165936,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0070",
-    "orderDate": "2026-07-26",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "ปรีชา",
-    "currency": "EUR",
-    "amountTHB": 508261,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0072",
-    "orderDate": "2026-07-26",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 125317,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0100",
-    "orderDate": "2026-07-26",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 162899,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0112",
-    "orderDate": "2026-07-26",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 259926,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0114",
-    "orderDate": "2026-07-25",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 131957,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0120",
-    "orderDate": "2026-07-25",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 577356,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0127",
-    "orderDate": "2026-07-25",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 243234,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0085",
-    "orderDate": "2026-07-24",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 418648,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0115",
-    "orderDate": "2026-07-24",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "Somchai",
-    "currency": "EUR",
-    "amountTHB": 163436,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0069",
-    "orderDate": "2026-07-23",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 156900,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0081",
-    "orderDate": "2026-07-23",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 577747,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0082",
-    "orderDate": "2026-07-23",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 548965,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0091",
-    "orderDate": "2026-07-23",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 222515,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0113",
-    "orderDate": "2026-07-23",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 167693,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0076",
-    "orderDate": "2026-07-22",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 565653,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0103",
-    "orderDate": "2026-07-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 108310,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0132",
-    "orderDate": "2026-07-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 97465,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0095",
-    "orderDate": "2026-07-21",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 320028,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0107",
-    "orderDate": "2026-07-21",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 251435,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0111",
-    "orderDate": "2026-07-21",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 142147,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0105",
-    "orderDate": "2026-07-20",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 556324,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0121",
-    "orderDate": "2026-07-20",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 54377,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0135",
-    "orderDate": "2026-07-20",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 518294,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0079",
-    "orderDate": "2026-07-19",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Somchai",
-    "currency": "EUR",
-    "amountTHB": 412900,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0101",
-    "orderDate": "2026-07-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 118846,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0133",
-    "orderDate": "2026-07-19",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 366240,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0071",
-    "orderDate": "2026-07-18",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 489489,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0078",
-    "orderDate": "2026-07-18",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 62979,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0099",
-    "orderDate": "2026-07-18",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 109745,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0102",
-    "orderDate": "2026-07-18",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 605446,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0110",
-    "orderDate": "2026-07-18",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 123143,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0125",
-    "orderDate": "2026-07-18",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 524549,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0075",
-    "orderDate": "2026-07-16",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 214857,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0065",
-    "orderDate": "2026-07-15",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 256537,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0087",
-    "orderDate": "2026-07-15",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 97525,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0089",
-    "orderDate": "2026-07-15",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 202339,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0090",
-    "orderDate": "2026-07-15",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 256252,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0118",
-    "orderDate": "2026-07-14",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 368765,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0124",
-    "orderDate": "2026-07-14",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 134054,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0080",
-    "orderDate": "2026-07-13",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 519718,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0093",
-    "orderDate": "2026-07-13",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 209961,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0068",
-    "orderDate": "2026-07-10",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 66025,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0073",
-    "orderDate": "2026-07-10",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 56930,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0116",
-    "orderDate": "2026-07-10",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "ปรีชา",
-    "currency": "EUR",
-    "amountTHB": 542691,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0119",
-    "orderDate": "2026-07-10",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 345651,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0066",
-    "orderDate": "2026-07-09",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 580842,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0122",
-    "orderDate": "2026-07-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 220040,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0094",
-    "orderDate": "2026-07-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 158776,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0126",
-    "orderDate": "2026-07-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 197326,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0131",
-    "orderDate": "2026-07-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 60369,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0097",
-    "orderDate": "2026-07-07",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "ปรีชา",
-    "currency": "EUR",
-    "amountTHB": 317331,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0130",
-    "orderDate": "2026-07-06",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 154575,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0088",
-    "orderDate": "2026-07-05",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 508729,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0067",
-    "orderDate": "2026-07-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 156505,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0074",
-    "orderDate": "2026-07-04",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 153266,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0092",
-    "orderDate": "2026-07-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 135430,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0086",
-    "orderDate": "2026-07-03",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 246287,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0109",
-    "orderDate": "2026-07-03",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 106250,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0134",
-    "orderDate": "2026-07-03",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 250189,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0083",
-    "orderDate": "2026-07-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 251640,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0098",
-    "orderDate": "2026-07-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 66312,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0106",
-    "orderDate": "2026-07-02",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 213047,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0117",
-    "orderDate": "2026-07-02",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 101949,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0129",
-    "orderDate": "2026-07-02",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 365581,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0077",
-    "orderDate": "2026-07-01",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 575851,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0084",
-    "orderDate": "2026-07-01",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 233719,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0123",
-    "orderDate": "2026-07-01",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 198528,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0013",
-    "orderDate": "2026-06-28",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 138696,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0024",
-    "orderDate": "2026-06-28",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 186213,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0004",
-    "orderDate": "2026-06-27",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 422420,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0025",
-    "orderDate": "2026-06-27",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 614417,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0053",
-    "orderDate": "2026-06-27",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 150916,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0002",
-    "orderDate": "2026-06-25",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 45750,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0057",
-    "orderDate": "2026-06-25",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 52087,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0043",
-    "orderDate": "2026-06-24",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 75787,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0046",
-    "orderDate": "2026-06-24",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 478727,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0064",
-    "orderDate": "2026-06-24",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 97511,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0010",
-    "orderDate": "2026-06-22",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 388993,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0014",
-    "orderDate": "2026-06-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 206669,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0019",
-    "orderDate": "2026-06-22",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "มนัสนันท์",
-    "currency": "EUR",
-    "amountTHB": 335880,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0020",
-    "orderDate": "2026-06-22",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "ปรีชา",
-    "currency": "EUR",
-    "amountTHB": 401879,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0021",
-    "orderDate": "2026-06-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 208895,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0051",
-    "orderDate": "2026-06-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 109757,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0052",
-    "orderDate": "2026-06-22",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 248104,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0033",
-    "orderDate": "2026-06-21",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 187844,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0048",
-    "orderDate": "2026-06-21",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. เอเชียเฮลตี้สแน็ค",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 150472,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0026",
-    "orderDate": "2026-06-20",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "Naruemon",
-    "currency": "EUR",
-    "amountTHB": 382178,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0054",
-    "orderDate": "2026-06-20",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 471872,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0059",
-    "orderDate": "2026-06-20",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 42954,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0031",
-    "orderDate": "2026-06-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 125361,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0050",
-    "orderDate": "2026-06-19",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Kittipong",
-    "currency": "EUR",
-    "amountTHB": 238776,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0060",
-    "orderDate": "2026-06-19",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 65124,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0006",
-    "orderDate": "2026-06-18",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 303590,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0008",
-    "orderDate": "2026-06-18",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 363052,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0016",
-    "orderDate": "2026-06-18",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 156807,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0034",
-    "orderDate": "2026-06-18",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 338769,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0061",
-    "orderDate": "2026-06-18",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 450757,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0029",
-    "orderDate": "2026-06-17",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 171434,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0036",
-    "orderDate": "2026-06-17",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 182252,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0041",
-    "orderDate": "2026-06-16",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Naruemon",
-    "currency": "EUR",
-    "amountTHB": 200971,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0011",
-    "orderDate": "2026-06-15",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 357410,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0027",
-    "orderDate": "2026-06-15",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 218444,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0035",
-    "orderDate": "2026-06-15",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 45764,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0042",
-    "orderDate": "2026-06-15",
-    "market": "international",
-    "country": "Singapore",
-    "customerName": "Golden Harvest Pte",
-    "salesRep": "Kittipong",
-    "currency": "USD",
-    "amountTHB": 290174,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0032",
-    "orderDate": "2026-06-14",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 103908,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0055",
-    "orderDate": "2026-06-14",
-    "market": "international",
-    "country": "South Korea",
-    "customerName": "Seoul Natural Snacks",
-    "salesRep": "มนัสนันท์",
-    "currency": "USD",
-    "amountTHB": 194547,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0003",
-    "orderDate": "2026-06-12",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 383688,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0012",
-    "orderDate": "2026-06-12",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 189105,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0028",
-    "orderDate": "2026-06-12",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 410952,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0017",
-    "orderDate": "2026-06-11",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 96643,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0018",
-    "orderDate": "2026-06-11",
-    "market": "international",
-    "country": "Sweden",
-    "customerName": "Nordic Organic AB",
-    "salesRep": "Naruemon",
-    "currency": "USD",
-    "amountTHB": 356587,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0038",
-    "orderDate": "2026-06-11",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 202269,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0007",
-    "orderDate": "2026-06-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 256760,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0030",
-    "orderDate": "2026-06-09",
-    "market": "international",
-    "country": "Germany",
-    "customerName": "EuroSnack GmbH",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 264611,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0037",
-    "orderDate": "2026-06-09",
-    "market": "international",
-    "country": "UAE",
-    "customerName": "Dubai Gourmet Trading",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 176904,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0045",
-    "orderDate": "2026-06-09",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 224741,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0058",
-    "orderDate": "2026-06-09",
-    "market": "international",
-    "country": "Japan",
-    "customerName": "Tokyo Dried Fruits Co.",
-    "salesRep": "ปรีชา",
-    "currency": "USD",
-    "amountTHB": 469532,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0005",
-    "orderDate": "2026-06-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 57483,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0062",
-    "orderDate": "2026-06-08",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 44475,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0022",
-    "orderDate": "2026-06-07",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. สยามฟรุ๊ตส์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 45394,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0040",
-    "orderDate": "2026-06-07",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Kittipong",
-    "currency": "EUR",
-    "amountTHB": 479182,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0049",
-    "orderDate": "2026-06-07",
-    "market": "international",
-    "country": "USA",
-    "customerName": "Green Valley Foods",
-    "salesRep": "Somchai",
-    "currency": "USD",
-    "amountTHB": 533388,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0001",
-    "orderDate": "2026-06-06",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Kittipong",
-    "currency": "THB",
-    "amountTHB": 75726,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0047",
-    "orderDate": "2026-06-06",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "มนัสนันท์",
-    "currency": "THB",
-    "amountTHB": 117716,
-    "status": "shipped"
-  },
-  {
-    "orderId": "SO-2026-0063",
-    "orderDate": "2026-06-06",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ซีพี ออลล์",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 46899,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0009",
-    "orderDate": "2026-06-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "ร้านของฝากเชียงใหม่",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 136408,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0015",
-    "orderDate": "2026-06-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. อีเทอเนิล ฟู้ด",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 220966,
-    "status": "paid"
-  },
-  {
-    "orderId": "SO-2026-0039",
-    "orderDate": "2026-06-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. ท็อปส์ รีเทล",
-    "salesRep": "ปรีชา",
-    "currency": "THB",
-    "amountTHB": 92971,
-    "status": "invoiced"
-  },
-  {
-    "orderId": "SO-2026-0044",
-    "orderDate": "2026-06-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "แม็คโครสาขาราชพฤกษ์",
-    "salesRep": "Naruemon",
-    "currency": "THB",
-    "amountTHB": 210064,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0056",
-    "orderDate": "2026-06-04",
-    "market": "domestic",
-    "country": "Thailand",
-    "customerName": "บจก. กรุงเทพขนมหวาน",
-    "salesRep": "Somchai",
-    "currency": "THB",
-    "amountTHB": 102281,
-    "status": "confirmed"
-  },
-  {
-    "orderId": "SO-2026-0023",
-    "orderDate": "2026-06-03",
-    "market": "international",
-    "country": "Australia",
-    "customerName": "Sydney Health Imports",
-    "salesRep": "Naruemon",
-    "currency": "EUR",
-    "amountTHB": 448187,
-    "status": "paid"
+    "id": "c5e8fcc559e408e61f9dfb26f0d64702aa685ceb",
+    "po_number": "SO20260156/00156",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 216912,
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 134
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 73
+      }
+    ]
+  },
+  {
+    "id": "b01175775c5ec74fac1d12bbded41d86da209991",
+    "po_number": "SO20260166/00166",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 144494,
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 157
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 43
+      }
+    ]
+  },
+  {
+    "id": "aa78ffe427de171aeb6e45969855db8780840d7d",
+    "po_number": "SO20260128/00128",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 235566,
+    "opened_at": "2026-08-27",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 136
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 116
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 191
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 97
+      }
+    ]
+  },
+  {
+    "id": "0618eba10247c6cbf356e4d8efd1ed0e9235024c",
+    "po_number": "SO20260160/00160",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 188022,
+    "opened_at": "2026-08-26",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 88
+      }
+    ]
+  },
+  {
+    "id": "03ff780d73ed921b68783c0fcf176c799145c294",
+    "po_number": "SO20260121/00121",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 111256,
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 32
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 73
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 71
+      }
+    ]
+  },
+  {
+    "id": "9e07a568b2d43d1be296aa891a9564a1ddcdfe0b",
+    "po_number": "SO20260137/00137",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 49663,
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 147
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 91
+      }
+    ]
+  },
+  {
+    "id": "f0543f7df98f72f581b6fca5dc89f66224dd64a2",
+    "po_number": "SO20260139/00139",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 398196,
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 199
+      }
+    ]
+  },
+  {
+    "id": "4edab07d677e46b3aa7132c1ae0f10fb9a4e926c",
+    "po_number": "SO20260147/00147",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 180936,
+    "opened_at": "2026-08-24",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 164
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 19
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 39
+      }
+    ]
+  },
+  {
+    "id": "c3b4487f1db0c39aecfad2c463c588177924ec25",
+    "po_number": "SO20260158/00158",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 127638,
+    "opened_at": "2026-08-24",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 156
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 155
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 117
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 101
+      }
+    ]
+  },
+  {
+    "id": "a1830a01875d3c8626a0c5324c30176b71f2537e",
+    "po_number": "SO20260132/00132",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 335517,
+    "opened_at": "2026-08-23",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 51
+      }
+    ]
+  },
+  {
+    "id": "20baa3f64bf0703e5e44be2610526cc4a12fcdfb",
+    "po_number": "SO20260172/00172",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 338578,
+    "opened_at": "2026-08-23",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 170
+      }
+    ]
+  },
+  {
+    "id": "55dc7389e2dac237b38b84607ff036bbab552cb2",
+    "po_number": "SO20260127/00127",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 481376,
+    "opened_at": "2026-08-21",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 133
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 143
+      }
+    ]
+  },
+  {
+    "id": "38809f1fea10c94eddfb1f7771c95ca68319708f",
+    "po_number": "SO20260131/00131",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 350830,
+    "opened_at": "2026-08-21",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 73
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 197
+      }
+    ]
+  },
+  {
+    "id": "c278ce5a83779405276445dc08244a9ca926f702",
+    "po_number": "SO20260138/00138",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 62645,
+    "opened_at": "2026-08-21",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 147
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 129
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 143
+      }
+    ]
+  },
+  {
+    "id": "bb7350412f6bc12df1af586c5cafd20f45e19237",
+    "po_number": "SO20260167/00167",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 231622,
+    "opened_at": "2026-08-21",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 173
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 130
+      }
+    ]
+  },
+  {
+    "id": "ed64a5c60d23a27890385ea7b9fcdcf4cf8d7407",
+    "po_number": "SO20260123/00123",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 185427,
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 179
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 62
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 53
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      }
+    ]
+  },
+  {
+    "id": "93e71b1fe8cbc8382eac1d460ca4f68939f70924",
+    "po_number": "SO20260142/00142",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 208338,
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 83
+      }
+    ]
+  },
+  {
+    "id": "b6a526aaf05732a1e97018dbb9283e12be687e70",
+    "po_number": "SO20260165/00165",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 170064,
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 54
+      }
+    ]
+  },
+  {
+    "id": "2cd03bad5e3eb1718ccbc489634fc1b2fb9c68af",
+    "po_number": "SO20260159/00159",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 183468,
+    "opened_at": "2026-08-19",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 106
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 164
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 112
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 28
+      }
+    ]
+  },
+  {
+    "id": "f69005611f56738d710a30a72b4ef77c0bdde680",
+    "po_number": "SO20260170/00170",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 223104,
+    "opened_at": "2026-08-19",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 72
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 47
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 199
+      }
+    ]
+  },
+  {
+    "id": "ec878974239caa6de62ce34b64fe478a217a33c7",
+    "po_number": "SO20260177/00177",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 207176,
+    "opened_at": "2026-08-19",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 66
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 140
+      }
+    ]
+  },
+  {
+    "id": "660ee72f44a1400a3444658db25c04dc663f9bbd",
+    "po_number": "SO20260173/00173",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 181570,
+    "opened_at": "2026-08-18",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 141
+      }
+    ]
+  },
+  {
+    "id": "a2d186244c8d04b228d8727c259994260260feab",
+    "po_number": "SO20260175/00175",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 259184,
+    "opened_at": "2026-08-18",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 101
+      }
+    ]
+  },
+  {
+    "id": "9bbfdbb0b3d005ae3fd82c2c7ea032ac0b7fe532",
+    "po_number": "SO20260130/00130",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 74129,
+    "opened_at": "2026-08-17",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 30
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 19
+      }
+    ]
+  },
+  {
+    "id": "461f8619031d4521bfd719d7c3ab55d05327ab68",
+    "po_number": "SO20260151/00151",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 178526,
+    "opened_at": "2026-08-17",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 112
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 144
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 111
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 177
+      }
+    ]
+  },
+  {
+    "id": "cbdad2f3e1363a279c6a14c18d5ffc05bdf3284c",
+    "po_number": "SO20260153/00153",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 544428,
+    "opened_at": "2026-08-17",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 52
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 11
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 127
+      }
+    ]
+  },
+  {
+    "id": "84756344cd00855792c77c39d5596bd7012bcc4a",
+    "po_number": "SO20260174/00174",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 550617,
+    "opened_at": "2026-08-17",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 49
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 158
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 91
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 135
+      }
+    ]
+  },
+  {
+    "id": "213d5588de26b0627990e5492803e63f620d28b6",
+    "po_number": "SO20260122/00122",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 572731,
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 32
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 178
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 180
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 136
+      }
+    ]
+  },
+  {
+    "id": "6dc4e8ead97cfe73c71611ac767e0f0379257f2f",
+    "po_number": "SO20260144/00144",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 534072,
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 174
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 38
+      }
+    ]
+  },
+  {
+    "id": "6b3b5960d79a7d1408941c6c947cbf4dfee2fc56",
+    "po_number": "SO20260149/00149",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 224364,
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 126
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 95
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 62
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 167
+      }
+    ]
+  },
+  {
+    "id": "f7d581e1b5d1097b230d338778eb522bb4d8a64b",
+    "po_number": "SO20260182/00182",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 228671,
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 115
+      }
+    ]
+  },
+  {
+    "id": "e027f54e07ee10c637699ded0e2dfbfa65f35bb5",
+    "po_number": "SO20260162/00162",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 575547,
+    "opened_at": "2026-08-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 145
+      }
+    ]
+  },
+  {
+    "id": "3afa703fa17e33941c075cfa27bec68fc4ba198d",
+    "po_number": "SO20260136/00136",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 401512,
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 105
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 109
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 110
+      }
+    ]
+  },
+  {
+    "id": "a58e6da6cc182d27fe3b5350deb246164d648e87",
+    "po_number": "SO20260145/00145",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 50619,
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 191
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 124
+      }
+    ]
+  },
+  {
+    "id": "8fba8b05dc7c1ed361114575617c2a626acef977",
+    "po_number": "SO20260152/00152",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 151807,
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 143
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 89
+      }
+    ]
+  },
+  {
+    "id": "1da52d085c0aca83731756b67aafccf206789170",
+    "po_number": "SO20260141/00141",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 132841,
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 137
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 173
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 119
+      }
+    ]
+  },
+  {
+    "id": "ffa644ea0fa25bed7c7c5285c7481c17cbfaec97",
+    "po_number": "SO20260150/00150",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 338222,
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 129
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 187
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 179
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 30
+      }
+    ]
+  },
+  {
+    "id": "309d805c6cdada6114514f5c5dbc080b66461baf",
+    "po_number": "SO20260157/00157",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 157874,
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 74
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 114
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 193
+      }
+    ]
+  },
+  {
+    "id": "65714114e38a644aaa7a224ba462b3afdeb9bc56",
+    "po_number": "SO20260169/00169",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 103561,
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 142
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 161
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 19
+      }
+    ]
+  },
+  {
+    "id": "af8e1de516e48995104f33ad566775f7832a9fac",
+    "po_number": "SO20260179/00179",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 85774,
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 97
+      }
+    ]
+  },
+  {
+    "id": "7ced8e17021c469832016be1299dffbbfd2672f8",
+    "po_number": "SO20260176/00176",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 151084,
+    "opened_at": "2026-08-10",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 78
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 146
+      }
+    ]
+  },
+  {
+    "id": "ede6ad502374e3ed919a8a804d72542ac0ad7345",
+    "po_number": "SO20260133/00133",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 277905,
+    "opened_at": "2026-08-09",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 178
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 80
+      }
+    ]
+  },
+  {
+    "id": "ae5de0e5876219d744d223ae949cf248683dbdb7",
+    "po_number": "SO20260178/00178",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 331957,
+    "opened_at": "2026-08-09",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 153
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 175
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 144
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 24
+      }
+    ]
+  },
+  {
+    "id": "c2253b2c583087fa51fc25fa0b319251be076612",
+    "po_number": "SO20260168/00168",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 262241,
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 123
+      }
+    ]
+  },
+  {
+    "id": "cc5bfd57d24374003bb81989c2e5f709a5f4d3e8",
+    "po_number": "SO20260181/00181",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 451571,
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 92
+      }
+    ]
+  },
+  {
+    "id": "01e8e14742307efae405e2629dc6ee1778385bb6",
+    "po_number": "SO20260120/00120",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 243781,
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 26
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 49
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 148
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 161
+      }
+    ]
+  },
+  {
+    "id": "c3f5d2401bc5f904bd9ac0ec336a1445fa46e645",
+    "po_number": "SO20260125/00125",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 401058,
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 116
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 160
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 15
+      }
+    ]
+  },
+  {
+    "id": "3938046130644c5f9727d319c3bdaf11b54f1270",
+    "po_number": "SO20260135/00135",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 600142,
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 173
+      }
+    ]
+  },
+  {
+    "id": "6f42a1e59d86da66af8b39a752f112d5dfc4db7e",
+    "po_number": "SO20260161/00161",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 231470,
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 134
+      }
+    ]
+  },
+  {
+    "id": "2d552497d6efc82c4a1c47f08157cb8a2aad2bb4",
+    "po_number": "SO20260164/00164",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 527598,
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 43
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 46
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 79
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 102
+      }
+    ]
+  },
+  {
+    "id": "cc0904a7c3f2e2e5267f71befe8c996252a6b46d",
+    "po_number": "SO20260140/00140",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 186250,
+    "opened_at": "2026-08-06",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 74
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 119
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 49
+      }
+    ]
+  },
+  {
+    "id": "7535c7e6e448eef018429c37f2d4c78e28195cc5",
+    "po_number": "SO20260143/00143",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 411183,
+    "opened_at": "2026-08-06",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 90
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 147
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 39
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 180
+      }
+    ]
+  },
+  {
+    "id": "acdcd8a89a13deeeee7a3867b2a4ccde28ad1fc1",
+    "po_number": "SO20260124/00124",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 221669,
+    "opened_at": "2026-08-05",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 85
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 137
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 33
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 186
+      }
+    ]
+  },
+  {
+    "id": "57da5751b10c79bc0e8c2f58dc3ac43fbd1f2e1d",
+    "po_number": "SO20260134/00134",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 249138,
+    "opened_at": "2026-08-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 77
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 146
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 72
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 70
+      }
+    ]
+  },
+  {
+    "id": "e6dc38d4b22012ee7e4c36224616661c3a21d08b",
+    "po_number": "SO20260129/00129",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 46055,
+    "opened_at": "2026-08-04",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 199
+      }
+    ]
+  },
+  {
+    "id": "0281613c6932465a5fa461c5e86bc93c4f28b420",
+    "po_number": "SO20260148/00148",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 199370,
+    "opened_at": "2026-08-04",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 46
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 87
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 149
+      }
+    ]
+  },
+  {
+    "id": "c39096c2d6cadc0fdadcda0779b780c3ccff3feb",
+    "po_number": "SO20260155/00155",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 147855,
+    "opened_at": "2026-08-03",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 94
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 81
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 111
+      }
+    ]
+  },
+  {
+    "id": "5f7295b8d20858b29ce9536f676655963a702595",
+    "po_number": "SO20260163/00163",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 211587,
+    "opened_at": "2026-08-03",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 57
+      }
+    ]
+  },
+  {
+    "id": "468136684b4b4dfacfe8f6038f45b43b3a835abf",
+    "po_number": "SO20260180/00180",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 192446,
+    "opened_at": "2026-08-03",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 32
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 62
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 169
+      }
+    ]
+  },
+  {
+    "id": "6c1e175b8f31e8cdbf77fa9e89a620e76276c238",
+    "po_number": "SO20260146/00146",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 78674,
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 141
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 13
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 124
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 115
+      }
+    ]
+  },
+  {
+    "id": "26b622c60982a47bc143dbb743d41371611f97cc",
+    "po_number": "SO20260154/00154",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 59765,
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 116
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 75
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 86
+      }
+    ]
+  },
+  {
+    "id": "6e03d58ae6605afe3fac2187c23d59e762247379",
+    "po_number": "SO20260171/00171",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 314747,
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 13
+      }
+    ]
+  },
+  {
+    "id": "39cabc88f14572b2801a2694ca48d9de02e9a271",
+    "po_number": "SO20260126/00126",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 132106,
+    "opened_at": "2026-08-01",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 160
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 95
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 120
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 28
+      }
+    ]
+  },
+  {
+    "id": "8e0c39e0e46c4e726f2ae10f409d84755821dc32",
+    "po_number": "SO20260183/00183",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 246408,
+    "opened_at": "2026-08-01",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 185
+      }
+    ]
+  },
+  {
+    "id": "439748c50af21f09bcf2bd3edc9fbb89381d6bbd",
+    "po_number": "SO20260072/00072",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 249293,
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 155
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 153
+      }
+    ]
+  },
+  {
+    "id": "f47b5c7f4010c4aa24326d0a618b4b3bfe60d022",
+    "po_number": "SO20260087/00087",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 171226,
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 138
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 125
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 34
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 185
+      }
+    ]
+  },
+  {
+    "id": "d25d741f234cae3e1b4b80cc9448bc85097db269",
+    "po_number": "SO20260105/00105",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 453546,
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 22
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      }
+    ]
+  },
+  {
+    "id": "2eee068bd6e570aeef08836421ccbd472f451815",
+    "po_number": "SO20260109/00109",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 299028,
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 96
+      }
+    ]
+  },
+  {
+    "id": "4667b07f1abf234ec189c19f8a802c5e90c4e6e8",
+    "po_number": "SO20260100/00100",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 412103,
+    "opened_at": "2026-07-27",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 121
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 154
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 57
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 139
+      }
+    ]
+  },
+  {
+    "id": "bf9596ab1ec1120e155213608fb6ffe207400ed4",
+    "po_number": "SO20260108/00108",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 450611,
+    "opened_at": "2026-07-26",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 182
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 31
+      }
+    ]
+  },
+  {
+    "id": "4a90c0708e7fae1d6380b3436ebe483ec2c8e115",
+    "po_number": "SO20260064/00064",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 161661,
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 146
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 168
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 87
+      }
+    ]
+  },
+  {
+    "id": "7151c2e6c2a1457387862d193469e5bc12470b65",
+    "po_number": "SO20260066/00066",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 214013,
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 94
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 50
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": "63402978105a48ea08740343197adcd948312835",
+    "po_number": "SO20260073/00073",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 382850,
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 91
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 18
+      }
+    ]
+  },
+  {
+    "id": "f3b75c673c7cf06e2d5d3e1e29540f20b97ff373",
+    "po_number": "SO20260084/00084",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 233586,
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 125
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 65
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 53
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 12
+      }
+    ]
+  },
+  {
+    "id": "f856071bc1a42a7dc2b61aab0ae569188b5ea7b2",
+    "po_number": "SO20260071/00071",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 238977,
+    "opened_at": "2026-07-23",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 33
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 52
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 92
+      }
+    ]
+  },
+  {
+    "id": "5dc65ef86ae42cd78fef3ae0970dd940b005bfa4",
+    "po_number": "SO20260101/00101",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 224527,
+    "opened_at": "2026-07-23",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 180
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 81
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 188
+      }
+    ]
+  },
+  {
+    "id": "3a42a3039c58b455aec385508004518e136de0f0",
+    "po_number": "SO20260111/00111",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 103015,
+    "opened_at": "2026-07-23",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 190
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 94
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 51
+      }
+    ]
+  },
+  {
+    "id": "9d61ae283a546383540c7d52a9a4f2cc85a0d489",
+    "po_number": "SO20260094/00094",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 245663,
+    "opened_at": "2026-07-22",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 23
+      }
+    ]
+  },
+  {
+    "id": "889e7b4545423ccd2df8bcfe6afb7515d3c044e4",
+    "po_number": "SO20260065/00065",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 489765,
+    "opened_at": "2026-07-21",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 64
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 49
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 115
+      }
+    ]
+  },
+  {
+    "id": "d5c66895495da63bd1e05fcfcec5c9b259d12a71",
+    "po_number": "SO20260088/00088",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 112057,
+    "opened_at": "2026-07-21",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 181
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 192
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 54
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 120
+      }
+    ]
+  },
+  {
+    "id": "10fb1e72d5777736f8fcc4d505145c3a1c1cc776",
+    "po_number": "SO20260099/00099",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 269614,
+    "opened_at": "2026-07-20",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 192
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 153
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 177
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 23
+      }
+    ]
+  },
+  {
+    "id": "96ba1a4f2cd1809cb1318892d6a3cef0de774365",
+    "po_number": "SO20260074/00074",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 337794,
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 32
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 174
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 39
+      }
+    ]
+  },
+  {
+    "id": "f20ecd63561727340b49054921d68807da910639",
+    "po_number": "SO20260076/00076",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 580669,
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 191
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 18
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 116
+      }
+    ]
+  },
+  {
+    "id": "9f8d4d6169bb141dd4123abddf9fd9f832edd05e",
+    "po_number": "SO20260079/00079",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 585873,
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 143
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 59
+      }
+    ]
+  },
+  {
+    "id": "e15bc0edc1abcc9bdc368c151204b384ed27ad33",
+    "po_number": "SO20260086/00086",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 254458,
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 37
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 170
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 124
+      }
+    ]
+  },
+  {
+    "id": "e2740dd41a62632e54a4c23cc448ad009b08a643",
+    "po_number": "SO20260107/00107",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 68264,
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 150
+      }
+    ]
+  },
+  {
+    "id": "7afaeafb1f034a8823e891dfcdffd81e05636538",
+    "po_number": "SO20260075/00075",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 137086,
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 50
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 22
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 18
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 149
+      }
+    ]
+  },
+  {
+    "id": "d26c285479abb68097ce4978749470716802e37e",
+    "po_number": "SO20260077/00077",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 146973,
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 188
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 136
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 58
+      }
+    ]
+  },
+  {
+    "id": "648845e663d256b2cbac1db8d6f0154fe1e24fb9",
+    "po_number": "SO20260117/00117",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 105502,
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 27
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 36
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 57
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 135
+      }
+    ]
+  },
+  {
+    "id": "e35f1bb43244fbad8d74215b7334b4dd2def13eb",
+    "po_number": "SO20260119/00119",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 274154,
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 173
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 32
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 113
+      }
+    ]
+  },
+  {
+    "id": "ce2693806ebec959cf5d068715612404c775c7c4",
+    "po_number": "SO20260063/00063",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 599330,
+    "opened_at": "2026-07-17",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 86
+      }
+    ]
+  },
+  {
+    "id": "f0107c2c001641d8145e4e2f942b9a2f3e0e2457",
+    "po_number": "SO20260068/00068",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 130780,
+    "opened_at": "2026-07-17",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 169
+      }
+    ]
+  },
+  {
+    "id": "50eb251d9b42b8f8feb4bb95fce87cfa63ffadca",
+    "po_number": "SO20260103/00103",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 209582,
+    "opened_at": "2026-07-17",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 174
+      }
+    ]
+  },
+  {
+    "id": "bf60b66568acd14021547fa56360f669fe7da093",
+    "po_number": "SO20260078/00078",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 599496,
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 28
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 52
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 90
+      }
+    ]
+  },
+  {
+    "id": "9ad1171821465f5c7de92beb64fe5310be607119",
+    "po_number": "SO20260102/00102",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 285674,
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 184
+      }
+    ]
+  },
+  {
+    "id": "f09fc77c186a9b6c662aab590973a48ab48e747d",
+    "po_number": "SO20260106/00106",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 144135,
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 95
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 166
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": "7918611256d75d230600f47ddb88d1b5b0ca27b0",
+    "po_number": "SO20260112/00112",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 208491,
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 191
+      }
+    ]
+  },
+  {
+    "id": "72f441f8a9d190654d2ef1f6e39575a3d54bc9a1",
+    "po_number": "SO20260080/00080",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 74608,
+    "opened_at": "2026-07-15",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 119
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 164
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 164
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 82
+      }
+    ]
+  },
+  {
+    "id": "245733e6bb0c4267df89f14f2d19e0a83c202027",
+    "po_number": "SO20260091/00091",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 588351,
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 175
+      }
+    ]
+  },
+  {
+    "id": "f34128c798b72639c31b40959069b77fd208579f",
+    "po_number": "SO20260113/00113",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 244739,
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 29
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 31
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 172
+      }
+    ]
+  },
+  {
+    "id": "6d2fba72dd255bc4a3552317ec2e9e4a67d37a38",
+    "po_number": "SO20260114/00114",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 118356,
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 111
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 15
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 66
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 57
+      }
+    ]
+  },
+  {
+    "id": "45b5816d52520c6dc5895a3fc34e859054973f58",
+    "po_number": "SO20260062/00062",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 105552,
+    "opened_at": "2026-07-13",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 133
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 96
+      }
+    ]
+  },
+  {
+    "id": "3a656ad49d3feb89ddba715ec24638deefd9dbc2",
+    "po_number": "SO20260069/00069",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 426172,
+    "opened_at": "2026-07-12",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 80
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 114
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 132
+      }
+    ]
+  },
+  {
+    "id": "cb61ef87f4f791eceffefc07b33c2f19a4b9d7bd",
+    "po_number": "SO20260081/00081",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 229123,
+    "opened_at": "2026-07-12",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 159
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 117
+      }
+    ]
+  },
+  {
+    "id": "d05967dc78d96063d9c565f235fe6fa4d706dc56",
+    "po_number": "SO20260082/00082",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 238066,
+    "opened_at": "2026-07-12",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 57
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 55
+      }
+    ]
+  },
+  {
+    "id": "39d3bbc558c793fc7c516e604ed1e2e02da34bb0",
+    "po_number": "SO20260089/00089",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 182643,
+    "opened_at": "2026-07-12",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 186
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 117
+      }
+    ]
+  },
+  {
+    "id": "2213e98fb63b4d44d38c9aa6c1de1763fbb993da",
+    "po_number": "SO20260070/00070",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 184672,
+    "opened_at": "2026-07-10",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 155
+      }
+    ]
+  },
+  {
+    "id": "4805d4d08ba418bfc28235472c0655e87c4918a4",
+    "po_number": "SO20260085/00085",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 458958,
+    "opened_at": "2026-07-10",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 187
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 18
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 102
+      }
+    ]
+  },
+  {
+    "id": "561f85d3671a9537b3ed9a1907abc296eca7629f",
+    "po_number": "SO20260104/00104",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 359200,
+    "opened_at": "2026-07-08",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 94
+      }
+    ]
+  },
+  {
+    "id": "d5189b790266c9cbffe0dfc225c1fee5310fad45",
+    "po_number": "SO20260083/00083",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 223830,
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 109
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 25
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 159
+      }
+    ]
+  },
+  {
+    "id": "c2fcfad9936f36b11705adabdcc642e9cebd229b",
+    "po_number": "SO20260092/00092",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 67961,
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 136
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 46
+      }
+    ]
+  },
+  {
+    "id": "f1f8e9029450e1fc5853afb273cc812ecef0d896",
+    "po_number": "SO20260095/00095",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 249964,
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 199
+      }
+    ]
+  },
+  {
+    "id": "3dfc2c59604d2313c03ef851a2f93649c3b6719e",
+    "po_number": "SO20260110/00110",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 68436,
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 44
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 138
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 148
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 104
+      }
+    ]
+  },
+  {
+    "id": "f72ec0e7bfb2d4e1b2c92d0ca2cf6ceae304e3c5",
+    "po_number": "SO20260115/00115",
+    "customer_name": "แม็คโครสาขาราชพฤกษ์",
+    "order_type": "domestic",
+    "total_amount": 207164,
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 195
+      }
+    ]
+  },
+  {
+    "id": "1dd83b0bdc3e818e4dd7b536ca3ed51f18e3bf18",
+    "po_number": "SO20260097/00097",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 152888,
+    "opened_at": "2026-07-06",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 45
+      }
+    ]
+  },
+  {
+    "id": "61665a552e81d1f271e956297242e20e73aba277",
+    "po_number": "SO20260067/00067",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 45402,
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 21
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 44
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 78
+      }
+    ]
+  },
+  {
+    "id": "139ed999a58ac570d7afc3ab99789efc04596ca6",
+    "po_number": "SO20260090/00090",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 79812,
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 140
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 195
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 196
+      }
+    ]
+  },
+  {
+    "id": "fd75221a9e16434e3bbcc9aff276c932fb15c0b0",
+    "po_number": "SO20260096/00096",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 468740,
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 151
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 38
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 86
+      }
+    ]
+  },
+  {
+    "id": "f55190b34daf794d66ca915979b34640c041d928",
+    "po_number": "SO20260118/00118",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 207881,
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 78
+      }
+    ]
+  },
+  {
+    "id": "8d1a23f64f71a761e51568e2868a272432161ee5",
+    "po_number": "SO20260116/00116",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 198082,
+    "opened_at": "2026-07-04",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 82
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 80
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 29
+      }
+    ]
+  },
+  {
+    "id": "fe6c33a1eba73b0f1b5bcf17464987bf448c5cd9",
+    "po_number": "SO20260098/00098",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 140027,
+    "opened_at": "2026-07-03",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 134
+      }
+    ]
+  },
+  {
+    "id": "a10657e1fc4b08d13d542a4d332f5e8ec041d78a",
+    "po_number": "SO20260093/00093",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 278410,
+    "opened_at": "2026-07-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 136
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 118
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 66
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 179
+      }
+    ]
+  },
+  {
+    "id": "e02919ae10acf9af98346aaaa6a03e5335fbfe31",
+    "po_number": "SO20260018/00018",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 559189,
+    "opened_at": "2026-06-28",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 126
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 127
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 26
+      }
+    ]
+  },
+  {
+    "id": "8675539b44108beaef5fa1d421c353b30238b110",
+    "po_number": "SO20260019/00019",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 163330,
+    "opened_at": "2026-06-28",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 96
+      }
+    ]
+  },
+  {
+    "id": "d8cf046718bb79b66bc423cc27949df9464ead63",
+    "po_number": "SO20260037/00037",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 242879,
+    "opened_at": "2026-06-28",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 156
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 36
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 118
+      }
+    ]
+  },
+  {
+    "id": "0faaba745673c67981bfbec75a90b12040680563",
+    "po_number": "SO20260044/00044",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 462896,
+    "opened_at": "2026-06-28",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 142
+      }
+    ]
+  },
+  {
+    "id": "13588552fa4315fa621e0b0f701a696d2d6e0f2d",
+    "po_number": "SO20260033/00033",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 102453,
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 180
+      }
+    ]
+  },
+  {
+    "id": "30c28527e3ac82d74ad6442f23ac295ff4c4e686",
+    "po_number": "SO20260038/00038",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 440842,
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 139
+      }
+    ]
+  },
+  {
+    "id": "818b159100efd05f535a364cd3437bd532454d16",
+    "po_number": "SO20260048/00048",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 76457,
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 200
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 87
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 143
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 26
+      }
+    ]
+  },
+  {
+    "id": "8b236f98adcdf83a3978cc1ea46b5fe77d061e8a",
+    "po_number": "SO20260051/00051",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 614897,
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 140
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 181
+      }
+    ]
+  },
+  {
+    "id": "a17c3eea99f53797aa42602ee8973e05a40c3178",
+    "po_number": "SO20260011/00011",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 507501,
+    "opened_at": "2026-06-26",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 57
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 29
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 167
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 156
+      }
+    ]
+  },
+  {
+    "id": "6bd0aa3a3529d22336c7f079393464edcbe506d2",
+    "po_number": "SO20260017/00017",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 211393,
+    "opened_at": "2026-06-26",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 197
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 195
+      }
+    ]
+  },
+  {
+    "id": "0db92e931537ab83a421899e47e9cff9e428cafd",
+    "po_number": "SO20260016/00016",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 278782,
+    "opened_at": "2026-06-25",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 70
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 148
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 83
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 18
+      }
+    ]
+  },
+  {
+    "id": "e7ff62ff451beed8f352030aeda5daf54ba6e6bd",
+    "po_number": "SO20260029/00029",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 70633,
+    "opened_at": "2026-06-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 106
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 147
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 56
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 26
+      }
+    ]
+  },
+  {
+    "id": "46ae19f961e14650fbc1562a8b9335edc2be30ad",
+    "po_number": "SO20260035/00035",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 333270,
+    "opened_at": "2026-06-25",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 192
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 76
+      }
+    ]
+  },
+  {
+    "id": "6f5d2e5de9edda214e15342debddff536f09f82e",
+    "po_number": "SO20260036/00036",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 83052,
+    "opened_at": "2026-06-25",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 154
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 169
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 128
+      }
+    ]
+  },
+  {
+    "id": "0ab0e139a624cf2ccc779055b4af57ec1580e60b",
+    "po_number": "SO20260015/00015",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 594502,
+    "opened_at": "2026-06-24",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 94
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 109
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 45
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 169
+      }
+    ]
+  },
+  {
+    "id": "6e196649805868548a072c6130acdff29ea6152f",
+    "po_number": "SO20260010/00010",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 229092,
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 191
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 99
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 55
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 192
+      }
+    ]
+  },
+  {
+    "id": "183ff4b3cbd2f4e7b680544bebd38cf0b6001eda",
+    "po_number": "SO20260027/00027",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 135754,
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 51
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 156
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 150
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 56
+      }
+    ]
+  },
+  {
+    "id": "b0f874cd4cb1ccab412dfb8ce2cc819fb3fb4416",
+    "po_number": "SO20260040/00040",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 173013,
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 76
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 144
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 144
+      }
+    ]
+  },
+  {
+    "id": "3679ee4ad21cf24fddd1618936766162967a0b56",
+    "po_number": "SO20260054/00054",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 390770,
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 34
+      }
+    ]
+  },
+  {
+    "id": "693693377bd1cb54a38d182185779d7f4b5aef59",
+    "po_number": "SO20260039/00039",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 56747,
+    "opened_at": "2026-06-20",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 120
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 166
+      }
+    ]
+  },
+  {
+    "id": "985ea23f5de565a9723e9d73bbf4129cf37de803",
+    "po_number": "SO20260028/00028",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 429230,
+    "opened_at": "2026-06-17",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 178
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 157
+      }
+    ]
+  },
+  {
+    "id": "e5ede5eb510dd189ff4c097b5b71a59252332c83",
+    "po_number": "SO20260056/00056",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 246435,
+    "opened_at": "2026-06-17",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 51
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 109
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 111
+      }
+    ]
+  },
+  {
+    "id": "7ab802864e92aacf25fba53523d72d487ff6ee58",
+    "po_number": "SO20260057/00057",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 242518,
+    "opened_at": "2026-06-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 189
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 14
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 158
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 153
+      }
+    ]
+  },
+  {
+    "id": "89774d02783a037066d97bf766d63211f836a704",
+    "po_number": "SO20260001/00001",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 564673,
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 64
+      }
+    ]
+  },
+  {
+    "id": "030a052205fc6395361c56a85d35c5c481e16a35",
+    "po_number": "SO20260013/00013",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 130881,
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 118
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "58679484000bb453a4ffca253416726c4ace5d0c",
+    "po_number": "SO20260014/00014",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 175963,
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 82
+      }
+    ]
+  },
+  {
+    "id": "42150be522bbc0bfb592cfb1ee80d33178cd80b7",
+    "po_number": "SO20260050/00050",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 222063,
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 71
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 171
+      }
+    ]
+  },
+  {
+    "id": "9d2e11fdf4f049cc78331e14877c3c587e002959",
+    "po_number": "SO20260053/00053",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 43838,
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 172
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 164
+      }
+    ]
+  },
+  {
+    "id": "98915fb17168dc293e04ddb63bcde0baf0069f92",
+    "po_number": "SO20260041/00041",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 282989,
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 187
+      }
+    ]
+  },
+  {
+    "id": "c5abda65a940e1373d671d537401a2d27834ac3b",
+    "po_number": "SO20260055/00055",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 86713,
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 35
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 143
+      }
+    ]
+  },
+  {
+    "id": "a20a648a49575867f062f96b42bd19f56a9f15f8",
+    "po_number": "SO20260020/00020",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 225246,
+    "opened_at": "2026-06-13",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 24
+      }
+    ]
+  },
+  {
+    "id": "c1ea802b968a1858cdf2b78f8a0ea2c3acf4582a",
+    "po_number": "SO20260061/00061",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 79433,
+    "opened_at": "2026-06-13",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 88
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 72
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 112
+      }
+    ]
+  },
+  {
+    "id": "5802df2b35c6b607551b7a838cda002cfd840f69",
+    "po_number": "SO20260022/00022",
+    "customer_name": "บจก. อีเทอเนิล ฟู้ด",
+    "order_type": "domestic",
+    "total_amount": 259969,
+    "opened_at": "2026-06-12",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 175
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 198
+      }
+    ]
+  },
+  {
+    "id": "16a8c6ea029c6217112509ab433868d311d222ca",
+    "po_number": "SO20260023/00023",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 224976,
+    "opened_at": "2026-06-12",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 88
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 159
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 83
+      }
+    ]
+  },
+  {
+    "id": "da0ed28165eaac4c331526dcdc2f66aaf6369959",
+    "po_number": "SO20260021/00021",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 335545,
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 82
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 17
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 94
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 175
+      }
+    ]
+  },
+  {
+    "id": "30b6c1d4be13f865aeb22367716c0b447805c5e8",
+    "po_number": "SO20260024/00024",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 192165,
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 129
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 183
+      }
+    ]
+  },
+  {
+    "id": "81e9cb83c2306590916c32f625d28081e4598cce",
+    "po_number": "SO20260031/00031",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 78903,
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 13
+      }
+    ]
+  },
+  {
+    "id": "436673c52d4cbcbcb9b1bff4b05e6fdd813626b3",
+    "po_number": "SO20260003/00003",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 97110,
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 183
+      }
+    ]
+  },
+  {
+    "id": "b7754bd06858f95f48ec3835ae3757865b4cb179",
+    "po_number": "SO20260006/00006",
+    "customer_name": "Green Valley Foods",
+    "order_type": "international",
+    "total_amount": 415396,
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 53
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 23
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 98
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 66
+      }
+    ]
+  },
+  {
+    "id": "b14a9e80bbce0d5099c92a2793658ce8ef7edb42",
+    "po_number": "SO20260009/00009",
+    "customer_name": "Tokyo Dried Fruits Co.",
+    "order_type": "international",
+    "total_amount": 318108,
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 81
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 181
+      }
+    ]
+  },
+  {
+    "id": "7fd590c26bf3e70ddb194ecb793c3570d10e65df",
+    "po_number": "SO20260004/00004",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 504273,
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 66
+      }
+    ]
+  },
+  {
+    "id": "430b344594c23941d47214d1b03ae8ba145a7ded",
+    "po_number": "SO20260026/00026",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 331805,
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 61
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 45
+      }
+    ]
+  },
+  {
+    "id": "a4b712fb6913afe960b8a0441d8cd058616f31ab",
+    "po_number": "SO20260045/00045",
+    "customer_name": "Seoul Natural Snacks",
+    "order_type": "international",
+    "total_amount": 424810,
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 129
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 167
+      }
+    ]
+  },
+  {
+    "id": "d59950dfc475a8a13ceb24aa966db29734a50dc9",
+    "po_number": "SO20260002/00002",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 86326,
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 197
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 173
+      }
+    ]
+  },
+  {
+    "id": "5b4e8fc3bde1dee49fe8fab9e5c00937f822acb2",
+    "po_number": "SO20260008/00008",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 237562,
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 152
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 155
+      }
+    ]
+  },
+  {
+    "id": "39541e6d158134e8d51fbeb61ea41d4392ba4aeb",
+    "po_number": "SO20260012/00012",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 159829,
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 37
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 58
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 128
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 107
+      }
+    ]
+  },
+  {
+    "id": "86026537b90bc0de620c69bd508667dd4905f9fb",
+    "po_number": "SO20260030/00030",
+    "customer_name": "บจก. เอเชียเฮลตี้สแน็ค",
+    "order_type": "domestic",
+    "total_amount": 57015,
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 195
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 45
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 177
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 191
+      }
+    ]
+  },
+  {
+    "id": "e01cb774e5252a4acccda3b46ebb4ef1502e9970",
+    "po_number": "SO20260005/00005",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 531258,
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 150
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 197
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 86
+      }
+    ]
+  },
+  {
+    "id": "a072fcb054148ddd12f66945f2062117a5107faa",
+    "po_number": "SO20260032/00032",
+    "customer_name": "บจก. ซีพี ออลล์",
+    "order_type": "domestic",
+    "total_amount": 178430,
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 24
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 118
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 24
+      }
+    ]
+  },
+  {
+    "id": "8bdc32056a4e736a8baf7286431563090590854f",
+    "po_number": "SO20260042/00042",
+    "customer_name": "EuroSnack GmbH",
+    "order_type": "international",
+    "total_amount": 539335,
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 138
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 94
+      }
+    ]
+  },
+  {
+    "id": "ea311890318a27f832657d8a46a0c9db415eb771",
+    "po_number": "SO20260058/00058",
+    "customer_name": "Sydney Health Imports",
+    "order_type": "international",
+    "total_amount": 299287,
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 176
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 172
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 200
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 36
+      }
+    ]
+  },
+  {
+    "id": "09f6e29fef92f1c5922ea88b7d15c0b65aefcbe3",
+    "po_number": "SO20260052/00052",
+    "customer_name": "Dubai Gourmet Trading",
+    "order_type": "international",
+    "total_amount": 617246,
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 105
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 200
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 144
+      }
+    ]
+  },
+  {
+    "id": "9e6b0490f820f75dc45f987aaa9575e4c9b6a9ff",
+    "po_number": "SO20260059/00059",
+    "customer_name": "บจก. สยามฟรุ๊ตส์",
+    "order_type": "domestic",
+    "total_amount": 69074,
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 59
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 190
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 177
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 150
+      }
+    ]
+  },
+  {
+    "id": "7b99ec5c986773cf626c2698c4ea5d794f3ed52f",
+    "po_number": "SO20260060/00060",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 250595,
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 192
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 186
+      }
+    ]
+  },
+  {
+    "id": "e03995b8c328565245e37581e6cddcdf513dc3f1",
+    "po_number": "SO20260047/00047",
+    "customer_name": "บจก. กรุงเทพขนมหวาน",
+    "order_type": "domestic",
+    "total_amount": 183064,
+    "opened_at": "2026-06-04",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 177
+      }
+    ]
+  },
+  {
+    "id": "73207f59707ee565f084b4481d68f8e692585b97",
+    "po_number": "SO20260007/00007",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 315965,
+    "opened_at": "2026-06-03",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 121
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 14
+      }
+    ]
+  },
+  {
+    "id": "064b6299d6c12b3bd20133d171957ff4d2da2555",
+    "po_number": "SO20260049/00049",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 351731,
+    "opened_at": "2026-06-03",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 139
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 14
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 14
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 189
+      }
+    ]
+  },
+  {
+    "id": "8121ebbcae9df17ddd1f9a9ba9cc4353816b77ad",
+    "po_number": "SO20260034/00034",
+    "customer_name": "Nordic Organic AB",
+    "order_type": "international",
+    "total_amount": 370137,
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 71
+      }
+    ]
+  },
+  {
+    "id": "d0ae1d304ef0be2a5d0b2d675d80771fadba2624",
+    "po_number": "SO20260043/00043",
+    "customer_name": "ร้านของฝากเชียงใหม่",
+    "order_type": "domestic",
+    "total_amount": 234797,
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 162
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 22
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "unit": "ถุง",
+        "quantity": 55
+      }
+    ]
+  },
+  {
+    "id": "c6899f54494afbfc2895d534f4daccd185284c57",
+    "po_number": "SO20260046/00046",
+    "customer_name": "บจก. ท็อปส์ รีเทล",
+    "order_type": "domestic",
+    "total_amount": 181878,
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 190
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "unit": "ซอง",
+        "quantity": 72
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 31
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "unit": "ซอง",
+        "quantity": 37
+      }
+    ]
+  },
+  {
+    "id": "b4e0765e2413d43f45af87b6509436d7ca340aa0",
+    "po_number": "SO20260025/00025",
+    "customer_name": "Golden Harvest Pte",
+    "order_type": "international",
+    "total_amount": 522852,
+    "opened_at": "2026-06-01",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "unit": "กล่อง",
+        "quantity": 133
+      }
+    ]
   }
 ]

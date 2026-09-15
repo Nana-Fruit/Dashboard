@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList,
 } from "recharts";
 import { getOfficeSummary, setOfficeTarget } from "../api.js";
-import { Kpi, Progress, RankList, Panel, fmtTHB, fmtCompactTHB } from "../components/ui.jsx";
+import { Kpi, Progress, RankList, Panel, fmtTHB, fmtCompactTHB, fmtNum } from "../components/ui.jsx";
 
 const MONTHS = ["2026-06", "2026-07", "2026-08"];
 const monthLabel = (m) =>
@@ -123,7 +123,7 @@ export default function OfficePage() {
         </ResponsiveContainer>
       </Panel>
 
-      {/* top spenders only */}
+      {/* top spenders + top products */}
       <div className="grid-2">
         <Panel title="Top spenders — domestic">
           <RankList title="" rows={data.topSpenders.domestic} accent={C.domestic} />
@@ -132,6 +132,14 @@ export default function OfficePage() {
           <RankList title="" rows={data.topSpenders.international} accent={C.international} />
         </Panel>
       </div>
+      <Panel title="Top products — by quantity sold">
+        <RankList
+          title=""
+          rows={data.topProducts || []}
+          valueKey="quantity"
+          formatValue={(r) => `${fmtNum(r.quantity)} ${r.unit}`}
+        />
+      </Panel>
     </div>
   );
 }
