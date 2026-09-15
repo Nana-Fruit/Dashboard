@@ -96,10 +96,12 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 
 ## Wiring real APIs later
 
-1. Dry-room: set `USE_MOCK=false` + `EXTERNAL_API_KEY` in `server/.env`.
-2. Sales orders: implement a fetch in `server/src/routes/office.js` (replace `loadOrders()`),
-   keep the same order shape.
-3. Factory rooms: same idea in `server/src/routes/factory.js` (replace `loadRecords()`).
+1. Dry-room: set `USE_MOCK_FACTORY=false` + `FACTORY_API_BASE_URL` + `FACTORY_API_KEY` in `server/.env`.
+2. Sales orders: set `USE_MOCK_OFFICE=false` + `OFFICE_API_BASE_URL` + `OFFICE_API_KEY`, then call
+   `callOfficeApi()` from `server/src/api/officeApi.js` inside `server/src/routes/office.js`
+   (replace `loadOrders()`), keeping the same order shape.
+3. Factory rooms: same idea in `server/src/routes/factory.js` (replace `loadRecords()`) using
+   the Factory API (`server/src/api/factoryApi.js`).
 
 ## UI
 

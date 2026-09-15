@@ -15,7 +15,11 @@ app.use(express.json());
 
 // public
 app.get("/api/health", (_req, res) => {
-  res.json({ ok: true, source: config.useMock ? "mock" : "api" });
+  res.json({
+    ok: true,
+    factory: config.factoryApi.useMock ? "mock" : "api",
+    office: config.officeApi.useMock ? "mock" : "api",
+  });
 });
 
 app.use("/api/auth", auth);

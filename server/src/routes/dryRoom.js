@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { config } from "../config.js";
-import { getAllBatches } from "../externalApi.js";
+import { getAllBatches } from "../api/factoryApi.js";
 import { requireAuth, requireFactory } from "../auth/middleware.js";
 
 // Dry room (ห้องอบ) detail view. Factory-side data, so same access rule.
@@ -109,7 +109,7 @@ api.get("/dashboard", async (req, res, next) => {
     // filter options for the UI
     const products = [...new Set(all.map((b) => b.productName))].filter(Boolean).sort();
 
-    res.json({ source: config.useMock ? "mock" : "api", summary, byProduct, yieldTrend, recentBatches, products });
+    res.json({ source: config.factoryApi.useMock ? "mock" : "api", summary, byProduct, yieldTrend, recentBatches, products });
   } catch (err) {
     next(err);
   }
