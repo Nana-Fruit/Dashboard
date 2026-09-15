@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node --watch --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env.development src/index.js",
+    "prod": "node --watch --env-file=.env.production src/index.js",
     "start": "node --env-file=.env src/index.js",
     "mock:gen": "node scripts/generate-mock.js && node scripts/generate-mock-office.js && node scripts/generate-mock-factory.js",
     "seed:users": "node scripts/seed-users.js"
