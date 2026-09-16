@@ -256,6 +256,19 @@ label.field-inline { display: flex; flex-direction: column; gap: 6px; }
 .rl-track span { display: block; height: 100%; background: var(--accent, var(--series-1)); border-radius: 999px; }
 .rl-val { font-size: 12.5px; color: var(--text-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
 
+/* ---------- collapsible table ---------- */
+.table-collapse { margin-top: 8px; }
+.table-collapse summary {
+  cursor: pointer; font-size: 13px; font-weight: 600; color: var(--text-2);
+  text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 14px;
+  list-style: none;
+}
+.table-collapse summary::-webkit-details-marker { display: none; }
+.table-collapse summary::before {
+  content: "▸"; display: inline-block; margin-right: 6px; transition: transform 0.15s;
+}
+.table-collapse[open] summary::before { transform: rotate(90deg); }
+
 /* ---------- tables ---------- */
 .table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; }

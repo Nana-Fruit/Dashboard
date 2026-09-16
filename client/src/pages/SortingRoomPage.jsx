@@ -1,12 +1,41 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
+  BarChart, Bar, Cell, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from "recharts";
 import { getSortingRoomDashboard } from "../api.js";
 import { Kpi, Panel, fmtNum } from "../components/ui.jsx";
 
 const GRADE_COLORS = ["var(--series-1)", "var(--series-2)", "var(--warning)", "var(--good)", "var(--critical)"];
+
+function avg(arr, f) {
+  if (!arr.length) return 0;
+  return arr.reduce((a, x) => a + (f(x) || 0), 0) / arr.length;
+}
+
+function ProductivityChart({ title, kpiValue, kpiUnit, data, dataKey, unit, color }) {
+  return (
+    <Panel title={title}>
+      <Kpi label="Average" value={`${fmtNum(kpiValue, 1)} ${kpiUnit}`} />
+      <ResponsiveContainer width="100%" height={220} style={{marginTop: '15px'}}>
+        <LineChart data={data} margin={{ top: 8, right: 16, bottom: 8, left: 0 }}>
+          <CartesianGrid stroke="var(--grid)" vertical={false} />
+          <XAxis dataKey="lotDate" tickLine={false} axisLine={{ stroke: "var(--axis)" }} />
+          <YAxis tickLine={false} axisLine={false} width={54} />
+          <Tooltip
+            contentStyle={{ background: "var(--surface)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 12 }}
+            formatter={(v) => [`${fmtNum(v, 1)} ${unit}`, title]}
+            labelFormatter={(label, payload) => {
+              const p = payload?.[0]?.payload;
+              return p ? `${label} — ${p.productName}` : label;
+            }}
+          />
+          <Line type="monotone" dataKey={dataKey} name={title} stroke={color} strokeWidth={2} dot={{ r: 3 }} />
+        </LineChart>
+      </ResponsiveContainer>
+    </Panel>
+  );
+}
 
 export default function SortingRoomPage() {
   const [data, setData] = useState(null);
@@ -57,7 +86,7 @@ export default function SortingRoomPage() {
         <Kpi label="Avg staff / lot" value={fmtNum(s.avgEmployees, 1)} />
       </div>
 
-      <Panel title="Grade composition (total kg)">
+      {/* <Panel title="Grade composition (total kg)">
         <ResponsiveContainer width="100%" height={260}>
           <BarChart data={data.gradeBreakdown} margin={{ top: 8, right: 16, bottom: 8, left: 0 }}>
             <CartesianGrid stroke="var(--grid)" vertical={false} />
@@ -89,6 +118,65 @@ export default function SortingRoomPage() {
             ))}
           </BarChart>
         </ResponsiveContainer>
+      </Panel> */}
+
+      <Panel title="Productivity by lot">
+        <ProductivityChart
+          title="Output per hour"
+          kpiValue={avg(data.productivity, (p) => p.outputPerHourKg)}
+          kpiUnit="kg/hr"
+          data={data.productivity}
+          dataKey="outputPerHourKg"
+          unit="kg/hr"
+          color="var(--series-1)"
+        />
+        <ProductivityChart
+          title="Output per employee"
+          kpiValue={avg(data.productivity, (p) => p.outputPerEmployeeKg)}
+          kpiUnit="kg"
+          data={data.productivity}
+          dataKey="outputPerEmployeeKg"
+          unit="kg"
+          color="var(--series-2)"
+        />
+        <ProductivityChart
+          title="Labor productivity"
+          kpiValue={avg(data.productivity, (p) => p.laborProductivity)}
+          kpiUnit="kg/(person·hr)"
+          data={data.productivity}
+          dataKey="laborProductivity"
+          unit="kg/(person·hr)"
+          color="var(--warning)"
+        />
+
+        <details className="table-collapse">
+          <summary>Lot detail ({data.productivity.length} lots)</summary>
+          <div className="table-wrap">
+            <table id="productivity">
+              <thead>
+                <tr>
+                  <th>Lot date</th><th>Product</th>
+                  <th className="num">Weight (kg)</th><th className="num">Hours</th><th className="num">Staff</th>
+                  <th className="num">Output/hour</th><th className="num">Output/employee</th><th className="num">Labor productivity</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...data.productivity].reverse().map((p) => (
+                  <tr key={p.recordId}>
+                    <td>{p.lotDate}</td>
+                    <td>{p.productName}</td>
+                    <td className="num">{fmtNum(p.totalWeightKg)}</td>
+                    <td className="num">{fmtNum(p.totalWorkingHours)}</td>
+                    <td className="num">{p.employeeCount}</td>
+                    <td className="num">{fmtNum(p.outputPerHourKg, 1)}</td>
+                    <td className="num">{fmtNum(p.outputPerEmployeeKg, 1)}</td>
+                    <td className="num">{fmtNum(p.laborProductivity, 2)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
       </Panel>
 
       <Panel title="Summary by product">

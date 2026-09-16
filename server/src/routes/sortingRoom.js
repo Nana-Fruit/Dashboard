@@ -100,6 +100,26 @@ api.get("/dashboard", async (req, res, next) => {
       .slice(0, 15)
       .map((r) => ({ ...r, employeeCount: employeeCount(r) }));
 
+    // per-lot productivity: one point per lot (not grouped by date), since
+    // staffing/hours vary lot to lot even within the same day
+    const productivity = [...records]
+      .sort((a, b) => a.lotDate.localeCompare(b.lotDate))
+      .map((r) => {
+        const emp = employeeCount(r);
+        const hrs = r.totalWorkingHours || 0;
+        return {
+          recordId: r.recordId,
+          lotDate: r.lotDate,
+          productName: r.productName,
+          totalWeightKg: round(r.totalWeightKg),
+          totalWorkingHours: hrs,
+          employeeCount: emp,
+          outputPerHourKg: hrs ? round(r.totalWeightKg / hrs) : 0,
+          outputPerEmployeeKg: emp ? round(r.totalWeightKg / emp) : 0,
+          laborProductivity: emp && hrs ? round(r.totalWeightKg / (emp * hrs)) : 0,
+        };
+      });
+
     const products = [...new Set(all.map((r) => r.productName))].filter(Boolean).sort();
 
     res.json({
@@ -110,6 +130,7 @@ api.get("/dashboard", async (req, res, next) => {
       gradeTrend,
       byProduct,
       recentRecords,
+      productivity,
       products,
     });
   } catch (err) {
