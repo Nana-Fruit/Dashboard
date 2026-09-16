@@ -2,11 +2,17 @@
 // mock/real toggle + cache pattern as api/factoryApi.js.
 //
 // Upstream shape (GET /external/v1/sales-orders):
-//   { id, po_number, customer_name, order_type: "domestic"|"international",
+//   { id, po_number, customer_name, order_type: "domestic"|"international"|"safety_stock",
 //     total_amount, opened_at, items: [{ sku, unit, quantity }] }
 // mapSalesOrder() below normalizes that into the shape routes/office.js
 // expects. total_amount is assumed to always be THB (no currency field
-// upstream) and order_type only ever domestic/international today.
+// upstream).
+//
+// order_type can also be "safety_stock" - stock reserved for online channels
+// (Facebook/TikTok), not an actual sale. It's excluded from getAllSalesOrders()
+// below so it never reaches the dashboard's revenue KPIs/trend/top lists.
+// Online-channel sales will eventually need their own "online" order_type,
+// but that data source isn't wired up yet.
 //
 // Query params confirmed with upstream: from, to, order_type, page, limit.
 // Pagination is page-based (no cursor) - we page through until a page comes
@@ -22,6 +28,9 @@ import { createApiClient } from "../lib/apiClient.js";
 import { getCached, setCached } from "../cache.js";
 
 const MOCK_PATH = fileURLToPath(new URL("../mock/salesOrders.json", import.meta.url));
+
+// Only these order_types represent real revenue for the dashboard.
+const REVENUE_MARKETS = new Set(["domestic", "international"]);
 
 export const callOfficeApi = createApiClient(config.officeApi);
 
@@ -74,7 +83,7 @@ export async function getAllSalesOrders() {
     } while (batch.length === limit);
   }
 
-  const mapped = raw.map(mapSalesOrder);
+  const mapped = raw.map(mapSalesOrder).filter((o) => REVENUE_MARKETS.has(o.market));
   setCached(cacheKey, mapped, config.cacheTtlSeconds);
   return mapped;
 }

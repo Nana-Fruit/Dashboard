@@ -5,7 +5,7 @@ import {
 import { getOfficeSummary, setOfficeTarget } from "../api.js";
 import { Kpi, Progress, RankList, Panel, fmtTHB, fmtCompactTHB, fmtNum } from "../components/ui.jsx";
 
-const MONTHS = ["2026-06", "2026-07", "2026-08"];
+const MONTHS = ["2026-06", "2026-07", "2026-08", "2026-09"];
 const monthLabel = (m) =>
   new Date(m + "-01").toLocaleDateString("en-US", { month: "long", year: "numeric" });
 
