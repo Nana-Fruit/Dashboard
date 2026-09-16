@@ -97,7 +97,8 @@ Only `admin` can edit — currently: **monthly sales target** (Office page) and
 | `mock/freshRoomBatches.json` | `generate-mock-fresh-room.js` | fresh-room lots (matches the real API) |
 | `mock/sortingRecords.json` | `generate-mock-sort-room.js` | sorting-room records (matches the real API) |
 | `mock/packingRecords.json` | `generate-mock-sort-room.js` | packing-room records (matches the real API) |
-| `mock/salesOrders.json` | `generate-mock-office.js` | matches the real API: `{ id, po_number, customer_name, order_type: "domestic"\|"international", total_amount, opened_at, items: [{ sku, unit, quantity }] }` (normalized by `server/src/api/officeApi.js` before reaching routes) |
+| `mock/salesOrders.json` | `generate-mock-office.js` | matches the real API: `{ id, po_number, customer_name, order_type: "domestic"\|"international"\|"safety_stock", total_amount, opened_at, items: [{ sku, unit, quantity }] }` (normalized by `server/src/api/officeApi.js` before reaching routes; `safety_stock` orders are stock reserved for online channels, not real sales, so `getAllSalesOrders()` filters them out) |
+| `mock/onlineOrders.json` | `generate-mock-online.js` | placeholder for online-channel sales (TikTok Shop / Shopee / Lazada / LINE OA) - no upstream API yet, not wired into any route: `{ id, order_no, channel, opened_at, items: [{ sku, product_name, quantity }], free_items: [{ sku, product_name, quantity }], promotion_name, gross_amount, net_amount }` |
 | `mock/factoryRooms.json` | `generate-mock-factory.js` | `{ date, room, productName, inputWeightKg, outputWeightKg, yieldPercent, employees, workingHours }` (used only by the Factory overview tabs) |
 | `mock/config.json` | (hand-edited / admin UI) | `monthlySalesTargets`, `laborRatePerHour` |
 

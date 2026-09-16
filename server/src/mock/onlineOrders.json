@@ -1,0 +1,5883 @@
+[
+  {
+    "id": "571f9f881aad67af1a9be2efc15c0dfaf6feda2c",
+    "order_no": "OL20260171",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1508,
+    "net_amount": 1462
+  },
+  {
+    "id": "6dd75809b34a45e034a12804870a7c92d0d12b45",
+    "order_no": "OL20260179",
+    "channel": "Lazada",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 4206,
+    "net_amount": 3893
+  },
+  {
+    "id": "6d7ee56923af23e57cda68a0684afa556b089d86",
+    "order_no": "OL20260182",
+    "channel": "Shopee",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2300,
+    "net_amount": 2157
+  },
+  {
+    "id": "23b0e60e9e00f22828572094732ffd5fbf9cf405",
+    "order_no": "OL20260190",
+    "channel": "Shopee",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3089,
+    "net_amount": 2904
+  },
+  {
+    "id": "76421b2ea21e52870e48a8f0ecd056c3b7af57ac",
+    "order_no": "OL20260206",
+    "channel": "Shopee",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4280,
+    "net_amount": 4036
+  },
+  {
+    "id": "a713fb580576cc4ee982cb301125ecadf6c5a604",
+    "order_no": "OL20260226",
+    "channel": "Lazada",
+    "opened_at": "2026-08-28",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1012,
+    "net_amount": 947
+  },
+  {
+    "id": "de8414f039040e66bc0e892dddc62231c4851940",
+    "order_no": "OL20260176",
+    "channel": "Shopee",
+    "opened_at": "2026-08-26",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 2999,
+    "net_amount": 2815
+  },
+  {
+    "id": "7a53f5219b730494c276c7fcf8ee5cf4c62c2be9",
+    "order_no": "OL20260213",
+    "channel": "Shopee",
+    "opened_at": "2026-08-26",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1666,
+    "net_amount": 1551
+  },
+  {
+    "id": "01c057eb8c213f1920f67fabfdafaaf713df95b7",
+    "order_no": "OL20260223",
+    "channel": "Lazada",
+    "opened_at": "2026-08-26",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3771,
+    "net_amount": 3568
+  },
+  {
+    "id": "57abb689a52496b273e42354133ce75dd2bb373b",
+    "order_no": "OL20260208",
+    "channel": "Lazada",
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 4067,
+    "net_amount": 3833
+  },
+  {
+    "id": "1f582b5cf9502471420e17e24b7a9b23b20d91d7",
+    "order_no": "OL20260222",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3050,
+    "net_amount": 2963
+  },
+  {
+    "id": "e5159199f99fe705dd675249ece107facd71ce9a",
+    "order_no": "OL20260228",
+    "channel": "Lazada",
+    "opened_at": "2026-08-25",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1739,
+    "net_amount": 1646
+  },
+  {
+    "id": "e2602b91a79b874e796fbedbcc6348d8eef57ed3",
+    "order_no": "OL20260186",
+    "channel": "Shopee",
+    "opened_at": "2026-08-24",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1487,
+    "net_amount": 1403
+  },
+  {
+    "id": "3c069455bff3d6eeec3190229eedf2d9659bf566",
+    "order_no": "OL20260189",
+    "channel": "Shopee",
+    "opened_at": "2026-08-24",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 331,
+    "net_amount": 303
+  },
+  {
+    "id": "780d915751a1b52045518cceebfe1195c244435a",
+    "order_no": "OL20260210",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-24",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3616,
+    "net_amount": 3537
+  },
+  {
+    "id": "7ede83362c25187dc434fe91b48d27803f30826d",
+    "order_no": "OL20260191",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-23",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1681,
+    "net_amount": 1646
+  },
+  {
+    "id": "76a160ef029cc9e943719c08ad7c442aedaf7226",
+    "order_no": "OL20260165",
+    "channel": "Shopee",
+    "opened_at": "2026-08-22",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 459,
+    "net_amount": 423
+  },
+  {
+    "id": "d25db315a26cd1772a8e26be94f8202ccbdac4fd",
+    "order_no": "OL20260202",
+    "channel": "Lazada",
+    "opened_at": "2026-08-22",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1049,
+    "net_amount": 976
+  },
+  {
+    "id": "c1870afe29a0163f7967335c1ea6778d445987f5",
+    "order_no": "OL20260207",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-22",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1140,
+    "net_amount": 1014
+  },
+  {
+    "id": "c224f5b75c6b28e8c86f3efdcf8e1cd785c4bfcf",
+    "order_no": "OL20260214",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-22",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 397,
+    "net_amount": 363
+  },
+  {
+    "id": "3f9c8d55c3d93f37a18692c04c39bfc4b8bdab85",
+    "order_no": "OL20260164",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4045,
+    "net_amount": 3884
+  },
+  {
+    "id": "f61e1855079edc3affcad84fe533838d6332921a",
+    "order_no": "OL20260168",
+    "channel": "Lazada",
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3566,
+    "net_amount": 3255
+  },
+  {
+    "id": "eece01aa8eb8c0a0a6385df63b7277dd15ddcec6",
+    "order_no": "OL20260199",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2543,
+    "net_amount": 2448
+  },
+  {
+    "id": "24629c8c176833643596b646ba8bed271960d1e5",
+    "order_no": "OL20260201",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-20",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3033,
+    "net_amount": 2713
+  },
+  {
+    "id": "6a3c908130dfb4cbafc91f995fbebb9547839b00",
+    "order_no": "OL20260163",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-19",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1242,
+    "net_amount": 1202
+  },
+  {
+    "id": "6ba67cc069a1fde48113c8aff26d161e8daef403",
+    "order_no": "OL20260173",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-18",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4241,
+    "net_amount": 4090
+  },
+  {
+    "id": "89461b73bd14ca38734603f65038af7d6a56e823",
+    "order_no": "OL20260194",
+    "channel": "Lazada",
+    "opened_at": "2026-08-18",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 2435,
+    "net_amount": 2258
+  },
+  {
+    "id": "156b7198df49968fe3078eb9cc428535aa5ae9c6",
+    "order_no": "OL20260212",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-17",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 835,
+    "net_amount": 751
+  },
+  {
+    "id": "af4a7c6ac360a01d770bd25a391930cb0e78582d",
+    "order_no": "OL20260162",
+    "channel": "Lazada",
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3807,
+    "net_amount": 3509
+  },
+  {
+    "id": "8334c1ef5682c07075fdc2f4309ece7c27bf51a2",
+    "order_no": "OL20260178",
+    "channel": "Shopee",
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 896,
+    "net_amount": 837
+  },
+  {
+    "id": "40a0806f4e1007716c978e895ed17756ffc62fd7",
+    "order_no": "OL20260197",
+    "channel": "Lazada",
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 2903,
+    "net_amount": 2689
+  },
+  {
+    "id": "8d2b10ea24663fac53a7719e044c3d7011865711",
+    "order_no": "OL20260216",
+    "channel": "Lazada",
+    "opened_at": "2026-08-16",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 2362,
+    "net_amount": 2206
+  },
+  {
+    "id": "aea14bfca30b2830d48148128f4f146e8f590acc",
+    "order_no": "OL20260203",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 964,
+    "net_amount": 927
+  },
+  {
+    "id": "89785c1098e6577cfe7f258892c80bc8de0c58db",
+    "order_no": "OL20260166",
+    "channel": "Lazada",
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4273,
+    "net_amount": 4013
+  },
+  {
+    "id": "fb5731d0ccdf2e792f56a64902e3466a83a0168e",
+    "order_no": "OL20260180",
+    "channel": "Shopee",
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3063,
+    "net_amount": 2867
+  },
+  {
+    "id": "1e857f6dae3d13939d61b33384c5fa03279dbd3c",
+    "order_no": "OL20260188",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2225,
+    "net_amount": 2162
+  },
+  {
+    "id": "9785e5d52abe25420a59c43c0e70e7cf7823f7fa",
+    "order_no": "OL20260217",
+    "channel": "Lazada",
+    "opened_at": "2026-08-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1642,
+    "net_amount": 1524
+  },
+  {
+    "id": "182a0fbd70756b793e8fc8a3e3ae79e55927719b",
+    "order_no": "OL20260195",
+    "channel": "Lazada",
+    "opened_at": "2026-08-13",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1201,
+    "net_amount": 1105
+  },
+  {
+    "id": "9ac668e73e3172db180e530be350a184caecba1e",
+    "order_no": "OL20260205",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-13",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3890,
+    "net_amount": 3478
+  },
+  {
+    "id": "c507b3bb7351f935b10fd38b7bca92ad84eb0030",
+    "order_no": "OL20260169",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 2419,
+    "net_amount": 2359
+  },
+  {
+    "id": "358120e9a4291fc5907b795013fb31e4c508a2e3",
+    "order_no": "OL20260172",
+    "channel": "Lazada",
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3721,
+    "net_amount": 3454
+  },
+  {
+    "id": "4593240f453c4b233eea71e2a77cd172c9a9221e",
+    "order_no": "OL20260200",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 512,
+    "net_amount": 461
+  },
+  {
+    "id": "a4bd462680a22d7b29a35730ffb6811ffb040b54",
+    "order_no": "OL20260220",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4460,
+    "net_amount": 4344
+  },
+  {
+    "id": "cf9224e32a461c7f6356cbd3be2db516d9a93280",
+    "order_no": "OL20260224",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-12",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 4157,
+    "net_amount": 3782
+  },
+  {
+    "id": "a13f090857ba49b8750430bbb986234e55dab16c",
+    "order_no": "OL20260198",
+    "channel": "Shopee",
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1996,
+    "net_amount": 1847
+  },
+  {
+    "id": "6826922e5fef91911461fa3675302cfd7ef6ec00",
+    "order_no": "OL20260211",
+    "channel": "Shopee",
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3767,
+    "net_amount": 3530
+  },
+  {
+    "id": "305df46d15498ee9882b57bfec9c3481de4a6506",
+    "order_no": "OL20260230",
+    "channel": "Lazada",
+    "opened_at": "2026-08-11",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4227,
+    "net_amount": 3982
+  },
+  {
+    "id": "6e1e0d44e577bf5300b3e78d4260be80b0a55935",
+    "order_no": "OL20260184",
+    "channel": "Shopee",
+    "opened_at": "2026-08-10",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1988,
+    "net_amount": 1846
+  },
+  {
+    "id": "f003c281ad290add08da7a4fc35f4724e80cd2f5",
+    "order_no": "OL20260174",
+    "channel": "Shopee",
+    "opened_at": "2026-08-09",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 891,
+    "net_amount": 841
+  },
+  {
+    "id": "c89473008387e5a2745547240c207973d136ad16",
+    "order_no": "OL20260177",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-09",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3407,
+    "net_amount": 3008
+  },
+  {
+    "id": "d2cb029c9a5f22399caff5e50f953e643e5548f1",
+    "order_no": "OL20260181",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-09",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1797,
+    "net_amount": 1590
+  },
+  {
+    "id": "842f9c1b82042a8f39d866e6512e28d433adbe94",
+    "order_no": "OL20260167",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 2481,
+    "net_amount": 2389
+  },
+  {
+    "id": "6f173cd7f8f87ab85e7caa15b5185e87c38ea687",
+    "order_no": "OL20260196",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 756,
+    "net_amount": 692
+  },
+  {
+    "id": "cab883947a1a161e2e57f5f9ae113b014de8280c",
+    "order_no": "OL20260209",
+    "channel": "Lazada",
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3594,
+    "net_amount": 3356
+  },
+  {
+    "id": "7e968379c7b643b994b2405ef92379b61fd437dc",
+    "order_no": "OL20260218",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-08",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 4179,
+    "net_amount": 3823
+  },
+  {
+    "id": "9598b32936c797bd5edb9c71228804861a337a82",
+    "order_no": "OL20260170",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3397,
+    "net_amount": 3306
+  },
+  {
+    "id": "2da67eb71995b69e6cd3b1f4b4d6540e6a578bd6",
+    "order_no": "OL20260183",
+    "channel": "Lazada",
+    "opened_at": "2026-08-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1393,
+    "net_amount": 1313
+  },
+  {
+    "id": "8d50e3226d519d955a3102037497459584956aa6",
+    "order_no": "OL20260227",
+    "channel": "Shopee",
+    "opened_at": "2026-08-06",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1325,
+    "net_amount": 1258
+  },
+  {
+    "id": "5e95b9965a7c0fa135211e57b236216c8e4d7afb",
+    "order_no": "OL20260229",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 2070,
+    "net_amount": 2021
+  },
+  {
+    "id": "b3343b61ec44a548fe84d761f13acaa56cbfd169",
+    "order_no": "OL20260175",
+    "channel": "Lazada",
+    "opened_at": "2026-08-04",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1684,
+    "net_amount": 1555
+  },
+  {
+    "id": "eb3fb1e29597dfdc31cd647e04218cb351e23d53",
+    "order_no": "OL20260215",
+    "channel": "LINE OA",
+    "opened_at": "2026-08-04",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3066,
+    "net_amount": 2944
+  },
+  {
+    "id": "fd7138e7c3b935e396b04c129e8830ef5c9937a7",
+    "order_no": "OL20260221",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-03",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 4131,
+    "net_amount": 3642
+  },
+  {
+    "id": "b197ec8590b37facce8436c512abe22dbe863906",
+    "order_no": "OL20260187",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3777,
+    "net_amount": 3363
+  },
+  {
+    "id": "283d7b69bc2c6feb50a51a1e8d7e6d65c12d56cf",
+    "order_no": "OL20260192",
+    "channel": "Shopee",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 932,
+    "net_amount": 855
+  },
+  {
+    "id": "7da951bf329e9ab86805b74ebc50c6342d5f9063",
+    "order_no": "OL20260193",
+    "channel": "Lazada",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1874,
+    "net_amount": 1779
+  },
+  {
+    "id": "0754a44442f769e4ed9faef5f4fa33f0c9171e1e",
+    "order_no": "OL20260204",
+    "channel": "Shopee",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 775,
+    "net_amount": 711
+  },
+  {
+    "id": "f76db2704736562b9adbcebdc7bc270761c8ad32",
+    "order_no": "OL20260219",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1801,
+    "net_amount": 1598
+  },
+  {
+    "id": "76fe24286492c4b45e6fe0ea81c122bd65f243a0",
+    "order_no": "OL20260225",
+    "channel": "Shopee",
+    "opened_at": "2026-08-02",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 897,
+    "net_amount": 837
+  },
+  {
+    "id": "210fb076d4b2a4dcbc623d5368a26223757136d1",
+    "order_no": "OL20260185",
+    "channel": "Shopee",
+    "opened_at": "2026-08-01",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1586,
+    "net_amount": 1450
+  },
+  {
+    "id": "bf9841296f2fa27428e68e49eda5334ba6ee54d5",
+    "order_no": "OL20260104",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1580,
+    "net_amount": 1412
+  },
+  {
+    "id": "d42e04060dc2e0e13fdf2d39653641aea8d4d996",
+    "order_no": "OL20260137",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-28",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1856,
+    "net_amount": 1806
+  },
+  {
+    "id": "8f7cae366ce980529d59e8ee3f4c10ad3d125c1a",
+    "order_no": "OL20260100",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-27",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1079,
+    "net_amount": 1043
+  },
+  {
+    "id": "6d50934785201b75dc9789701517a45ed7630ab2",
+    "order_no": "OL20260112",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-27",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3485,
+    "net_amount": 3135
+  },
+  {
+    "id": "ca8998e3433a62b8ef235636c505e3701277a8dc",
+    "order_no": "OL20260117",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-27",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1794,
+    "net_amount": 1638
+  },
+  {
+    "id": "a30c6dbdaa2c3e935e3e34148f84d34a9300a011",
+    "order_no": "OL20260139",
+    "channel": "Shopee",
+    "opened_at": "2026-07-27",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4189,
+    "net_amount": 3969
+  },
+  {
+    "id": "00ebcf4a52a7af94293a576bac4eb13e04f8ecf7",
+    "order_no": "OL20260123",
+    "channel": "Shopee",
+    "opened_at": "2026-07-26",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4250,
+    "net_amount": 4019
+  },
+  {
+    "id": "c2ddcdfe1107e234f38b9431650b1663036ab1bd",
+    "order_no": "OL20260096",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3668,
+    "net_amount": 3252
+  },
+  {
+    "id": "6eab98f2495773e05f641a69d1f4ec0b3f8d3672",
+    "order_no": "OL20260111",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1081,
+    "net_amount": 963
+  },
+  {
+    "id": "b4cd8b3a429bdbae2c55fecac4f60191cd4de5e3",
+    "order_no": "OL20260132",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1454,
+    "net_amount": 1329
+  },
+  {
+    "id": "db9914e444ccb00d86d0e51dd823de5ddeb9c9fc",
+    "order_no": "OL20260145",
+    "channel": "Lazada",
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3018,
+    "net_amount": 2777
+  },
+  {
+    "id": "c0010844cb27a34cc8787ec5dc58828e4b1b9e09",
+    "order_no": "OL20260160",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-25",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 647,
+    "net_amount": 585
+  },
+  {
+    "id": "cde26bd1c221addd16567951cc4ce29e90a5fd37",
+    "order_no": "OL20260094",
+    "channel": "Lazada",
+    "opened_at": "2026-07-24",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3507,
+    "net_amount": 3237
+  },
+  {
+    "id": "75cfdc955db1bc6e5e94ddd136450a1bc0fc60bf",
+    "order_no": "OL20260150",
+    "channel": "Shopee",
+    "opened_at": "2026-07-24",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 311,
+    "net_amount": 289
+  },
+  {
+    "id": "d24e54d13292d66f4794f741dd00acfbe3e200fa",
+    "order_no": "OL20260107",
+    "channel": "Lazada",
+    "opened_at": "2026-07-23",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2355,
+    "net_amount": 2168
+  },
+  {
+    "id": "f6077900e12863b283a28ac89ff16dfed8043919",
+    "order_no": "OL20260141",
+    "channel": "Lazada",
+    "opened_at": "2026-07-23",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 834,
+    "net_amount": 776
+  },
+  {
+    "id": "70d74cfffd1d821f95935bdbfcd9dbc5cee81249",
+    "order_no": "OL20260153",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-22",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 4123,
+    "net_amount": 3729
+  },
+  {
+    "id": "783acb0ef9cc53ba4c6fcec98688e87815e3e229",
+    "order_no": "OL20260158",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-22",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1726,
+    "net_amount": 1677
+  },
+  {
+    "id": "e730aba53496a4580bbb9b4923786f7c758bfcc0",
+    "order_no": "OL20260110",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-21",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1783,
+    "net_amount": 1713
+  },
+  {
+    "id": "3a00219873000f4e53dc9f22ac9ad271e0e5fead",
+    "order_no": "OL20260119",
+    "channel": "Shopee",
+    "opened_at": "2026-07-20",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1760,
+    "net_amount": 1603
+  },
+  {
+    "id": "26a880d88cbbc73102b3857f82c9905cf51fb89d",
+    "order_no": "OL20260143",
+    "channel": "Lazada",
+    "opened_at": "2026-07-20",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 2898,
+    "net_amount": 2739
+  },
+  {
+    "id": "76536db9c041e7c5d6a87edd21451cb137608ae6",
+    "order_no": "OL20260148",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-20",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2648,
+    "net_amount": 2373
+  },
+  {
+    "id": "8f1efda58fdb4bd93fa81310c428ae1104da1a5b",
+    "order_no": "OL20260128",
+    "channel": "Shopee",
+    "opened_at": "2026-07-19",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 626,
+    "net_amount": 593
+  },
+  {
+    "id": "010c3f66f296e8deda0159291a4ce88fb56d985d",
+    "order_no": "OL20260116",
+    "channel": "Lazada",
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 4179,
+    "net_amount": 3830
+  },
+  {
+    "id": "2a57bc8bdcd00ce86b45e362458f542bd6023c4e",
+    "order_no": "OL20260126",
+    "channel": "Lazada",
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3021,
+    "net_amount": 2782
+  },
+  {
+    "id": "475a29bba89aa47011a754d43ea1d2dc98aca8b9",
+    "order_no": "OL20260127",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-18",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 4482,
+    "net_amount": 4027
+  },
+  {
+    "id": "93eec2e9ab0724a56b2625257e6a02d465e02dc2",
+    "order_no": "OL20260098",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3235,
+    "net_amount": 3146
+  },
+  {
+    "id": "49bc29473c6c11cc69595a2313414a34057d2a0f",
+    "order_no": "OL20260106",
+    "channel": "Shopee",
+    "opened_at": "2026-07-16",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3224,
+    "net_amount": 3042
+  },
+  {
+    "id": "a25192c70e68cb8b3d34ad818cc1bed40e6eda94",
+    "order_no": "OL20260120",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2134,
+    "net_amount": 2062
+  },
+  {
+    "id": "184c899f7232d7103c032f241e980d258014d65c",
+    "order_no": "OL20260129",
+    "channel": "Lazada",
+    "opened_at": "2026-07-15",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1861,
+    "net_amount": 1765
+  },
+  {
+    "id": "3d65ac84c7691d19c6c85c80d23ff12512d4758f",
+    "order_no": "OL20260144",
+    "channel": "Shopee",
+    "opened_at": "2026-07-15",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 4279,
+    "net_amount": 4038
+  },
+  {
+    "id": "31288e75f16e5e22cc7e583127f706d4e8928adc",
+    "order_no": "OL20260151",
+    "channel": "Lazada",
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4485,
+    "net_amount": 4201
+  },
+  {
+    "id": "5e83f0058c6b43a7c888a9c8b27cb6ba537d1c47",
+    "order_no": "OL20260152",
+    "channel": "Lazada",
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 388,
+    "net_amount": 360
+  },
+  {
+    "id": "a63d95969d895ec4812b9002f02cede23a03bd6b",
+    "order_no": "OL20260159",
+    "channel": "Shopee",
+    "opened_at": "2026-07-14",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3245,
+    "net_amount": 2957
+  },
+  {
+    "id": "2f8e974543468198f6df9758aaf5ab59114f1eaf",
+    "order_no": "OL20260124",
+    "channel": "Lazada",
+    "opened_at": "2026-07-13",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3487,
+    "net_amount": 3297
+  },
+  {
+    "id": "87ccd0d53956c3b62b37d71b5923a1de8412a557",
+    "order_no": "OL20260133",
+    "channel": "Shopee",
+    "opened_at": "2026-07-13",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3242,
+    "net_amount": 3068
+  },
+  {
+    "id": "567b20c49ffda869bdface721ad5a99264e0d4b8",
+    "order_no": "OL20260161",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-13",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 457,
+    "net_amount": 445
+  },
+  {
+    "id": "a01fb76a5089ca7aca9d3d4017ef3eb94cd0cc61",
+    "order_no": "OL20260122",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-12",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 526,
+    "net_amount": 514
+  },
+  {
+    "id": "8d2e1b4910d40891ce7aaef4443b791425159f6c",
+    "order_no": "OL20260097",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4130,
+    "net_amount": 3768
+  },
+  {
+    "id": "eca8d683a7ef4390fe021bf7fe54bc5d70a83382",
+    "order_no": "OL20260114",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-11",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1906,
+    "net_amount": 1830
+  },
+  {
+    "id": "5175a5510d978df43551dc40541da6abe0237098",
+    "order_no": "OL20260121",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3099,
+    "net_amount": 2811
+  },
+  {
+    "id": "45e6910cf0734010c4bffca6361c7d727ffae8b4",
+    "order_no": "OL20260130",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-11",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2103,
+    "net_amount": 2023
+  },
+  {
+    "id": "1213c58c13d867dc5c181346cb287a439dfa3c8e",
+    "order_no": "OL20260131",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 4245,
+    "net_amount": 4131
+  },
+  {
+    "id": "1800603da300f19c4e8a6112f5ed8636904d862f",
+    "order_no": "OL20260118",
+    "channel": "Shopee",
+    "opened_at": "2026-07-10",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 2255,
+    "net_amount": 2083
+  },
+  {
+    "id": "c1d8ca5855fde77bdd3f7cf8c92feff29a7eddcd",
+    "order_no": "OL20260140",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-10",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3517,
+    "net_amount": 3150
+  },
+  {
+    "id": "f77d494faa2cec0044bb3ef46e890ef8d0bc799d",
+    "order_no": "OL20260093",
+    "channel": "Shopee",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1002,
+    "net_amount": 919
+  },
+  {
+    "id": "550e7f081eb788948cc23c67e044dd4ce0bffe6e",
+    "order_no": "OL20260095",
+    "channel": "Shopee",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3330,
+    "net_amount": 3154
+  },
+  {
+    "id": "e9af090e852ff01993623edb2566895f841fcb36",
+    "order_no": "OL20260135",
+    "channel": "Lazada",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 3595,
+    "net_amount": 3298
+  },
+  {
+    "id": "5b5542858fb6023c7bbe843d1a7627d5316217d5",
+    "order_no": "OL20260146",
+    "channel": "Shopee",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3478,
+    "net_amount": 3211
+  },
+  {
+    "id": "8a55c7b62373695c9f8bd1cab114d42a974bea57",
+    "order_no": "OL20260149",
+    "channel": "Shopee",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 401,
+    "net_amount": 375
+  },
+  {
+    "id": "82ffdf11fe821650e95a7bf47f7b220d2d45217c",
+    "order_no": "OL20260155",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-09",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4313,
+    "net_amount": 3873
+  },
+  {
+    "id": "1323de8c614bc1a04f3aaf73c0b3b6147f04ed69",
+    "order_no": "OL20260115",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-08",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4307,
+    "net_amount": 3952
+  },
+  {
+    "id": "03528caa8b98f1096b7cfd7fc730fb9874fab1ab",
+    "order_no": "OL20260138",
+    "channel": "Shopee",
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 2487,
+    "net_amount": 2273
+  },
+  {
+    "id": "b21c086e74496a1150179fbd7c0ae6db8438d14b",
+    "order_no": "OL20260147",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-07",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2051,
+    "net_amount": 1846
+  },
+  {
+    "id": "226108cb0952f47120e9adab26f68bd5bb11dad3",
+    "order_no": "OL20260105",
+    "channel": "Lazada",
+    "opened_at": "2026-07-06",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2395,
+    "net_amount": 2221
+  },
+  {
+    "id": "0c99ffd54da63fa669bcec7d2bf942439d49d774",
+    "order_no": "OL20260156",
+    "channel": "Shopee",
+    "opened_at": "2026-07-06",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1668,
+    "net_amount": 1581
+  },
+  {
+    "id": "1373517bf51aa6c7358a73f07d3ddee6aec7a6e4",
+    "order_no": "OL20260157",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-06",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1184,
+    "net_amount": 1075
+  },
+  {
+    "id": "b8064f457d781a832eb5e92c2c9bcb4746e82ac6",
+    "order_no": "OL20260092",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3741,
+    "net_amount": 3332
+  },
+  {
+    "id": "30645560c136839aa31a12918008aae960d80df2",
+    "order_no": "OL20260109",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1661,
+    "net_amount": 1609
+  },
+  {
+    "id": "95fa2162006db03707110a305ab14c3f6a6dc13d",
+    "order_no": "OL20260125",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3774,
+    "net_amount": 3655
+  },
+  {
+    "id": "3785f8f3762c4d761fd85a43c762f1290f9a2ffc",
+    "order_no": "OL20260136",
+    "channel": "Lazada",
+    "opened_at": "2026-07-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2459,
+    "net_amount": 2257
+  },
+  {
+    "id": "27403048e62e78afcdc896c3b102b63ad107e40a",
+    "order_no": "OL20260108",
+    "channel": "Lazada",
+    "opened_at": "2026-07-04",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 2098,
+    "net_amount": 1920
+  },
+  {
+    "id": "344ffea734e0d7112abd6a0b440febfd499bbde6",
+    "order_no": "OL20260113",
+    "channel": "Shopee",
+    "opened_at": "2026-07-04",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 1163,
+    "net_amount": 1063
+  },
+  {
+    "id": "3f4f8b0ceae44d3ce83391db215b3d14cf3ae60b",
+    "order_no": "OL20260099",
+    "channel": "Shopee",
+    "opened_at": "2026-07-03",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4000,
+    "net_amount": 3717
+  },
+  {
+    "id": "af0c6d1ac416a4bb180bacb2fbe516b4591f8bb4",
+    "order_no": "OL20260101",
+    "channel": "Shopee",
+    "opened_at": "2026-07-03",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3569,
+    "net_amount": 3388
+  },
+  {
+    "id": "ed3171bd123cccc4cbd8f3dccd72362672ec7ef5",
+    "order_no": "OL20260102",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-03",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3303,
+    "net_amount": 2952
+  },
+  {
+    "id": "58b5e9410f5ea8158ddfca698762c54f644c7e2b",
+    "order_no": "OL20260134",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-03",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1067,
+    "net_amount": 957
+  },
+  {
+    "id": "9939cd66ef1ad24f433c4d2218bc278dc5027aa5",
+    "order_no": "OL20260103",
+    "channel": "Lazada",
+    "opened_at": "2026-07-02",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3431,
+    "net_amount": 3188
+  },
+  {
+    "id": "10eb64d1b422dd51ebe0d54010052f1ee37c7aed",
+    "order_no": "OL20260142",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-07-02",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1985,
+    "net_amount": 1777
+  },
+  {
+    "id": "fcc99ec6b9d4aabd7488ebdc7b050dbce6fc2dcb",
+    "order_no": "OL20260154",
+    "channel": "LINE OA",
+    "opened_at": "2026-07-02",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3628,
+    "net_amount": 3530
+  },
+  {
+    "id": "1e231e92ebb28924207c95b4cb0f3236e355a205",
+    "order_no": "OL20260003",
+    "channel": "Lazada",
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1573,
+    "net_amount": 1467
+  },
+  {
+    "id": "46ccd3f51ea60499eda8164ca8b8bc607c8153f3",
+    "order_no": "OL20260010",
+    "channel": "Shopee",
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 549,
+    "net_amount": 512
+  },
+  {
+    "id": "52e444a223ca86136176d09111bad311944950ba",
+    "order_no": "OL20260071",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-27",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 2065,
+    "net_amount": 1855
+  },
+  {
+    "id": "deec88282a88348cd4681ae3e004ecc4feea40fb",
+    "order_no": "OL20260044",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-26",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 2906,
+    "net_amount": 2558
+  },
+  {
+    "id": "69fb3db1faa5cb0d6065d3b7592b5b78dc8b56d5",
+    "order_no": "OL20260055",
+    "channel": "Shopee",
+    "opened_at": "2026-06-26",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 568,
+    "net_amount": 524
+  },
+  {
+    "id": "bf8104ec9a98b5d673fbf99658f89e4fe828a6ea",
+    "order_no": "OL20260074",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-25",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 4466,
+    "net_amount": 4368
+  },
+  {
+    "id": "e394c49c0fca5596c684a378179936744286f1cd",
+    "order_no": "OL20260035",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-24",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1299,
+    "net_amount": 1247
+  },
+  {
+    "id": "f8dadfe5548376a6c3a40dbb73f73e9ae6854eb0",
+    "order_no": "OL20260060",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-24",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 3120,
+    "net_amount": 2807
+  },
+  {
+    "id": "cda65d636d37597dcb6956cb6e2a7b5a5c268c2a",
+    "order_no": "OL20260078",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-24",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4341,
+    "net_amount": 3829
+  },
+  {
+    "id": "cbd0ca6be6e40c8a741a827ba69c6f649fab0343",
+    "order_no": "OL20260008",
+    "channel": "Lazada",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1011,
+    "net_amount": 934
+  },
+  {
+    "id": "a9e910c48e47aac2de8f12acc2bb94fa575f4755",
+    "order_no": "OL20260017",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1321,
+    "net_amount": 1197
+  },
+  {
+    "id": "28c70e059039c113c1433a178efc1a74cef7ca29",
+    "order_no": "OL20260026",
+    "channel": "Lazada",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 2078,
+    "net_amount": 1898
+  },
+  {
+    "id": "618679c0a974a3fac8b26766ed28dc554f5b9516",
+    "order_no": "OL20260056",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1170,
+    "net_amount": 1143
+  },
+  {
+    "id": "e9dd5040d1b9b3d315ec7e56a994a62dc61df383",
+    "order_no": "OL20260068",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3883,
+    "net_amount": 3440
+  },
+  {
+    "id": "456c0f1ce4855a45b7d9c956a88594d72dee2805",
+    "order_no": "OL20260088",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-23",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1574,
+    "net_amount": 1536
+  },
+  {
+    "id": "212d85f175cc733427555523bb4bcfe1ddf31248",
+    "order_no": "OL20260021",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1884,
+    "net_amount": 1728
+  },
+  {
+    "id": "75fba5bd53428c3cc2420feb4101c5145578cc7c",
+    "order_no": "OL20260042",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 3803,
+    "net_amount": 3478
+  },
+  {
+    "id": "25e7fa3504de00cc7a5d8f77990dbd859b5228b1",
+    "order_no": "OL20260052",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1070,
+    "net_amount": 957
+  },
+  {
+    "id": "c4cf18f6a1b569c81d5a4b454f246d7df44b8b13",
+    "order_no": "OL20260087",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-22",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 1130,
+    "net_amount": 1032
+  },
+  {
+    "id": "586dbef90824e9bbe3afa46ade7c436807481147",
+    "order_no": "OL20260004",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-21",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4129,
+    "net_amount": 3656
+  },
+  {
+    "id": "e1162ecbeb1dc4ef5c12d31531579f75742f038e",
+    "order_no": "OL20260031",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-21",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1772,
+    "net_amount": 1705
+  },
+  {
+    "id": "5900d722bee5d50051299fcb3714a922b5a3df37",
+    "order_no": "OL20260047",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-21",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3753,
+    "net_amount": 3403
+  },
+  {
+    "id": "1b1389124ef82c7aa7a047b1dbbff7d6c19b2cac",
+    "order_no": "OL20260012",
+    "channel": "Shopee",
+    "opened_at": "2026-06-20",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 637,
+    "net_amount": 593
+  },
+  {
+    "id": "299f07b824e5827ce3884076cee4817f76f1262f",
+    "order_no": "OL20260020",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-20",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1346,
+    "net_amount": 1185
+  },
+  {
+    "id": "c99fc9015bdcf32a40fc5d021b1735ba466c436e",
+    "order_no": "OL20260045",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-20",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3368,
+    "net_amount": 3014
+  },
+  {
+    "id": "c2362b290e3a9ecec12f2e9a93316d8851fe78ff",
+    "order_no": "OL20260054",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-20",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2319,
+    "net_amount": 2110
+  },
+  {
+    "id": "0c2287f58ab4a25a2b228918b05b22e8c370ebce",
+    "order_no": "OL20260009",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-19",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3261,
+    "net_amount": 2982
+  },
+  {
+    "id": "e07067cec61d02380acfd7eeb539161e7adaed04",
+    "order_no": "OL20260015",
+    "channel": "Lazada",
+    "opened_at": "2026-06-19",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3326,
+    "net_amount": 3062
+  },
+  {
+    "id": "05a0282bc0c1958d339aeb0df4833ce4b46c464b",
+    "order_no": "OL20260016",
+    "channel": "Lazada",
+    "opened_at": "2026-06-18",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 2671,
+    "net_amount": 2471
+  },
+  {
+    "id": "e402ef84736216ef2ebcdb64a880e75493f74da6",
+    "order_no": "OL20260065",
+    "channel": "Shopee",
+    "opened_at": "2026-06-18",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1869,
+    "net_amount": 1736
+  },
+  {
+    "id": "f6d157c4afa4cbb596b6e385bbd30ad59b27cd8e",
+    "order_no": "OL20260033",
+    "channel": "Lazada",
+    "opened_at": "2026-06-17",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3944,
+    "net_amount": 3682
+  },
+  {
+    "id": "d2dabed07d711702ec0c1a1623a8a099aa572485",
+    "order_no": "OL20260001",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-16",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2308,
+    "net_amount": 2106
+  },
+  {
+    "id": "bc24259f71a6ef61691282c5cbec73103dbc7ee2",
+    "order_no": "OL20260066",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-16",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1584,
+    "net_amount": 1400
+  },
+  {
+    "id": "c8ec3d4659d7ed4bc2a22d1d9602e3f7607a43e7",
+    "order_no": "OL20260091",
+    "channel": "Shopee",
+    "opened_at": "2026-06-16",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 2115,
+    "net_amount": 1987
+  },
+  {
+    "id": "1b2c1704fdcb35737d690fdbcb262168af3b13ae",
+    "order_no": "OL20260034",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-15",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 404,
+    "net_amount": 391
+  },
+  {
+    "id": "a7ae64f1f6586f685c6ab3b1e8255cfec830428d",
+    "order_no": "OL20260014",
+    "channel": "Shopee",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4348,
+    "net_amount": 3996
+  },
+  {
+    "id": "209c90af1c7e2e13a7f119b66b285f10bd26268b",
+    "order_no": "OL20260019",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 1442,
+    "net_amount": 1404
+  },
+  {
+    "id": "6e6d799cd2816cebbb614fc2333bc5eb7faa55b2",
+    "order_no": "OL20260048",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 2851,
+    "net_amount": 2747
+  },
+  {
+    "id": "2259c0d4baa52342426f27e9cab50a661b6f678c",
+    "order_no": "OL20260051",
+    "channel": "Shopee",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 2999,
+    "net_amount": 2740
+  },
+  {
+    "id": "9b39ffe8618f468f6cc2e427a232b99f6daa9545",
+    "order_no": "OL20260059",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3237,
+    "net_amount": 2927
+  },
+  {
+    "id": "49cf5e7ed1b3cfa39e88d8321c1e526ddb6dadd8",
+    "order_no": "OL20260075",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-14",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1420,
+    "net_amount": 1378
+  },
+  {
+    "id": "3ce7773bf39f4f741c5f2bbc3ec36a12db1eba02",
+    "order_no": "OL20260038",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-13",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1634,
+    "net_amount": 1590
+  },
+  {
+    "id": "d592c7380bf734f1a0bff9497b0dc64bf24c76d7",
+    "order_no": "OL20260040",
+    "channel": "Shopee",
+    "opened_at": "2026-06-13",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2357,
+    "net_amount": 2162
+  },
+  {
+    "id": "ff0d22502dadf1d76fbb0446a096af9df61004fb",
+    "order_no": "OL20260041",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-13",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3917,
+    "net_amount": 3503
+  },
+  {
+    "id": "f0f6ab07b3a24feed6b871c18a9965fd1ae925fc",
+    "order_no": "OL20260053",
+    "channel": "Lazada",
+    "opened_at": "2026-06-12",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2969,
+    "net_amount": 2719
+  },
+  {
+    "id": "ca42cb2310ffa865c4b48069fed95d8ea84857a1",
+    "order_no": "OL20260083",
+    "channel": "Lazada",
+    "opened_at": "2026-06-12",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 3359,
+    "net_amount": 3094
+  },
+  {
+    "id": "95daf4fbb0122ca112be97ad4c417b892df787ab",
+    "order_no": "OL20260018",
+    "channel": "Lazada",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 705,
+    "net_amount": 658
+  },
+  {
+    "id": "1b4b87fcd779b6109d3b13d4806096a3ae6128fa",
+    "order_no": "OL20260036",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3695,
+    "net_amount": 3564
+  },
+  {
+    "id": "8ec8a9b9e5a5f41af31bc624d48da5ddc3740e14",
+    "order_no": "OL20260043",
+    "channel": "Lazada",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 4270,
+    "net_amount": 4051
+  },
+  {
+    "id": "cc8866bb27d0139e7be1fb0231de9d8de4fa732e",
+    "order_no": "OL20260058",
+    "channel": "Lazada",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 1203,
+    "net_amount": 1115
+  },
+  {
+    "id": "ec63c8ea7f056002469d7712c6af40b32c722748",
+    "order_no": "OL20260062",
+    "channel": "Lazada",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3710,
+    "net_amount": 3472
+  },
+  {
+    "id": "8c92465c1eb35c3599d54d11cd1e4deed4a9b75d",
+    "order_no": "OL20260063",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1767,
+    "net_amount": 1716
+  },
+  {
+    "id": "ea8d6576182072e59c7476b7af611d65b7a44776",
+    "order_no": "OL20260086",
+    "channel": "Shopee",
+    "opened_at": "2026-06-11",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 893,
+    "net_amount": 828
+  },
+  {
+    "id": "19748e3a46bde37473130249806bc70ef34bfbcd",
+    "order_no": "OL20260030",
+    "channel": "Shopee",
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 493,
+    "net_amount": 462
+  },
+  {
+    "id": "639d4a82eac65ba2f8ad1baab0db8c7dc02bf0d9",
+    "order_no": "OL20260050",
+    "channel": "Lazada",
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 4469,
+    "net_amount": 4124
+  },
+  {
+    "id": "ee9667ccfda4a4a0781b01bf3d86483401544a94",
+    "order_no": "OL20260082",
+    "channel": "Shopee",
+    "opened_at": "2026-06-10",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 1395,
+    "net_amount": 1277
+  },
+  {
+    "id": "62e548c5477693722d383994a0d8fecb8649400e",
+    "order_no": "OL20260011",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3554,
+    "net_amount": 3138
+  },
+  {
+    "id": "f791bf80fb6f1691872bc4436661189baf517c6a",
+    "order_no": "OL20260028",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 4149,
+    "net_amount": 4048
+  },
+  {
+    "id": "54512acde1d1e5538d938df8eae15519153b0c6c",
+    "order_no": "OL20260029",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3224,
+    "net_amount": 2878
+  },
+  {
+    "id": "fba6333236ffc7e88687e449ca566cd88a1609bd",
+    "order_no": "OL20260037",
+    "channel": "Shopee",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 2230,
+    "net_amount": 2113
+  },
+  {
+    "id": "dc5b0b68820e13ae3292a4c52ad277d04245f338",
+    "order_no": "OL20260076",
+    "channel": "Shopee",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 784,
+    "net_amount": 715
+  },
+  {
+    "id": "7cad26fa156a48e2dbd24b491be903a3a7da1545",
+    "order_no": "OL20260081",
+    "channel": "Shopee",
+    "opened_at": "2026-06-09",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 3964,
+    "net_amount": 3681
+  },
+  {
+    "id": "ad519592b3ac218dc5fc1717ca8192a5c36fb9b6",
+    "order_no": "OL20260006",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 1969,
+    "net_amount": 1766
+  },
+  {
+    "id": "da6ed0b44c8fda27051ebb4b794df6fce57d8f72",
+    "order_no": "OL20260023",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 981,
+    "net_amount": 949
+  },
+  {
+    "id": "7c241ff71df08cbfc65e55e0e47b43ac3c1249dc",
+    "order_no": "OL20260039",
+    "channel": "Lazada",
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 3998,
+    "net_amount": 3717
+  },
+  {
+    "id": "80dc90ddaae6b6dcca173160b725793155ab20e8",
+    "order_no": "OL20260067",
+    "channel": "Lazada",
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 1326,
+    "net_amount": 1249
+  },
+  {
+    "id": "451c98d695403faf7557e84cc661d4253119af93",
+    "order_no": "OL20260072",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-08",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3662,
+    "net_amount": 3584
+  },
+  {
+    "id": "61378bb104f8e1a3fd2bede3d53a3d7ea5dd90e6",
+    "order_no": "OL20260024",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1199,
+    "net_amount": 1069
+  },
+  {
+    "id": "0179632dab37b2324225191808915fe98fb049fa",
+    "order_no": "OL20260046",
+    "channel": "Shopee",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 3709,
+    "net_amount": 3514
+  },
+  {
+    "id": "5578aef5fc608e36bb00672a0071afbc0777b071",
+    "order_no": "OL20260049",
+    "channel": "Lazada",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 4424,
+    "net_amount": 4047
+  },
+  {
+    "id": "a17cf76e0a039d2f0b3aba12917826e2b9b1eb73",
+    "order_no": "OL20260057",
+    "channel": "Shopee",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 2017,
+    "net_amount": 1899
+  },
+  {
+    "id": "e889819d8155a0e787fcceadd57e585d42694d16",
+    "order_no": "OL20260061",
+    "channel": "Shopee",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1666,
+    "net_amount": 1545
+  },
+  {
+    "id": "9cc8cc1f602353cd2fb7eeedfe4f619972636d5c",
+    "order_no": "OL20260090",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-07",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 595,
+    "net_amount": 538
+  },
+  {
+    "id": "a509eba62c1896a6fa72936f20e784311d4ce1ac",
+    "order_no": "OL20260005",
+    "channel": "Shopee",
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 3300,
+    "net_amount": 3050
+  },
+  {
+    "id": "1ada8bcc1efb84787a918c05b6d313b2c9fc908b",
+    "order_no": "OL20260022",
+    "channel": "Shopee",
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3555,
+    "net_amount": 3242
+  },
+  {
+    "id": "386705365ca927078a1a95ca3e39a1cf5d328e88",
+    "order_no": "OL20260064",
+    "channel": "Shopee",
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 3
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 2944,
+    "net_amount": 2743
+  },
+  {
+    "id": "dec5b8053a68bb5c94d291855e2f814c98483dc6",
+    "order_no": "OL20260073",
+    "channel": "Shopee",
+    "opened_at": "2026-06-06",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ลดราคาพิเศษ 10%",
+    "gross_amount": 1913,
+    "net_amount": 1809
+  },
+  {
+    "id": "fb30248ff57c881aff06c712827ea968cd73d36f",
+    "order_no": "OL20260002",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": null,
+    "gross_amount": 347,
+    "net_amount": 312
+  },
+  {
+    "id": "05b603aa3e097cd548a5348c56a8415008f654be",
+    "order_no": "OL20260007",
+    "channel": "Lazada",
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 9
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3839,
+    "net_amount": 3614
+  },
+  {
+    "id": "41e6834c86c1c49ece4544301367534936b9de30",
+    "order_no": "OL20260013",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 2518,
+    "net_amount": 2422
+  },
+  {
+    "id": "10a9690d39604c8a94b1178f985c6cf7c41dda4d",
+    "order_no": "OL20260085",
+    "channel": "Shopee",
+    "opened_at": "2026-06-05",
+    "items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 396,
+    "net_amount": 362
+  },
+  {
+    "id": "f10d4656cd15747fdab5fe534222993644d35f3f",
+    "order_no": "OL20260032",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-04",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 9
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ซื้อ 2 แถม 1",
+    "gross_amount": 1913,
+    "net_amount": 1734
+  },
+  {
+    "id": "3417be567c7e7eacb40ffe48708da9af14d4aa14",
+    "order_no": "OL20260069",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-04",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 643,
+    "net_amount": 578
+  },
+  {
+    "id": "2170f61a5cd4db67f62a0ff61215b68a7ea5d6dc",
+    "order_no": "OL20260027",
+    "channel": "Lazada",
+    "opened_at": "2026-06-03",
+    "items": [
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 8
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "โค้ดส่วนลด 50 บาท",
+    "gross_amount": 3001,
+    "net_amount": 2821
+  },
+  {
+    "id": "ffbd111205c832954b4325f9569e1c7a25d638b8",
+    "order_no": "OL20260070",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-03",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 3
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "free_items": [],
+    "promotion_name": null,
+    "gross_amount": 3791,
+    "net_amount": 3713
+  },
+  {
+    "id": "2f48e9b81600329e7ffcb5f6a82cce13a18f6c52",
+    "order_no": "OL20260077",
+    "channel": "Shopee",
+    "opened_at": "2026-06-03",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 5
+      },
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 6
+      },
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 3761,
+    "net_amount": 3471
+  },
+  {
+    "id": "547a0b28fff7d64cc035c6b3d5f1d4338312fba7",
+    "order_no": "OL20260025",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000004",
+        "product_name": "มะละกออบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 1060,
+    "net_amount": 947
+  },
+  {
+    "id": "1c78514cf9a18fd53efeae5124929fa0002c5d95",
+    "order_no": "OL20260080",
+    "channel": "Shopee",
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 1
+      }
+    ],
+    "promotion_name": "ส่งฟรีทั่วไทย",
+    "gross_amount": 594,
+    "net_amount": 554
+  },
+  {
+    "id": "f4dd8d6d3a097ab57a096f6e30979f3f71bde9f4",
+    "order_no": "OL20260084",
+    "channel": "Shopee",
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000003",
+        "product_name": "สับปะรดอบแห้ง",
+        "quantity": 5
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 775,
+    "net_amount": 726
+  },
+  {
+    "id": "ebfc2061506c3f77808adc867dbdf81648d14f02",
+    "order_no": "OL20260089",
+    "channel": "LINE OA",
+    "opened_at": "2026-06-02",
+    "items": [
+      {
+        "sku": "SKU0000002",
+        "product_name": "กล้วยอบแห้ง",
+        "quantity": 7
+      },
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 1
+      },
+      {
+        "sku": "SKU0000005",
+        "product_name": "รวมมิตรผลไม้อบแห้ง",
+        "quantity": 10
+      }
+    ],
+    "free_items": [
+      {
+        "sku": "SKU0000001",
+        "product_name": "มะม่วงอบแห้ง",
+        "quantity": 2
+      }
+    ],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 934,
+    "net_amount": 902
+  },
+  {
+    "id": "09e319d8f59c844e04ec6ca2a1db89890fc24ac0",
+    "order_no": "OL20260079",
+    "channel": "TikTok Shop",
+    "opened_at": "2026-06-01",
+    "items": [
+      {
+        "sku": "SKU0000006",
+        "product_name": "ทุเรียนทอดกรอบ",
+        "quantity": 4
+      }
+    ],
+    "free_items": [],
+    "promotion_name": "Flash Sale ลด 20%",
+    "gross_amount": 4119,
+    "net_amount": 3732
+  }
+]

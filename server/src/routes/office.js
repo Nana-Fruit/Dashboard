@@ -3,6 +3,7 @@ import { requireAuth, requireOffice, requireEdit } from "../auth/middleware.js";
 import { store } from "../data/store.js";
 import { config } from "../config.js";
 import { getAllSalesOrders } from "../api/officeApi.js";
+import { getAllOnlineOrders } from "../api/onlineApi.js";
 
 const round = (n, d = 2) => Math.round(n * 10 ** d) / 10 ** d;
 const sum = (arr, f) => arr.reduce((a, x) => a + (f(x) || 0), 0);
@@ -108,6 +109,32 @@ office.get("/orders", async (req, res, next) => {
     if (market === "domestic" || market === "international") rows = rows.filter((o) => o.market === market);
     rows.sort((a, b) => b.orderDate.localeCompare(a.orderDate));
     res.json({ count: rows.length, totalAmountTHB: round(sum(rows, (o) => o.amountTHB)), orders: rows });
+  } catch (err) {
+    next(err);
+  }
+});
+
+// --- online-channel summary (TikTok Shop / Shopee / Lazada / LINE OA) ---
+office.get("/online-summary", async (req, res, next) => {
+  try {
+    const month = /^\d{4}-\d{2}$/.test(req.query.month || "") ? req.query.month : thisMonth();
+    const all = await getAllOnlineOrders();
+    const monthOrders = all.filter((o) => monthOf(o.orderDate) === month);
+
+    const byChannel = new Map();
+    for (const o of monthOrders) {
+      const cur = byChannel.get(o.channel) || { channel: o.channel, orders: 0, grossAmountTHB: 0, netAmountTHB: 0 };
+      cur.orders += 1;
+      cur.grossAmountTHB += o.grossAmountTHB;
+      cur.netAmountTHB += o.netAmountTHB;
+      byChannel.set(o.channel, cur);
+    }
+    // Ranked by net revenue (after channel fees) - the actual money received.
+    const channels = [...byChannel.values()]
+      .map((c) => ({ ...c, grossAmountTHB: round(c.grossAmountTHB), netAmountTHB: round(c.netAmountTHB) }))
+      .sort((a, b) => b.netAmountTHB - a.netAmountTHB);
+
+    res.json({ source: "mock", month, channels });
   } catch (err) {
     next(err);
   }

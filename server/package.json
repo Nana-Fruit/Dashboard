@@ -8,7 +8,7 @@
     "dev": "node --watch --env-file=.env.development src/index.js",
     "prod": "node --watch --env-file=.env.production src/index.js",
     "start": "node --env-file=.env src/index.js",
-    "mock:gen": "node scripts/generate-mock.js && node scripts/generate-mock-office.js && node scripts/generate-mock-factory.js && node scripts/generate-mock-fresh-room.js && node scripts/generate-mock-sort-room.js",
+    "mock:gen": "node scripts/generate-mock.js && node scripts/generate-mock-office.js && node scripts/generate-mock-online.js && node scripts/generate-mock-factory.js && node scripts/generate-mock-fresh-room.js && node scripts/generate-mock-sort-room.js",
     "seed:users": "node scripts/seed-users.js"
   },
   "dependencies": {

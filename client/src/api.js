@@ -48,6 +48,7 @@ export const fetchMe = () => api.get("/auth/me");
 export const getOfficeSummary = (month) => api.get("/office/summary", { month });
 export const getOfficeOrders = (params) => api.get("/office/orders", params);
 export const setOfficeTarget = (payload) => api.put("/office/target", payload);
+export const getOnlineSummary = (month) => api.get("/office/online-summary", { month });
 
 export const getFactorySummary = (params) => api.get("/factory/summary", params);
 export const getFactoryRoom = (room, params) => api.get(`/factory/rooms/${room}`, params);

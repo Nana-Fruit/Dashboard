@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList,
 } from "recharts";
-import { getOfficeSummary, setOfficeTarget } from "../api.js";
+import { getOfficeSummary, setOfficeTarget, getOnlineSummary } from "../api.js";
 import { Kpi, Progress, RankList, Panel, fmtTHB, fmtCompactTHB, fmtNum } from "../components/ui.jsx";
 
 const MONTHS = ["2026-06", "2026-07", "2026-08", "2026-09"];
@@ -17,11 +17,18 @@ export default function OfficePage() {
   const [error, setError] = useState(null);
   const [editing, setEditing] = useState(false);
   const [reload, setReload] = useState(0);
+  const [onlineData, setOnlineData] = useState(null);
+  const [onlineError, setOnlineError] = useState(null);
 
   useEffect(() => {
     setError(null);
     getOfficeSummary(month).then(setData).catch((e) => setError(e.message));
   }, [month, reload]);
+
+  useEffect(() => {
+    setOnlineError(null);
+    getOnlineSummary(month).then(setOnlineData).catch((e) => setOnlineError(e.message));
+  }, [month]);
 
   const trendData = useMemo(
     () => (data?.monthlyTrend || []).map((t) => ({
@@ -139,6 +146,43 @@ export default function OfficePage() {
           valueKey="quantity"
           formatValue={(r) => `${fmtNum(r.quantity)} ${r.unit}`}
         />
+      </Panel>
+
+      {/* online channels — separate from domestic/international revenue */}
+      <Panel
+        title="Top channel revenue — online"
+        right={onlineData?.source === "mock" && <span className="pill mock">Mock data</span>}
+      >
+        {onlineError && <div className="error sm">{onlineError}</div>}
+        {!onlineError && !onlineData && <div className="muted sm">Loading…</div>}
+        {onlineData && (
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th><th>Channel</th>
+                  <th className="num">Orders</th>
+                  <th className="num">Gross revenue</th>
+                  <th className="num">Net revenue</th>
+                </tr>
+              </thead>
+              <tbody>
+                {onlineData.channels.length === 0 && (
+                  <tr><td colSpan={5} className="muted sm">No data</td></tr>
+                )}
+                {onlineData.channels.map((c, i) => (
+                  <tr key={c.channel}>
+                    <td>{i + 1}</td>
+                    <td>{c.channel}</td>
+                    <td className="num">{fmtNum(c.orders)}</td>
+                    <td className="num">{fmtTHB(c.grossAmountTHB)}</td>
+                    <td className="num">{fmtTHB(c.netAmountTHB)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </Panel>
     </div>
   );
