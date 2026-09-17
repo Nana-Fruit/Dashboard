@@ -1,23 +1,21 @@
-// Thin fetch wrapper. Attaches the JWT and routes all traffic through /api
-// (Vite proxies that to the Express server in dev).
+// Thin fetch wrapper. Attaches the Firebase ID token.
+//
+// Dev: VITE_API_BASE_URL is unset, so requests go to /api on the Vite origin
+// and its proxy forwards them to the local Express server (see vite.config.js).
+// Prod: the built client is on Firebase Hosting and the API is a separate
+// origin (Railway), which can't be reached via a same-origin proxy - so
+// VITE_API_BASE_URL must be set to that API's absolute URL at build time.
 
-const TOKEN_KEY = "dashboard.token";
+import { auth } from "./firebase.js";
 
-export const tokenStore = {
-  get: () => {
-    try { return localStorage.getItem(TOKEN_KEY); } catch { return null; }
-  },
-  set: (t) => {
-    try { t ? localStorage.setItem(TOKEN_KEY, t) : localStorage.removeItem(TOKEN_KEY); } catch { /* ignore */ }
-  },
-};
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "";
 
 async function request(method, path, { params, body } = {}) {
   const qs = params
     ? "?" + new URLSearchParams(Object.entries(params).filter(([, v]) => v !== "" && v != null)).toString()
     : "";
-  const token = tokenStore.get();
-  const res = await fetch(`/api${path}${qs}`, {
+  const token = auth.currentUser ? await auth.currentUser.getIdToken() : null;
+  const res = await fetch(`${API_BASE_URL}/api${path}${qs}`, {
     method,
     headers: {
       ...(body ? { "content-type": "application/json" } : {}),
@@ -42,7 +40,6 @@ export const api = {
 };
 
 // endpoints
-export const login = (email, password) => api.post("/auth/login", { email, password });
 export const fetchMe = () => api.get("/auth/me");
 
 export const getOfficeSummary = (month) => api.get("/office/summary", { month });
