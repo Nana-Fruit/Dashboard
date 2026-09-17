@@ -4,18 +4,21 @@
   "private": true,
   "type": "module",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "node --watch --env-file=.env.development src/index.js",
     "prod": "node --watch --env-file=.env.production src/index.js",
-    "start": "node --env-file=.env src/index.js",
+    "start": "node --env-file-if-exists=.env src/index.js",
     "mock:gen": "node scripts/generate-mock.js && node scripts/generate-mock-office.js && node scripts/generate-mock-online.js && node scripts/generate-mock-factory.js && node scripts/generate-mock-fresh-room.js && node scripts/generate-mock-sort-room.js",
-    "seed:users": "node scripts/seed-users.js"
+    "provision:users": "node --env-file=.env.development scripts/provision-users.js",
+    "migrate:config": "node --env-file=.env.development scripts/migrate-config.js"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.3",
+    "firebase-admin": "^14.4.0",
     "morgan": "^1.10.0"
   }
 }

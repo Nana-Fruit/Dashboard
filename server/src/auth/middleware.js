@@ -1,23 +1,18 @@
-import jwt from "jsonwebtoken";
-import { config } from "../config.js";
+import { firebaseAuth } from "../firebase.js";
 import { canViewOffice, canViewFactory, canEdit } from "./roles.js";
 
-export function signToken(user) {
-  return jwt.sign(
-    { sub: user.email, name: user.name, role: user.role },
-    config.auth.jwtSecret,
-    { expiresIn: config.auth.tokenTtl }
-  );
-}
-
-// Verifies the Bearer token and attaches req.user = { email, name, role }.
-export function requireAuth(req, res, next) {
+// Verifies the Firebase ID token and attaches req.user = { email, name, role }.
+// `role` comes from a custom claim set by scripts/provision-users.js.
+export async function requireAuth(req, res, next) {
   const header = req.headers.authorization || "";
   const token = header.startsWith("Bearer ") ? header.slice(7) : null;
   if (!token) return res.status(401).json({ error: "ต้องเข้าสู่ระบบก่อน" });
   try {
-    const payload = jwt.verify(token, config.auth.jwtSecret);
-    req.user = { email: payload.sub, name: payload.name, role: payload.role };
+    const decoded = await firebaseAuth.verifyIdToken(token);
+    if (!decoded.role) {
+      return res.status(403).json({ error: "บัญชีนี้ยังไม่ได้กำหนดสิทธิ์ใช้งาน" });
+    }
+    req.user = { email: decoded.email, name: decoded.name || decoded.email, role: decoded.role };
     next();
   } catch {
     res.status(401).json({ error: "เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่" });

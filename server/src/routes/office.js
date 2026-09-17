@@ -54,7 +54,7 @@ office.get("/summary", async (req, res, next) => {
     const domestic = monthOrders.filter((o) => o.market === "domestic");
     const international = monthOrders.filter((o) => o.market === "international");
 
-    const target = store.getMonthlyTarget(month);
+    const target = await store.getMonthlyTarget(month);
     const actualDom = round(sum(domestic, (o) => o.amountTHB));
     const actualIntl = round(sum(international, (o) => o.amountTHB));
     const targetTotal = (target.domestic || 0) + (target.international || 0);
@@ -141,11 +141,15 @@ office.get("/online-summary", async (req, res, next) => {
 });
 
 // --- set monthly target (Admin only) -----------------------------
-office.put("/target", requireEdit, (req, res) => {
-  const { month, domestic, international } = req.body || {};
-  if (!/^\d{4}-\d{2}$/.test(month || "")) {
-    return res.status(400).json({ error: "month ต้องเป็นรูปแบบ YYYY-MM" });
+office.put("/target", requireEdit, async (req, res, next) => {
+  try {
+    const { month, domestic, international } = req.body || {};
+    if (!/^\d{4}-\d{2}$/.test(month || "")) {
+      return res.status(400).json({ error: "month ต้องเป็นรูปแบบ YYYY-MM" });
+    }
+    const saved = await store.setMonthlyTarget(month, { domestic, international });
+    res.json({ month, target: saved });
+  } catch (err) {
+    next(err);
   }
-  const saved = store.setMonthlyTarget(month, { domestic, international });
-  res.json({ month, target: saved });
 });

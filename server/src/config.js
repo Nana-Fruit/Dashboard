@@ -8,9 +8,11 @@ const useMockFactory = String(process.env.USE_MOCK_FACTORY).toLowerCase() === "t
 const useMockOffice = String(process.env.USE_MOCK_OFFICE).toLowerCase() === "true";
 
 export const config = {
-  // SERVER_PORT (not PORT) so tooling that injects a generic PORT env var
-  // for the frontend can't accidentally steal the API server's port.
-  port: Number(process.env.SERVER_PORT) || 4000,
+  // Railway (and most PaaS hosts) assign the port via PORT at runtime and
+  // expect the app to listen on it. SERVER_PORT remains the override for
+  // local dev, where a generic PORT env var might otherwise be aimed at
+  // the frontend instead.
+  port: Number(process.env.PORT || process.env.SERVER_PORT) || 4000,
   factoryApi: {
     useMock: useMockFactory,
     baseUrl: process.env.FACTORY_API_BASE_URL || "",
@@ -23,9 +25,9 @@ export const config = {
   },
   cacheTtlSeconds: Number(process.env.CACHE_TTL_SECONDS) || 60,
   clientOrigin: process.env.CLIENT_ORIGIN || "http://localhost:5173",
-  auth: {
-    jwtSecret: process.env.JWT_SECRET || "dev-only-insecure-secret-change-me",
-    tokenTtl: process.env.TOKEN_TTL || "12h",
+  firebase: {
+    // Service account JSON, as a single-line string. See server/.env.example.
+    serviceAccountKey: process.env.FIREBASE_SERVICE_ACCOUNT_KEY || "",
   },
 };
 
@@ -38,6 +40,6 @@ if (!useMockFactory && !config.factoryApi.baseUrl) {
 if (!useMockOffice && !config.officeApi.baseUrl) {
   console.warn("[config] OFFICE_API_BASE_URL is not set - real Office API calls will fail. Set USE_MOCK_OFFICE=true to use fixtures.");
 }
-if (config.auth.jwtSecret === "dev-only-insecure-secret-change-me") {
-  console.warn("[config] JWT_SECRET is not set - using an insecure dev default. Set it in server/.env before deploying.");
+if (!config.firebase.serviceAccountKey) {
+  console.warn("[config] FIREBASE_SERVICE_ACCOUNT_KEY is not set - auth and config storage will fail. Set it in server/.env.");
 }

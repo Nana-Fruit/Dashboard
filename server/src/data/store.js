@@ -1,18 +1,21 @@
 // Read/write the editable configuration (monthly sales targets, labor rates).
-// Backed by a JSON file so edits by an Admin survive a restart. Swap for a DB
-// when you outgrow a single file.
+// Backed by a single Firestore document so edits by an Admin survive
+// restarts/redeploys without a local disk. Swap for a proper collection
+// layout if this ever grows beyond a couple of settings.
 
-import { readFileSync, writeFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { db } from "../firebase.js";
 
-const CONFIG_PATH = fileURLToPath(new URL("../mock/config.json", import.meta.url));
+const configDoc = db.collection("settings").doc("config");
 
-function read() {
-  return JSON.parse(readFileSync(CONFIG_PATH, "utf8"));
+const DEFAULTS = { monthlySalesTargets: {}, laborRatePerHour: {} };
+
+async function read() {
+  const snap = await configDoc.get();
+  return snap.exists ? { ...DEFAULTS, ...snap.data() } : { ...DEFAULTS };
 }
 
-function write(data) {
-  writeFileSync(CONFIG_PATH, JSON.stringify(data, null, 2) + "\n");
+async function write(data) {
+  await configDoc.set(data);
   return data;
 }
 
@@ -20,30 +23,30 @@ export const store = {
   getConfig: read,
 
   /** month = "YYYY-MM", target = { domestic, international } */
-  setMonthlyTarget(month, target) {
-    const cfg = read();
+  async setMonthlyTarget(month, target) {
+    const cfg = await read();
     cfg.monthlySalesTargets = cfg.monthlySalesTargets || {};
     cfg.monthlySalesTargets[month] = {
       domestic: Number(target.domestic) || 0,
       international: Number(target.international) || 0,
     };
-    write(cfg);
+    await write(cfg);
     return cfg.monthlySalesTargets[month];
   },
 
-  getMonthlyTarget(month) {
-    const cfg = read();
+  async getMonthlyTarget(month) {
+    const cfg = await read();
     return cfg.monthlySalesTargets?.[month] || { domestic: 0, international: 0 };
   },
 
-  getLaborRates() {
-    return read().laborRatePerHour || {};
+  async getLaborRates() {
+    return (await read()).laborRatePerHour || {};
   },
 
-  setLaborRates(rates) {
-    const cfg = read();
+  async setLaborRates(rates) {
+    const cfg = await read();
     cfg.laborRatePerHour = { ...cfg.laborRatePerHour, ...rates };
-    write(cfg);
+    await write(cfg);
     return cfg.laborRatePerHour;
   },
 };
